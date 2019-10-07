@@ -1,0 +1,24 @@
+#!/bin/sh
+
+PLUGIN="-Xplugin:\"MajorPlugin mutator:ALL export.mutants\""
+PLUGIN_MML="-Xplugin:\"MajorPlugin mml:$MML export.mutants\""
+CLASSPATH="major.jar"
+
+# Hacky arg parsing :)
+update=false
+
+for arg in "$@"
+do
+  if "$update"
+  then
+    CLASSPATH="$CLASSPATH:$arg"
+    update=false
+  fi
+
+  if [ "$arg" = "-classpath" ]
+  then
+    update=true
+  fi
+done
+
+javac $PLUGIN_MML $@ -classpath $CLASSPATH
