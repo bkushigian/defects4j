@@ -22,25 +22,15 @@ usage() {
       printf "\033[31;1m$1\033[0m\n"
     fi
 
-    printf "\033[1musage:\033[0m $0 [java7_home [java8_home]]\n"
+    printf "\033[1musage:\033[0m $0 java_home\n"
     exit 1
 }
 
-java7_home=$1
-java8_home=$2
+java_home=$1
 
-if [ -z $java7_home ]
+if [ -z $java_home ]
 then
-  printf "Looking for java-7 install..."
-  java7_home=`find /usr/lib/jvm/java-1.7.*` || usage "Couldn't find java7 home"
-  printf "Found $java7_home\n"
-fi
-
-if [ -z $java8_home ]
-then
-  printf "Looking for java-8 install..."
-  java8_home=`find /usr/lib/jvm/java-1.8.*` || usage "Couldn't find java8 home"
-  printf "Found $java8_home\n"
+  usage "No java_home provided"
 fi
 
 FRAMEWORK_DIR="${BASE_DIR}/frameworks"
@@ -53,8 +43,12 @@ projects=(Chart Closure Lang Math Mockito Time)
 subjects=( "${projects[@]}" )
 
 init
+
 TMP=`mktemp -d`   # Create Temporary Directory
 printf "\033[94m-- Created temporary directory $TMP\033[0m\n"
+RESULTS="$TMP/results"
+mkdir -p "$RESULTS"
+printf "\033[94m-- Created results directory $RESULTS\033[0m\n"
 
 # 1: Get program versions to test (all for now)
 
@@ -70,39 +64,41 @@ declare -A batches=(
   [Time]="1..27"
   )
 
-function run_major7 {
-  # Copy current version of major and mmlc to tmp
-  mv "$MAJOR_BIN_DIR/major" "$TMP/major.old"
-  mv "$MAJOR_BIN_DIR/mmlc" "$TMP/mmlc.old"
-
-  # Move major7 and mmlc7 to major bin dir
-  cp "$TEST_DIR/resources/major-versions/major7" "$MAJOR_BIN_DIR/major"
-  cp "$TEST_DIR/resources/major-versions/mmlc7" "$MAJOR_BIN_DIR/mmlc"
+function run_major {
 
   # Run for each pid
-  export JAVA_HOME="$java7_home"
-  for pid in "${projects[@]}"
+  export JAVA_HOME=$java_home
+  export PATH="$JAVA_HOME/bin:$PATH"
+  # for pid in "${projects[@]}"
+  # do
+  #   if [ "Chart" == "$pid" ]
+  #   then
+  #     continue
+  #   fi
+
+  #   echo "Running on $pid"
+
+  #   pid_batches="${batches[$pid]}"
+  #   IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
+  #   for batch in "${pid_batch_arr[@]}"
+  #   do
+  #     echo ".... batch $batch"
+  #     run_major_on_batch $pid $batch
+  #     exit 0
+  #   done
+  # done
+
+  pid="Lang"
+  echo "Running on $pid"
+
+  pid_batches="${batches[$pid]}"
+  IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
+  for batch in "${pid_batch_arr[@]}"
   do
-    if [ "Chart" == "$pid" ]
-    then
-      continue
-    fi
-
-    echo "Running on $pid"
-
-    pid_batches="${batches[$pid]}"
-    IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
-    for batch in "${pid_batch_arr[@]}"
-    do
-      echo ".... batch $batch"
-      run_major_on_batch $pid $batch
-      exit 0
-    done
+    echo ".... batch $batch"
+    run_major_on_batch $pid $batch
+    exit 0
   done
-
-  # Restore Major and MMLC Scripts
-  mv "$TMP/major.old" "$MAJOR_BIN_DIR/major"
-  mv "$TMP/mmlc.old" "$MAJOR_BIN_DIR/mmlc"
 }
 
 function run_major_on_batch {
@@ -120,9 +116,10 @@ function run_major_on_batch {
   # export TMP
   # export -f num_triggers
   # parallel run_d4j_on_version ::: $pid ::: `eval echo {1..3}` # {$versions}`
-  for x in `echo {1..3}`
+
+  # for x in `eval echo $versions`
+  for x in `echo {1..4}`
   do
-    echo "RUNNING d4j on $pid $x"
     run_d4j_on_version $pid $x
   done
 
@@ -133,16 +130,21 @@ function run_d4j_on_version {
   pid=$1
   v=$2
   vid="${v}f"
-  work_dir="$TMP/$pid-$vid-major7"
+  work_dir="$TMP/$pid-$vid"
   printf "\033[94;1m========================== $pid:$vid in $work_dir ==========================\033[0m\n"
   rm -rf $work_dir
 
+  export JAVA_HOME=$java_home
+  export PATH
   printf "\033[32;1m-- Running defects4j checkout -p $pid -v $vid -w $work_dir \033[0m\n"
   defects4j checkout -p $pid -v $vid -w "$work_dir" || die "checkout: $pid-$vid"
   printf "\033[32;1m-- Running defects4j compile -w $work_dir \033[0m\n"
   defects4j compile -w $work_dir                    || die "compile: $pid-$vid"
+
   printf "\033[32;1m-- Running defects4j test -w $work_dir \033[0m\n"
-  defects4j test -r -w $work_dir                    || die "run relevant tests: $pid-$vid"
+  defects4j test -w $work_dir                       || die "run relevant tests: $pid-$vid"
+
+  return 0
 
   triggers=$(num_triggers "$work_dir/failing_tests")
   # Expected number of failing tests for each fixed version is 0
@@ -150,43 +152,18 @@ function run_d4j_on_version {
 
   printf "\033[32;1m-- Running defects4j mutation -w $work_dir \033[0m\n"
   defects4j mutation -w $work_dir
-
-}
-
-function run_major8 {
-  # Copy current version of major and mmlc to tmp
-  mv "$MAJOR_BIN_DIR/major" "$TMP/major.old"
-  mv "$MAJOR_BIN_DIR/mmlc" "$TMP/mmlc.old"
-
-  # Move major7 and mmlc7 to major bin dir
-  cp "$TEST_DIR/resources/major-versions/major8" "$MAJOR_BIN_DIR/major"
-  cp "$TEST_DIR/resources/major-versions/mmlc8" "$MAJOR_BIN_DIR/mmlc"
-
-  export JAVA_HOME="$java8_home"
-  # Run for each pid
-  for pid in "${projects[@]}"
-  do
-    if [ "Chart" == "$pid" ]
-    then
-      continue
-    fi
-
-    echo "Running Major 8 on $pid"
-
-    pid_batches="${batches[$pid]}"
-    IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
-    for batch in "${pid_batch_arr[@]}"
+  if [ $? -eq 0 ] # Mutatino went well, lets copy results
+  then
+    prefix="$pid-$vid"
+    for name in ".mutations.log" "mutants.log" "kill.csv" "summary.csv"
     do
-      echo ".... batch $batch"
-      run_major_on_batch $pid $batch
+      echo "Moving $work_dir/$name---->$RESULTS/$prefix-$name"
+      mv "$work_dir/$name" "$RESULTS/$prefix-$name"
     done
-  done
+    rm -rf $work_dir
+  fi
 
-  # Restore Major and MMLC Scripts
-  mv "$TMP/major.old" "$MAJOR_BIN_DIR/major"
-  mv "$TMP/mmlc.old" "$MAJOR_BIN_DIR/mmlc"
 }
 
 
-run_major7
-run_major8
+run_major
