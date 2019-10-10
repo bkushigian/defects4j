@@ -89,7 +89,6 @@ function run_major {
   # done
 
   pid="Lang"
-  echo "Running on $pid"
 
   pid_batches="${batches[$pid]}"
   IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
@@ -97,7 +96,6 @@ function run_major {
   do
     echo ".... batch $batch"
     run_major_on_batch $pid $batch
-    exit 0
   done
 }
 
@@ -134,8 +132,6 @@ function run_d4j_on_version {
   printf "\033[94;1m========================== $pid:$vid in $work_dir ==========================\033[0m\n"
   rm -rf $work_dir
 
-  export JAVA_HOME=$java_home
-  export PATH
   printf "\033[32;1m-- Running defects4j checkout -p $pid -v $vid -w $work_dir \033[0m\n"
   defects4j checkout -p $pid -v $vid -w "$work_dir" || die "checkout: $pid-$vid"
   printf "\033[32;1m-- Running defects4j compile -w $work_dir \033[0m\n"
@@ -144,18 +140,16 @@ function run_d4j_on_version {
   printf "\033[32;1m-- Running defects4j test -w $work_dir \033[0m\n"
   defects4j test -w $work_dir                       || die "run relevant tests: $pid-$vid"
 
-  return 0
-
   triggers=$(num_triggers "$work_dir/failing_tests")
   # Expected number of failing tests for each fixed version is 0
   [ $triggers -eq 0 ] || return 1  # die "verify number of triggering tests: $pid-$vid (expected: 0, actual: $triggers)"
 
   printf "\033[32;1m-- Running defects4j mutation -w $work_dir \033[0m\n"
   defects4j mutation -w $work_dir
-  if [ $? -eq 0 ] # Mutatino went well, lets copy results
+  if [ $? -eq 0 ] # Mutation went well, lets copy results
   then
     prefix="$pid-$vid"
-    for name in ".mutations.log" "mutants.log" "kill.csv" "summary.csv"
+    for name in ".mutation.log" "mutants.log" "kill.csv" "testMap.csv" "summary.csv" "all_tests" "failing_tests"
     do
       echo "Moving $work_dir/$name---->$RESULTS/$prefix-$name"
       mv "$work_dir/$name" "$RESULTS/$prefix-$name"
