@@ -79,6 +79,17 @@ project-specific build file ("project_id"/"project_id".build.xml) for the
     <!-- Include project-specific build file -->
     <import file="${d4j.dir.projects}/${d4j.project.id}/${d4j.project.id}.build.xml"/>
 
+    <!-- Access environment variables -->
+    <property environment="env" />
+    <echo message="Environment: $env" />
+
+    <!-- Location of test ordering, defaults to the checked out working
+         directory of the project in a file named "testOrder" -->
+    <condition property="d4j.test.order" value="${env.D4J_TEST_ORDER}/${d4j.project.id}-${d4j.bug.id}-testOrder" else="${d4j.workdir}/testOrder" >
+        <isset property="env.D4J_TEST_ORDER" />
+    </condition>
+
+    <echo message="d4j.test.order: ${d4j.test.order}" />
 
 <!--
      Check whether all properties and paths are configured
@@ -213,7 +224,7 @@ project-specific build file ("project_id"/"project_id".build.xml) for the
             printsummary="false"
             showoutput="false"
             fork="no"
-
+            preSortedFile="${d4j.test.order}"
             mutationAnalysis="true"
             timeoutFactor="16"
             sort="${major.sort}"
