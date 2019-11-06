@@ -1,7 +1,59 @@
 #!/bin/sh
 
+PLUGIN_MML="-Xplugin:\"MajorPlugin mml:$MML export.mutants\""
+CLASSPATH="$MAJOR_JAR"
+
+### Check Env vars
+
+if [ -z "$NEW_MAJOR" ]
+then
+
+  old_major=true
+elif [ "$NEW_MAJOR" == "true" ]
+then
+  old_major=false
+elif [ "$NEW_MAJOR" == "false" ]
+then
+  old_major=true
+else
+
+  old_major=true
+fi
+
+### Parse args
+# Ugly parse hack (TODO: Fix the parser)
+
+update=false
+
+for arg in "$@"
+do
+  if "$update"
+  then
+    CLASSPATH="$CLASSPATH:$arg"
+    update=false
+  fi
+
+  if [ "$arg" = "-classpath" ]
+  then
+    update=true
+  fi
+done
+
 if [ ! -z "$MML" ]; then
-    echo "Major: Mutation enabled using mml file: $MML"
     OPT="-XMutator=$MML $MAJOR_OPT"
 fi
-javac $OPT $@
+
+### Build command
+
+if $old_major ;
+then
+  JAVAC=javac
+  cmd="$JAVAC $OPT $@"
+else
+  JAVAC="$JAVA_HOME/bin/javac"
+  cmd="$JAVAC $PLUGIN_MML $@ -classpath $CLASSPATH"
+fi
+
+### Run major
+
+eval "$cmd"
