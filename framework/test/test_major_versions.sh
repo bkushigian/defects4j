@@ -344,9 +344,10 @@ function run_d4j_on_version {
     echo "$pid,$v,$k" >> $STARTED_CSV
     start_time=$(date "+%T")
     defects4j mutation -w $work_dir
+    rescode=$?
     end_time=$(date "+%T")
 
-    if [ $? -eq 0 ] # Mutation went well, lets copy results
+    if [ $rescode -eq 0 ] # Mutation went well, lets copy results
     then
       loginfo "      Mutation successful. Logging to $SUCCESS_CSV, $STATUS_CSV, and $COMPLETED_CSV"
       echo "$pid,$v,$k" >> "$SUCCESS_CSV"
