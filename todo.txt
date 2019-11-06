@@ -1,0 +1,24 @@
+update testOrder (don't move from location!)
+finish fixing logging to files
+move logs to $TMP
+
+
+================
+Line 75 of buildfile (framework/projects/defects4j.build.xml): imports things
+that I want including bug-id
+
+Add comments detailing
+a. properties defined in buildfile
+b. explanation of import of project-specific stuff at line 75
+c. import relationship of all build files (graphic?) This should go into the
+   developer documentation
+
+
+=== UPDATING TEST ORDER
+
+1. Make script point to /tmp/d4j/test-order/pid-vid.txt
+2. Update framework/projects/defects4j.build.xml to point testOrder here
+Q: Should we only use preSortedFile when we asked? For now, just tries to use
+every time. This will blow up if the proper directory structure is not present!
+
+=== Reflect changes to major/bin in original major repo
