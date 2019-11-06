@@ -30,6 +30,42 @@ java7_home=$1
 java8_home=$2
 num_trials=$3
 
+function dtstring {
+    date "+%T %D"
+}
+
+# Pretty print the log to stdout. Accepts an ansi code to prepend
+function pplog {
+    message="$1"
+    code="$2"
+
+    log "[$(date "+%T")] $message"
+    printf "%s\n" "${code}${message}$ANSI_CLEAR"
+}
+
+function loginfo {
+    pplog "$1" $ANSI_INFO
+}
+
+function logerr {
+    pplog "$1" $ANSI_ERROR
+}
+
+function logsucc {
+    pplog "$1" $ANSI_SUCCESS
+}
+
+function loggreen {
+    pplog "$1" $ANSI_BANNER
+}
+
+function logbanner {
+    message="$1"
+
+    log "$message"
+    printf "%s\n" "${ANSI_BANNER}--- ${message} ---$ANSI_CLEAR"
+}
+
 if [ -z $java7_home ]
 then
   usage "No java7_home provided"
@@ -45,6 +81,10 @@ then
   num_trials=2
 fi
 
+loginfo "JAVA7_HOME: $JAVA7_HOME"
+loginfo "JAVA8_HOME: $JAVA8_HOME"
+loginfo "num_trials: $num_trials"
+
 # Ensure that num_trials is a number
 re='^[0-9]+$'
 if ! [[ $num_trials =~ $re ]] ; then
@@ -52,16 +92,28 @@ if ! [[ $num_trials =~ $re ]] ; then
   num_trials=2
 fi
 
-FRAMEWORK_DIR="${BASE_DIR}/frameworks"
-MAJOR_BIN_DIR="${BASE_DIR}/major/bin"
+export FRAMEWORK_DIR="${BASE_DIR}/frameworks"
+export MAJOR_BIN_DIR="${BASE_DIR}/major/bin"
 export MAJOR_JAR="${BASE_DIR}/major.jar"
 export BASE_DIR
 
+# $SHARED_RESOURCES stores high-level resources such as test ordering that are
+# shared between different runs of this script (say, between major1 and major2)
+export SHARED_RESOURCES="/tmp/d4j"
+if [ ! -e "$SHARED_RESOURCES" ]
+then
+  mkdir -p "$SHARED_RESOURCES"
+fi
+
+export D4J_TEST_ORDER="$SHARED_RESOURCES/test-orders"
+if [ ! -e $D4J_TEST_ORDER ] 
+then
+  mkdir -p $D4J_TEST_ORDER
+fi
+
 # All projects
 projects=(Chart Closure Lang Math Mockito Time)
-
-# Which projects to test (default: all)
-subjects=( "${projects[@]}" )
+loginfo "projects: ${projects[@]}"
 
 init
 
@@ -71,13 +123,40 @@ init
 #    Each batch should be of the form "{$pid}{$lo}..{$hi}"
 
 declare -A batches=(
-  [Chart]="1..26"
-  [Closure]="1..176"
-  [Lang]="1..65"
-  [Math]="1..106"
-  [Mockito]="1..38"
-  [Time]="1..27"
+  [Chart]="26"
+  [Closure]="176"
+  [Lang]="65"
+  [Math]="106"
+  [Mockito]="38"
+  [Time]="27"
   )
+
+function make_jobs_file {
+
+  jobs_file="$1/jobs"
+  loginfo "Creating jobs_file: $jobs_file"
+  logs="$1/logs"
+  mkdir -p "$logs"
+  for pid in "${projects[@]}"
+  do
+    if [ "Chart" == "$pid" ]
+    then
+      continue
+    elif [ "Closure" == "$pid" ]
+    then
+      continue
+    fi
+
+    versions="${batches[$pid]}"
+    for v in `seq 1 1 $versions`
+    do
+      pid_log_file="$logs/$pid-$v.log"
+      job="run_d4j_on_version $pid $v >> $pid_log_file 2>&1"
+      loginfo "Creating job for pid $pid and vid $vid: $job"
+      echo "$job" >> $jobs_file
+    done
+  done
+}
 
 function run_major {
 
@@ -91,71 +170,99 @@ function run_major {
 
   export PATH="$JAVA_HOME/bin:$PATH"
 
-  printf "\033[92mJAVA_HOME=\033[0m$JAVA_HOME\n"
+  loginfo "JAVA_HOME=$JAVA_HOME"
+  loginfo "PATH=$PATH"
+
 
   # Create a temporary directory for the results of this run
   TMP=`mktemp -d`   # Create Temporary Directory
-  printf "\033[94m-- Created temporary directory $TMP\033[0m\n"
+  loginfo "-- Created temporary director $TMP"
+
   RESULTS="$TMP/results"
   mkdir -p "$RESULTS"
-  printf "\033[94m-- Created results directory $RESULTS\033[0m\n"
+  loginfo "-- Created results directory $RESULTS"
 
-  for pid in "${projects[@]}"
-  do
-    if [ "Chart" == "$pid" ]
-    then
-      continue
-    elif [ "Closure" == "$pid" ]
-    then
-      continue
-    fi
+  mkdir -p "$TMP/logs"
+  loginfo "-- Created log directory $TMP/logs"
 
-    pid_batches="${batches[$pid]}"
-    IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
-    for batch in "${pid_batch_arr[@]}"
-    do
-      run_major_on_batch $pid $batch
-    done
-  done
 
-  # pid="Lang"
+  # The following are high-level log files for the analysis
 
-  # pid_batches="${batches[$pid]}"
-  # IFS=" " read -ra pid_batch_arr <<< "$pid_batches"
-  # for batch in "${pid_batch_arr[@]}"
-  # do
-  #   run_major_on_batch $pid $batch
-  # done
+  # STATUS_CSV: Keep track of explicit status of each trial---some may not
+  # terminate normally and may not write here
+  export STATUS_CSV="$TMP/status.csv"
+
+  # STARTED_CSV: Keep track of all trials we start---even if they don't end
+  # normally and aren't saved in STATUS_CSV their start will be tracked here
+  export STARTED_CSV="$TMP/started.csv"
+
+  # FAILED_CSV: Keep track of explicitly failed trails
+  export FAILED_CSV="$TMP/failed.csv"
+
+  # SUCCESS_CSV: Keep track of explicitly failed trails
+  export SUCCESS_CSV="$TMP/success.csv"
+
+  # COMPLETED_CSV: Keep track of successful trials
+  export COMPLETED_CSV="$TMP/completed.csv"
+
+  echo "pid,vid,trial,start_t,end_t,success?" >> "$STATUS_CSV"
+  echo "pid,vid,trial" >> "$STARTED_CSV"
+  echo "pid,vid,trial" >> "$FAILED_CSV"
+  echo "pid,vid,trial" >> "$COMPLETED_CSV"
+  echo "pid,vid,trial" >> "$SUCCESS_CSV"
+
+  if $RUN_IN_PARALLEL
+  then
+    make_jobs_file "$TMP"
+    loginfo "-- Created jobs file at $jobs_file"
+
+    export -f run_d4j_on_version
+    export -f lookup_hash_name
+    export -f num_triggers
+
+    export -f dtstring
+    export -f die
+    export -f pplog
+    export -f logbanner
+    export -f logerr
+    export -f loginfo
+    export -f logsucc
+    export -f log
+    export -f num_triggers
+    export script
+    export TMP
+    export RESULTS
+    export num_trials
+    export TEST_DIR
+    export BASE_DIR
+    export TMP_DIR
+
+    loginfo "   Invoking parallel"
+    parallel -a $jobs_file --jobs 16 --progress --bar --ungroup
+  else
+    loginfo "Bypassing parallel: running all sequentially"
+    run_all
+  fi
 
   export PATH=$OLDPATH
 }
 
-function run_major_on_batch {
-  pid=$1
-  versions=$2
-  if [[ ! "$versions" =~ ^[0-9]*\.\.[0-9]*$ ]]
-  then
-    echo "Invalid versioning: $versions"
-    exit 1
-  fi
+# bypass parallel
+function run_all {
 
-  printf "\033[32;1m   Invoking parallel on $pid \033[0m\n"
-  printf "   parallel run_d4j_on_version ::: $pid ::: `eval echo {$versions}`\n"
-  export -f run_d4j_on_version
-  export -f lookup_hash_name
-  export -f num_triggers
-  export TMP
-  export RESULTS
-  export num_trials
-  parallel run_d4j_on_version ::: $pid ::: `eval echo {$versions}`
+  for pid in "${projects[@]}"
+  do
+    if [ "Chart" == "$pid" ] || [ "Closure" == "$pid" ]
+    then
+      continue
+    fi
 
-  # Pick one of the following two for loop heads:
-  # for x in `eval echo $versions`
-  # for x in `echo {1..2}`
-  # do
-  #   run_d4j_on_version $pid $x
-  # done
-
+    versions="${batches[$pid]}"
+    for v in `seq 1 1 $versions`
+    do
+      run_d4j_on_version $pid $v
+    done
+  done
 }
 
 function lookup_hash_name {
@@ -164,115 +271,122 @@ function lookup_hash_name {
   work_dir=$3
   BUGGY_COMMIT_HASH=`sed "${v}q;d" "$BASE_DIR/framework/projects/$pid/commit-db" | cut -d, -f2`
   FIXED_COMMIT_HASH=`sed "${v}q;d" "$BASE_DIR/framework/projects/$pid/commit-db" | cut -d, -f3`
-  printf "\033[32mCommit hash for $pid-$v (buggy):\033[0m $BUGGY_COMMIT_HASH\n"
-  printf "\033[32mCommit hash for $pid-$v (fixed):\033[0m $FIXED_COMMIT_HASH\n"
+  loginfo "Commit hash for $pid-$v (buggy): $BUGGY_COMMIT_HASH"
+  loginfo "Commit hash for $pid-$v (fixed): $FIXED_COMMIT_HASH"
 }
 
 function run_d4j_on_version {
   pid=$1
   v=$2
   vid="${v}f"
-  work_dir="$TMP/$pid-$vid"
-  printf "\033[94;1m========================== $pid:$vid in $work_dir ==========================\033[0m\n"
-  rm -rf $work_dir
+
+  # 0-pad version number
+  printf -v padded "%02d" $v
+
+  work_dir="$TMP/$pid-$v"
+  script_name=$(echo $script | sed 's/\.sh$//')
+
+  # Determine major version for log file name
+  major_version="major1"
+  if $NEW_MAJOR
+  then
+    major_version="major2"
+  fi
+  LOG="$TMP/logs/${major_version}_${script_name}$(printf '_%s_%s' $pid $padded).log"
+
+  loginfo "========================== $pid:$vid in $work_dir =========================="
 
   # Create a directory to store results of this run
-  dirname="$RESULTS/$pid-$vid"
-  mkdir "$dirname"
-  printf "\033[32;1m-- Created results directory $dirname \033[0m\n"
-  printf "\033[32;1m-- Running defects4j checkout -p $pid -v $vid -w $work_dir \033[0m\n"
+  PID_VID_RESULTS="$RESULTS/$pid-$v"
+  mkdir -p "$PID_VID_RESULTS"
+  loginfo "-- Created results directory $PID_VID_RESULTS "
+  loginfo "-- Running defects4j checkout -p $pid -v $vid -w $work_dir"
   defects4j checkout -p $pid -v $vid -w "$work_dir" || die "checkout: $pid-$vid"
-  printf "\033[32;1m-- Running defects4j compile -w $work_dir \033[0m\n"
+  loginfo "-- Running defects4j compile -w $work_dir"
   defects4j compile -w $work_dir                    || die "compile: $pid-$vid"
 
   if [ $? -ne 0 ]
   then
-    printf "\033[31;1m   Compile failed \033[0m\n"
+    logerr "   Compile failed"
     return 1
   fi
 
-  printf "\033[32;1m-- Running defects4j test -w $work_dir \033[0m\n"
+  loginfo "-- Running defects4j test -w $work_dir"
   defects4j test -w $work_dir                       || die "run relevant tests: $pid-$vid"
 
   triggers=$(num_triggers "$work_dir/failing_tests")
 
+  # Expected number of failing tests for each fixed version is 0
   if [ $triggers -ne 0 ] ; then
-
-    lookup_hash_name $pid $v $work_dir
-
-    ## Echo to failing_tests
-    printf "\033[32;1m-- Updating failing tests:\033[0m $work_dir/failing_tests >> $BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH\n"
-    cat "$work_dir/failing_tests" >> "$BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH"
-    rm "$work_dir/all_tests" "$work_dir/failing_tests"
-    printf "\033[32;1m-- Rerunning defects4j test -w $work_dir with appended failing tests\033[0m\n"
-    defects4j test -w $work_dir                       || die "run relevant tests: $pid-$vid"
-
-    triggers=$(num_triggers "$work_dir/failing_tests")
-    if [ $triggers -ne 0 ] ; then
-      printf "\033[31;1m[!!!] Tests still failing after updating project failing tests\033[0m\n"
-      return 1
-    fi
-
-
-    printf "\033[34;1m   Tests succeeded \033[0m\n"
-    for name in "all_tests" "failing_tests"
-    do
-      src="$work_dir/$name"
-      trg="$dirname/$name"
-      printf "\033[34;1m   Moving $src--->$trg\033[0m\n"
-      mv "$src" "$trg"
-    done
-
-
+    logerr "    Found failing tests! Have your run \"update_failing_tests.sh\"?"
+    return 1
   fi
 
-  # Expected number of failing tests for each fixed version is 0
-  [ $triggers -eq 0 ] || return 1  # die "verify number of triggering tests: $pid-$vid (expected: 0, actual: $triggers)"
+  last_dir=$(pwd)
 
-
-  last_dir=`pwd`
-
-  printf "\033[32;1m-- Running mutation trials (num_trials=$num_trials) \033[0m\n"
+  loginfo "-- Running mutation trials (num_trials=$num_trials)"
   cd "$work_dir"
-  printf "\033[34;1m   CWD=`pwd` \033[0m\n"
+  loginfo "   CWD=$(pwd)"
+  trials_dir="$PID_VID_RESULTS/trials"
+  mkdir -p "$trials_dir"
 
   # For each trial, run mutation
   for k in $(seq $num_trials); do
-    printf "\033[34;1m   -- Running trial $k of $num_trials\033[0m\n"
-    printf "\033[34;1m      Resetting git repo for clean trial\033[0m\n"
+    loginfo "   -- Running trial $k of $num_trials"
+    loginfo "      Resetting git repo for clean trial"
     git reset --hard
     git clean -fd
-    printf "\033[34;1m      Running defects4j mutation -w $work_dir \033[0m\n"
+
+    # We're ready to run d4j mutation...
+    loginfo "      Running defects4j mutation -w $work_dir"
+
+    loginfo "      Recording start of mutation at $STARTED_CSV"
+    echo "$pid,$v,$k" >> $STARTED_CSV
+    start_time=$(date "+%T")
     defects4j mutation -w $work_dir
+    end_time=$(date "+%T")
+
     if [ $? -eq 0 ] # Mutation went well, lets copy results
     then
-      printf "\033[34;1m      Creating trial result dir \"$dirname/$k\" \033[0m\n"
-      mkdir "$dirname/$k"
-      for name in ".mutation.log" "mutants.log" "kill.csv" "testMap.csv" "summary.csv"
+      loginfo "      Mutation successful. Logging to $SUCCESS_CSV, $STATUS_CSV, and $COMPLETED_CSV"
+      echo "$pid,$v,$k" >> "$SUCCESS_CSV"
+      echo "$pid,$v,$k,$start_time,$end_time,1" >> "$STATUS_CSV"
+      echo "$pid,$v,$k" >> "$COMPLETED_CSV"
+      loginfo "      Creating trial result dir \"$PID_VID_RESULTS/$k\""
+      mkdir "$trials_dir/$k"
+      for name in ".mutation.log" "mutants.log" "kill.csv" "testMap.csv" "summary.csv" "testMap.csv"
       do
         src="$work_dir/$name"
-        trg="$dirname/$k/$name"
-        printf "\033[34;1m      Moving $src--->$trg\033[0m\n"
-        mv "$src" "$trg"
+        trg="$trials_dir/$k/$name"
+        if [ -e $src ]
+        then
+          loginfo "      Moving $src--->$trg"
+          mv "$src" "$trg"
+        fi
       done
+    else          # Mutation failed
+      logerr "      Mutation failed! Logging to $FAILED_CSV, $STATUS_CSV, and $COMPLETED_CSV"
+      echo "$pid,$v,$k" >> "$FAILED_CSV"
+      echo "$pid,$v,$k,$start_time,$end_time,0" >> "$STATUS_CSV"
+      echo "$pid,$v,$k" >> "$COMPLETED_CSV"
     fi
   done
   cd "$last_dir"
-  printf "\033[34;1m   CWD=`pwd` \033[0m\n"
-  printf "\033[34;1m   Removing working directory "$work_dir" \033[0m\n"
+  loginfo "   CWD=`pwd`"
+  loginfo "   Removing working directory "$work_dir""
   rm -rf $work_dir
 }
 
 
-printf "\n\033[92m   ---   Running new major   ---\033[0m\n"
-printf "\033[92m         =================      \033[0m\n\n"
-NEW_MAJOR=true run_major
-tmp_maj2=$TMP
+# pplog "   ---   Running new major   ---" $ANSI_BANNER
+# pplog "         =================      " $ANSI_BANNER
+# NEW_MAJOR=true run_major
+# tmp_maj2=$TMP
 
-printf "\n\033[92m   ---   Running old major   ---\033[0m\n"
-printf "\033[92m         =================      \033[0m\n\n"
+pplog "   ---   Running old major   ---" $ANSI_BANNER
+pplog "         =================      " $ANSI_BANNER
 NEW_MAJOR=false run_major
 tmp_maj1=$TMP
 
-echo "Major 1 results in $tmp_maj1"
-echo "Major 2 results in $tmp_maj2"
+loginfo "Major 1 results in $tmp_maj1"
+# loginfo "Major 2 results in $tmp_maj2"
