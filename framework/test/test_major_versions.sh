@@ -29,6 +29,7 @@ usage() {
 java7_home=$1
 java8_home=$2
 num_trials=$3
+time_out=$4
 
 function dtstring {
     date "+%T %D"
@@ -81,9 +82,15 @@ then
   num_trials=2
 fi
 
+if [ -z $time_out ]
+then
+  time_out=2h
+fi
+
 loginfo "JAVA7_HOME: $JAVA7_HOME"
 loginfo "JAVA8_HOME: $JAVA8_HOME"
 loginfo "num_trials: $num_trials"
+loginfo "time_out:   $time_out"
 
 # Ensure that num_trials is a number
 re='^[0-9]+$'
@@ -106,7 +113,7 @@ then
 fi
 
 export D4J_TEST_ORDER="$SHARED_RESOURCES/test-orders"
-if [ ! -e $D4J_TEST_ORDER ] 
+if [ ! -e $D4J_TEST_ORDER ]
 then
   mkdir -p $D4J_TEST_ORDER
 fi
@@ -147,12 +154,12 @@ function make_jobs_file {
       continue
     fi
 
+    loginfo "Creating jobs for $pid"
     versions="${batches[$pid]}"
     for v in `seq 1 1 $versions`
     do
       pid_log_file="$logs/$pid-$v.log"
       job="run_d4j_on_version $pid $v >> $pid_log_file 2>&1"
-      loginfo "Creating job for pid $pid and vid $vid: $job"
       echo "$job" >> $jobs_file
     done
   done
@@ -205,11 +212,15 @@ function run_major {
   # COMPLETED_CSV: Keep track of successful trials
   export COMPLETED_CSV="$TMP/completed.csv"
 
-  echo "pid,vid,trial,start_t,end_t,success?" >> "$STATUS_CSV"
+  # TIMED_OUT_CSV: Keep track of timed out trials
+  export TIMED_OUT_CSV="$TMP/timedout.csv"
+
+  echo "pid,vid,trial,start_t,end_t,status" >> "$STATUS_CSV"
   echo "pid,vid,trial" >> "$STARTED_CSV"
   echo "pid,vid,trial" >> "$FAILED_CSV"
   echo "pid,vid,trial" >> "$COMPLETED_CSV"
   echo "pid,vid,trial" >> "$SUCCESS_CSV"
+  echo "pid,vid,trial" >> "$TIMED_OUT_CSV"
 
   if $RUN_IN_PARALLEL
   then
@@ -233,6 +244,7 @@ function run_major {
     export TMP
     export RESULTS
     export num_trials
+    export time_out
     export TEST_DIR
     export BASE_DIR
     export TMP_DIR
@@ -343,16 +355,17 @@ function run_d4j_on_version {
     loginfo "      Recording start of mutation at $STARTED_CSV"
     echo "$pid,$v,$k" >> $STARTED_CSV
     start_time=$(date "+%T")
-    defects4j mutation -w $work_dir
+    timeout $time_out defects4j mutation -w $work_dir
     rescode=$?
     end_time=$(date "+%T")
 
-    if [ $rescode -eq 0 ] # Mutation went well, lets copy results
+    echo "$pid,$v,$k,$start_time,$end_time,$rescode" >> "$STATUS_CSV"
+    echo "$pid,$v,$k" >> "$COMPLETED_CSV"
+
+    if [[ $rescode == 0 ]] # Mutation went well, lets copy results
     then
       loginfo "      Mutation successful. Logging to $SUCCESS_CSV, $STATUS_CSV, and $COMPLETED_CSV"
       echo "$pid,$v,$k" >> "$SUCCESS_CSV"
-      echo "$pid,$v,$k,$start_time,$end_time,1" >> "$STATUS_CSV"
-      echo "$pid,$v,$k" >> "$COMPLETED_CSV"
       loginfo "      Creating trial result dir \"$PID_VID_RESULTS/$k\""
       mkdir "$trials_dir/$k"
       for name in ".mutation.log" "mutants.log" "kill.csv" "testMap.csv" "summary.csv" "testMap.csv"
@@ -366,23 +379,26 @@ function run_d4j_on_version {
         fi
       done
     else          # Mutation failed
-      logerr "      Mutation failed! Logging to $FAILED_CSV, $STATUS_CSV, and $COMPLETED_CSV"
       echo "$pid,$v,$k" >> "$FAILED_CSV"
-      echo "$pid,$v,$k,$start_time,$end_time,0" >> "$STATUS_CSV"
-      echo "$pid,$v,$k" >> "$COMPLETED_CSV"
+      if [[ $rescode == 124 ]]    # Did it time out?
+      then
+        logerr "      Mutation timed out! Logging to $FAILED_CSV, $STATUS_CSV, $COMPLETED_CSV, and $TIMED_OUT_CSV"
+      else
+        logerr "      Mutation failed with code $rescode! Logging to $FAILED_CSV, $STATUS_CSV, and $COMPLETED_CSV"
+      fi
     fi
   done
   cd "$last_dir"
-  loginfo "   CWD=`pwd`"
-  loginfo "   Removing working directory "$work_dir""
+  loginfo "   CWD=$(pwd)"
+  loginfo "   Removing working directory \"$work_dir\""
   rm -rf $work_dir
 }
 
 
-# pplog "   ---   Running new major   ---" $ANSI_BANNER
-# pplog "         =================      " $ANSI_BANNER
-# NEW_MAJOR=true run_major
-# tmp_maj2=$TMP
+pplog "   ---   Running new major   ---" $ANSI_BANNER
+pplog "         =================      " $ANSI_BANNER
+NEW_MAJOR=true run_major
+tmp_maj2=$TMP
 
 pplog "   ---   Running old major   ---" $ANSI_BANNER
 pplog "         =================      " $ANSI_BANNER
@@ -390,4 +406,4 @@ NEW_MAJOR=false run_major
 tmp_maj1=$TMP
 
 loginfo "Major 1 results in $tmp_maj1"
-# loginfo "Major 2 results in $tmp_maj2"
+loginfo "Major 2 results in $tmp_maj2"
