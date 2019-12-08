@@ -22,7 +22,7 @@ usage() {
       printf "\033[31;1m$1\033[0m\n"
     fi
 
-    printf "\033[1musage:\033[0m $0 java7-home java8-home [num-trials]\n"
+    printf "\033[1musage:\033[0m $0 java7-home java8-home [num-trials] [time-out]\n"
     exit 1
 }
 
@@ -84,7 +84,7 @@ fi
 
 if [ -z $time_out ]
 then
-  time_out=2h
+  time_out="2h"
 fi
 
 loginfo "JAVA7_HOME: $JAVA7_HOME"
@@ -165,6 +165,11 @@ function make_jobs_file {
   done
 }
 
+###############################################################################
+# Run major. This will set the following global variables:
+# - TMP global variable to the new temporary
+# directory created to store the computations done during the run
+###############################################################################
 function run_major {
 
   OLDPATH=$PATH
