@@ -11,18 +11,17 @@ source test.include
 
 # Print usage message and exit
 usage() {
-    #     local known_pids=$(cd "$BASE_DIR"/framework/core/Project && ls *.pm | sed -e 's/\.pm//g')
-    #     echo "usage: $0 -p <project id> [-b <bug id> ... | -b <bug id range> ... ]"
-    #     echo "Project ids:"
-    #     for pid in $known_pids; do
-    #         echo "  * $pid"
-    #     done
     if [ "$1" ]
     then
-      printf "\033[31;1m$1\033[0m\n"
+      printf "\033[31;4m$1\033[0m\n"
     fi
 
-    printf "\033[1musage:\033[0m $0 java7-home java8-home [num-trials] [time-out]\n"
+    printf "\033[1;3musage:\033[0m\033[3m $0 java7-home java8-home [num-trials] [time-out]\033[0m\n"
+    printf "    \033[36mjava7-home:\033[0m location of Java 7 install (for running Major 1)\n"
+    printf "    \033[36mjava8-home:\033[0m location of Java 8 install (for running Major 2)\n"
+    printf "    \033[36mnum-trials:\033[0m number of trials to run for each mutant\n"
+    printf "    \033[36mtime-out:\033[0m   timeout per trial (default 2h). Format: \"2h\", \"13m\", etc. See\n"
+    printf "                \`man timeout\` for more formatting info\n"
     exit 1
 }
 
