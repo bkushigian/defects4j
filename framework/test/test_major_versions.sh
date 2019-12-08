@@ -86,8 +86,8 @@ then
   time_out="2h"
 fi
 
-loginfo "JAVA7_HOME: $JAVA7_HOME"
-loginfo "JAVA8_HOME: $JAVA8_HOME"
+loginfo "java7_home: $java7_home"
+loginfo "java8_home: $java8_home"
 loginfo "num_trials: $num_trials"
 loginfo "time_out:   $time_out"
 
@@ -137,6 +137,11 @@ declare -A batches=(
   [Time]="27"
   )
 
+################################################################################
+# Create the jobs file to be read by parallel
+# Params:
+#  - $1: location to write the jobs file to; writes to $1/jobs
+################################################################################
 function make_jobs_file {
 
   jobs_file="$1/jobs"
@@ -166,8 +171,9 @@ function make_jobs_file {
 
 ###############################################################################
 # Run major. This will set the following global variables:
-# - TMP global variable to the new temporary
-# directory created to store the computations done during the run
+#   * TMP: location of the new temporary directory created to store the
+#     computations done during the run
+#   * RESULTS: location of the results of the trials
 ###############################################################################
 function run_major {
 
@@ -263,7 +269,10 @@ function run_major {
   export PATH=$OLDPATH
 }
 
-# bypass parallel
+################################################################################
+# For testing: this bypasses the parallel command and runs everything
+# sequentially. This shouldn't be used for actual runs.
+################################################################################
 function run_all {
 
   for pid in "${projects[@]}"
@@ -281,6 +290,10 @@ function run_all {
   done
 }
 
+################################################################################
+# Lookup the hash name of a given version for a project id. This is used to
+# update the failed tests db
+################################################################################
 function lookup_hash_name {
   pid=$1
   v=$2
@@ -291,6 +304,12 @@ function lookup_hash_name {
   loginfo "Commit hash for $pid-$v (fixed): $FIXED_COMMIT_HASH"
 }
 
+################################################################################
+# Run d4j on a specific version.
+# Parameters:
+#  - $1: the project id
+#  * $2: the version (1,2,3...)
+################################################################################
 function run_d4j_on_version {
   pid=$1
   v=$2
