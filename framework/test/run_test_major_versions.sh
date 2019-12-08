@@ -17,4 +17,4 @@ if [ -z $TIMEOUT ] ; then
   TIMEOUT="2h"
 fi
 
-./test_major_versions.sh /usr/lib/jvm/java-1.8.0 /usr/lib/jvm/java-1.8.0 15 "2.5h"
+./test_major_versions.sh /usr/lib/jvm/java-1.8.0 /usr/lib/jvm/java-1.8.0 "$TRIALS" "$TIMEOUT"
