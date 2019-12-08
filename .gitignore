@@ -5,3 +5,4 @@ framework/lib/test_generation
 framework/lib/build_systems
 framework/lib/analyzer.jar
 work/
+__pycache__/
