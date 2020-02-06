@@ -187,16 +187,21 @@ function run_major {
 
   export PATH="$JAVA_HOME/bin:$PATH"
 
-  loginfo "JAVA_HOME=$JAVA_HOME"
-  loginfo "PATH=$PATH"
-
-
   # Create a temporary directory for the results of this run
   TMP=`mktemp -d`   # Create Temporary Directory
-  loginfo "-- Created temporary director $TMP"
-
+  LOG="$TMP/log.log"
   RESULTS="$TMP/results"
   mkdir -p "$RESULTS"
+
+  loginfo "Starting at [$(date)]"
+  loginfo "NEW_MAJOR=$NEW_MAJOR"
+  loginfo "java7_home=$java7_home"
+  loginfo "java8_home=$java8_home"
+  loginfo "num_trials=$num_trials"
+  loginfo "time_out=$time_out"
+  loginfo "JAVA_HOME=$JAVA_HOME"
+  loginfo "PATH=$PATH"
+  loginfo "-- Created temporary director $TMP"
   loginfo "-- Created results directory $RESULTS"
 
   mkdir -p "$TMP/logs"
@@ -224,6 +229,13 @@ function run_major {
 
   # TIMED_OUT_CSV: Keep track of timed out trials
   export TIMED_OUT_CSV="$TMP/timedout.csv"
+
+  loginfo "STATUS_CSV=$STATUS_CSV"
+  loginfo "STARTED_CSV=$STARTED_CSV"
+  loginfo "FAILED_CSV=$FAILED_CSV"
+  loginfo "SUCCESS_CSV=$SUCCESS_CSV"
+  loginfo "COMPLETED_CSV=$COMPLETED_CSV"
+  loginfo "TIMED_OUT_CSV=$TIMED_OUT_CSV"
 
   echo "pid,vid,trial,start_t,end_t,status" >> "$STATUS_CSV"
   echo "pid,vid,trial" >> "$STARTED_CSV"
@@ -417,16 +429,15 @@ function run_d4j_on_version {
   rm -rf $work_dir
 }
 
-
-pplog "   ---   Running new major   ---" $ANSI_BANNER
-pplog "         =================      " $ANSI_BANNER
-NEW_MAJOR=true run_major
-tmp_maj2=$TMP
-
 pplog "   ---   Running old major   ---" $ANSI_BANNER
 pplog "         =================      " $ANSI_BANNER
 NEW_MAJOR=false run_major
 tmp_maj1=$TMP
 
+# pplog "   ---   Running new major   ---" $ANSI_BANNER
+# pplog "         =================      " $ANSI_BANNER
+# NEW_MAJOR=true run_major
+# tmp_maj2=$TMP
+
 loginfo "Major 1 results in $tmp_maj1"
-loginfo "Major 2 results in $tmp_maj2"
+# loginfo "Major 2 results in $tmp_maj2"
