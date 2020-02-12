@@ -38,8 +38,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export JAVA_HOME
 
 # All projects
-# Excluding Chart
-projects=(Closure Lang Math Mockito Time)
+projects=(Chart Closure Lang Math Mockito Time)
 
 export ANSI_ERROR="\033[91;1m"
 export ANSI_INFO="\033[94;1m"
@@ -47,6 +46,8 @@ export ANSI_SUCCESS="\033[92;1m"
 export ANSI_CLEAR="\033[0m"
 export ANSI_GREEN="\033[32m"
 export ANSI_BANNER=$ANSI_SUCCESS
+
+echo "Running update_failing_tests.sh with JAVA_HOME=$JAVA_HOME"
 
 function dtstring {
     date "+%T %D"
@@ -108,7 +109,7 @@ function run_tests {
     export BASE_DIR
     export TMP_DIR
 
-    parallel run_test_on_pid ::: "${projects[@]}"
+    parallel   --jobs 16 --progress --bar  run_test_on_pid ::: "${projects[@]}"
 }
 
 function run_test_on_pid {
@@ -141,13 +142,14 @@ function run_test_on_pid {
     loginfo "work_dir: $work_dir"
 
     for bid in $(echo $BUGS); do
+        rm -rf $work_dir
         vid="${bid}f"
         logbanner "Working on $pid-$vid ($bid of $num_bugs)"
-        loginfo "[+] checking out project"
+        loginfo "[+] checking out project: pid=$pid vid=$vid work_dir=$work_dir"
         defects4j checkout -p $pid -v "$vid" -w "$work_dir" || die "checkout: $pid-$vid"
-        loginfo "[+] compiling project"
+        loginfo "[+] compiling project: pid=$pid vid=$vid work_dir=$work_dir"
         defects4j compile -w "$work_dir" || die "compile: $pid-$vid"
-        loginfo "[+] running tests"
+        loginfo "[+] running tests: pid=$pid vid=$vid work_dir=$work_dir"
         defects4j test -w "$work_dir"    || die "run tests: $pid-$vid"
 
         triggers=$(num_triggers "$work_dir/failing_tests")
@@ -155,16 +157,24 @@ function run_test_on_pid {
         loginfo "found $triggers triggering tests"
         # If there are failing tests, then add them to the defects4j repo
         if [ $triggers -ne 0 ] ; then
+            rm -rf $work_dir
 
-            lookup_hash_name $pid $v $work_dir
+            lookup_hash_name $pid $bid $work_dir
 
             # Echo to failing_tests
-            loginfo "updating failing tests: $work_dir/failing_tests >> $BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH"
-            cat "$work_dir/failing_tests" >> "$BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH"
+            src="$work_dir/failing_tests"
+            trg="$BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH"
+            loginfo "updating failing tests: $src >> $trg"
+            cat "$src" >> "$trg"
             rm "$work_dir/all_tests" "$work_dir/failing_tests"
 
             # Rerun to sanity check that this worked
             loginfo "rerunning defects4j test -w $work_dir with appended failing tests"
+            loginfo "[+] checking out project: pid=$pid vid=$vid work_dir=$work_dir"
+            defects4j checkout -p $pid -v "$vid" -w "$work_dir" || die "checkout: $pid-$vid"
+            loginfo "[+] compiling project: pid=$pid vid=$vid work_dir=$work_dir"
+            defects4j compile -w "$work_dir" || die "compile: $pid-$vid"
+            loginfo "[+] running tests: pid=$pid vid=$vid work_dir=$work_dir"
             defects4j test -w "$work_dir"    || die "run tests: $pid-$vid"
 
             triggers=$(num_triggers "$work_dir/failing_tests")
@@ -187,6 +197,7 @@ function run_test_on_pid {
 
     done
 }
+
 run_tests
 
 
