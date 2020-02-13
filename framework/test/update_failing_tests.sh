@@ -157,8 +157,6 @@ function run_test_on_pid {
         loginfo "found $triggers triggering tests"
         # If there are failing tests, then add them to the defects4j repo
         if [ $triggers -ne 0 ] ; then
-            rm -rf $work_dir
-
             lookup_hash_name $pid $bid $work_dir
 
             # Echo to failing_tests
@@ -166,7 +164,7 @@ function run_test_on_pid {
             trg="$BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH"
             loginfo "updating failing tests: $src >> $trg"
             cat "$src" >> "$trg"
-            rm "$work_dir/all_tests" "$work_dir/failing_tests"
+            rm -rf $work_dir
 
             # Rerun to sanity check that this worked
             loginfo "rerunning defects4j test -w $work_dir with appended failing tests"
@@ -184,13 +182,13 @@ function run_test_on_pid {
             fi
 
             loginfo "   Tests succeeded"
-            for name in "all_tests" "failing_tests"
-            do
-                src="$work_dir/$name"
-                trg="$dirname/$name"
-                loginfo "   Moving $src--->$trg"
-                mv "$src" "$trg"
-            done
+#            for name in "all_tests" "failing_tests"
+#            do
+#                src="$work_dir/$name"
+#                trg="$dirname/$name"
+#                loginfo "   Moving $src--->$trg"
+#                mv "$src" "$trg"
+#            done
 
         fi
 
