@@ -91,6 +91,9 @@ function lookup_hash_name {
     pplog "Commit hash for $pid-$bid (fixed): $FIXED_COMMIT_HASH"
 }
 
+################################################################################
+# Run tests on each pid in parallel
+################################################################################
 function run_tests {
     export -f dtstring
     export -f run_test_on_pid
@@ -111,7 +114,37 @@ function run_tests {
     parallel   --jobs 6 --progress --bar  run_tests_on_pid ::: "${projects[@]}"
 }
 
+################################################################################
+# run tests on a single pid, updating failing tests. This function
+# 1. identifies the bugids for the given project id
+# 2. for each bug id, this:
+#    - sets up a clean working directory
+#    - checks out the project at the fixed version of bid via
+#      `defects4j checkout -v "${bid}f" ...`
+#    - compiles the checked out version of the project
+#    - runs tests on the checked out version of the project
+#    - if there are triggering tests, updates d4j's database of failing tests via
+#
+#            src="$work_dir/failing_tests"
+#            trg=framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH
+#            cat $src >> $trg
+#
+#    - runs a sanity check to ensure that this addition to the failing test
+#      database stops `defects4j test` from running the failing tests again; in
+#      particular, after a clean checkout of the same bug, running
+#      `defects4j test` should yield 0 triggering tests. If this fails, report
+#      an error and exit with non-zero status
+# Arguments:
+#     - pid: the project id (i.e., "Chart", "Math", etc)
+################################################################################
 function run_tests_on_pid {
+    local pid
+    local script_name
+    local num_bugs
+    local test_dir
+    local vid
+    local triggers
+
     pid=$1
 
     # Create log file
