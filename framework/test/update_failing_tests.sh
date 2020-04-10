@@ -96,7 +96,7 @@ function lookup_hash_name {
 ################################################################################
 function run_tests {
     export -f dtstring
-    export -f run_test_on_pid
+    export -f run_tests_on_pid
     export -f die
     export -f pplog
     export -f logbanner
