@@ -109,6 +109,7 @@ function run_tests {
     export -f run_tests_on_pid
     export -f die
     export -f pplog
+    export -f logerr
     export -f logbanner
     export -f pplog
     export -f pplog
@@ -204,9 +205,13 @@ function run_tests_on_pid {
             src="$work_dir/failing_tests"
             pid_failing_tests="$BASE_DIR/framework/projects/$pid/failing_tests"
             trg="$pid_failing_tests/$FIXED_COMMIT_HASH"
-            if [ ! -d $proj_failing_tests ]
+            if [ ! -d "$pid_failing_tests" ]
             then
-                mkdir -p $proj_failing_tests
+                pplog "Directory $pid_failing_tests doesn't exist"
+                pplog "Making directory $pid_failing_tests"
+                mkdir -p "$pid_failing_tests"
+            else
+                pplog "Directory $pid_failing_tests exists...continuing"
             fi
             pplog "updating failing tests: $src >> $trg"
             cat "$src" >> "$trg"
