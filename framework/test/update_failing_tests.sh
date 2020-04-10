@@ -55,7 +55,7 @@ function dtstring {
 }
 
 ################################################################################
-# Print the log to stdout as well as logging to file
+# Write a timestamped message to stdout as well as logging to file
 ################################################################################
 function pplog {
     log "[$(date "+%T")] $1"
@@ -67,7 +67,17 @@ function pplog {
 ################################################################################
 function logbanner {
     log "$1"
+    echo
     echo "  --- $1 ---"
+    echo
+}
+
+################################################################################
+# Log an error
+################################################################################
+function logerr {
+    log "[$(date "+%T")] [Error] $1"
+    echo "$1"
 }
 
 ################################################################################
@@ -192,7 +202,12 @@ function run_tests_on_pid {
 
             # Echo to failing_tests
             src="$work_dir/failing_tests"
-            trg="$BASE_DIR/framework/projects/$pid/failing_tests/$FIXED_COMMIT_HASH"
+            pid_failing_tests="$BASE_DIR/framework/projects/$pid/failing_tests"
+            trg="$pid_failing_tests/$FIXED_COMMIT_HASH"
+            if [ ! -d $proj_failing_tests ]
+            then
+                mkdir -p $proj_failing_tests
+            fi
             pplog "updating failing tests: $src >> $trg"
             cat "$src" >> "$trg"
             rm -rf "$work_dir"
