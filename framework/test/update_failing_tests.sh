@@ -43,7 +43,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export JAVA_HOME
 
 # All projects
-projects=(Chart Closure Lang Math Mockito Time)
+projects=(Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time)
 
 echo "Running update_failing_tests.sh with JAVA_HOME=$JAVA_HOME"
 
@@ -52,6 +52,16 @@ echo "Running update_failing_tests.sh with JAVA_HOME=$JAVA_HOME"
 ################################################################################
 function dtstring {
     date "+%T %D"
+}
+
+################################################################################
+# Determine if bug id $bid is deprecated in $pid
+################################################################################
+function bid_deprecated_in_pid {
+    bid="$1"
+    pid="$2"
+    ds=$(./deprecated "${pid}")
+    [[ " ${ds[@]} " =~ " ${bid} " ]]
 }
 
 ################################################################################
@@ -121,6 +131,7 @@ function run_tests {
     export TEST_DIR
     export BASE_DIR
     export TMP_DIR
+    export -f bid_deprecated_in_pid
 
     parallel   --jobs 6 --progress --bar  run_tests_on_pid ::: "${projects[@]}"
 }
@@ -167,8 +178,8 @@ function run_tests_on_pid {
     export HALT_ON_ERROR=0
 
     # Compute $BUGS as a sequence of each bug id
-    num_bugs=$(num_lines "$BASE_DIR/framework/projects/$pid/commit-db")
-    BUGS="$(seq 1 1 "$num_bugs")"
+    BUGS="$(ls "$BASE_DIR/framework/projects/$pid/relevant_tests")"
+    num_bugs=$(echo $BUGS | wc -w)
 
     test_dir="$TMP_DIR/run_tests"
     mkdir -p "$test_dir"
@@ -178,12 +189,18 @@ function run_tests_on_pid {
     rm -rf "$work_dir"
 
     pplog "logging to $LOG"
-    pplog "num_bugs: $num_bugs"
+    pplog "all_bugs: $num_bugs"
     pplog "test_dir: $test_dir"
     pplog "work_dir: $work_dir"
 
     for bid in $BUGS
     do
+        if bid_deprecated_in_pid $bid $pid ; then
+            echo "bug $bid deprecated in $pid"
+            continue
+        fi
+
+
         rm -rf "$work_dir"
         vid="${bid}f"
         logbanner "Working on $pid-$vid ($bid of $num_bugs)"
