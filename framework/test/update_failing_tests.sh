@@ -43,7 +43,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export JAVA_HOME
 
 # All projects
-projects=(Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time)
+projects=( Gson )
 
 echo "Running update_failing_tests.sh with JAVA_HOME=$JAVA_HOME"
 
