@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+################################################################################
+# pullall: a helper script that pulls rebased branches from a remote. For more
+#   info, see pushall
+################################################################################
+
+# HACK: Git branch will preceed the active branch with a *. to avoid this, move
+# to a branch we won't be using
+git checkout uft
+git pull
+
+for branch in $(git branch --remotes | greph "update-failing-tests-"); do
+    echo "--------------------------------------------------------------------------------"
+    echo "                               $branch"
+    localbranch=$(echo $branch | cut -d/ -f2)
+    git checkout $branch
+    git branch -f "$localbranch"
+done

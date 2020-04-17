@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+
+################################################################################
+# pushall: a helper script that helps auto-rebase all branches of the form
+#   `update-failing-tests-*` onto `uft` and force push them to github. The dual
+#   of this script, `pullall`, runs a `git fetch --all` and then destructively
+#   updates branches to their remote counterparts
+#
+#   This script addresses the following workflow problem: we have a commit history
+#   that looks like the following:
+#
+#         ed1dcb99 | * [update-failing-tests-mockito] [origin/update-failing-tests-mockito]
+#                  |     Removed all failing tests from Mockito
+#         c1c239fd | * Excluded non-mockito projets
+#                  |/
+#         a365fbb8 | * [update-failing-tests-time] [origin/update-failing-tests-time]
+#                  |     Removed all failing tests from Time
+#         2ed4ba38 | * Excluded non-time projets
+#                  |/
+#                  .
+#                  .
+#                  .
+#         4e1a6dee | * [update-failing-tests-lang] [origin/update-failing-tests-lang]
+#                  |     Removed all failing tests from Lang
+#         88801153 | * Excluded non-lang projets
+#                  |/
+#         71f7c96d * [uft]
+#                  |     Exported lookup_bid_in_commit_db
+#
+#   and we want to update the [uft] branch that is the base of the
+#   `update-failing-tests-*` branches. This script:
+#
+#   1. pushes [uft] to remote
+#   2. rebases each branch of the form `update-failing-tests-*` to [uft]
+#   3. force pushes each branch to remote
+#
+#   NOTE: This will be messy if there are any merge conflicts. However, the only
+#   things updated from [uft] are:
+#   - `update_failing_tests.sh`: the line defining `$projects=(Chart Closure ...)`
+#   - each project's `failing_tests` directory
+#   As long as these are avoided things should be fine :D However, to
+#   sanitycheck, it might be wise to run the rebaseall part of the script
+################################################################################
+
+function die {
+    printf "Aaaaaaaaarg: $1\n"
+    exit 1
+}
+
+[ -z "$1" ] || [ "$1" == "--rebase-only" ] || die "unrecognized argument $1"
+
+# HACK: Git branch will preceed the active branch with a *. to avoid this, move
+# to a branch we won't be using
+git checkout uft
+git push
+
+for branch in $(git branch | grep "update-failing-tests-") ; do
+    echo "--------------------------------------------------------------------------------"
+    echo "                               $branch"
+    git checkout $branch
+    if ! git rebase uft ; then
+        echo "rebase failed"
+        continue
+    else
+        echo "rebase succeeded"
+        [ "$1" == "--rebase-only" ] || git push -f
+    fi
+done
