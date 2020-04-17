@@ -146,6 +146,7 @@ function run_tests {
     export -f log
     export -f num_lines
     export -f num_triggers
+    export -f lookup_bid_in_commit_db
     export script
     export TEST_DIR
     export BASE_DIR
