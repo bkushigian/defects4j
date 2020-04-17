@@ -90,6 +90,25 @@ function logerr {
     echo "$1"
 }
 
+
+################################################################################
+# lookup_bid_in_commit_db: get the entry for bid $bid in $pid's commit-db
+#
+# Arguments:
+#    1. pid: the project id we care about (i.e., "Chart", "Math", etc)
+#    2. bid: the bug id that we care about (i.e., "1", "2", etc)
+#
+# Prints the matching entry to stdout if it is found
+# Returns:
+#    0 on success (entry found)
+#    1 on failure (no entry found)
+################################################################################
+function lookup_bid_in_commit_db {
+    pid=$1
+    bid=$2
+    grep "^$bid," "$BASE_DIR/framework/projects/$pid/commit-db"
+}
+
 ################################################################################
 # lookup_hash_name: lookup hashes for buggy and fixed commits in the
 # `framework/projects/$pid/commit-db` database. These are stored in global
@@ -105,8 +124,8 @@ function logerr {
 function lookup_hash_name {
     pid=$1
     bid=$2
-    BUGGY_COMMIT_HASH=$(sed "${bid}q;d" "$BASE_DIR/framework/projects/$pid/commit-db" | cut -d, -f2)
-    FIXED_COMMIT_HASH=$(sed "${bid}q;d" "$BASE_DIR/framework/projects/$pid/commit-db" | cut -d, -f3)
+    BUGGY_COMMIT_HASH=$(lookup_bid_in_commit_db $pid $bid | cut -d, -f2)
+    FIXED_COMMIT_HASH=$(lookup_bid_in_commit_db $pid $bid | cut -d, -f3)
     pplog "Commit hash for $pid-$bid (buggy): $BUGGY_COMMIT_HASH"
     pplog "Commit hash for $pid-$bid (fixed): $FIXED_COMMIT_HASH"
 }
