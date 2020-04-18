@@ -10,7 +10,7 @@
 git checkout uft
 git pull
 
-for branch in $(git branch --remotes | greph "update-failing-tests-"); do
+for branch in $(git branch --remotes | grep "update-failing-tests-"); do
     echo "--------------------------------------------------------------------------------"
     echo "                               $branch"
     localbranch=$(echo $branch | cut -d/ -f2)
