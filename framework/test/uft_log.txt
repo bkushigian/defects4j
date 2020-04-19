@@ -1,0 +1,902 @@
+Running tests on Lang
+[08:19:05] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Lang_7329.log
+[08:19:05] all_bugs: 65
+[08:19:05] test_dir: /tmp/test_d4j_7310_1587309544/run_tests
+[08:19:05] work_dir: /tmp/test_d4j_7310_1587309544/run_tests/Lang
+Working on Lang-1f (1 of 65)
+[08:19:05] [+] checking out project: pid=Lang vid=1f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:19:11] [+] compiling project: pid=Lang vid=1f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:19:18] [+] running tests: pid=Lang vid=1f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:19:37] found 4 triggering tests
+[08:19:37] Commit hash for Lang-1 (buggy): 2c454a4ce3fe771098746879b166ede2284b94f4
+[08:19:37] Commit hash for Lang-1 (fixed): 687b2e62b7c6e81cd9d5c872b7fa9cc8fd3f1509
+[08:19:37] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests doesn't exist
+[08:19:37] Making directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests
+[08:19:37] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/687b2e62b7c6e81cd9d5c872b7fa9cc8fd3f1509
+[08:19:38] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:19:38] [+] checking out project: pid=Lang vid=1f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:19:42] [+] compiling project: pid=Lang vid=1f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:19:47] [+] running tests: pid=Lang vid=1f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:20:05]    Tests succeeded
+Working on Lang-10f (10 of 65)
+[08:20:05] [+] checking out project: pid=Lang vid=10f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:20:08] [+] compiling project: pid=Lang vid=10f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:20:14] [+] running tests: pid=Lang vid=10f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:20:33] found 7 triggering tests
+[08:20:33] Commit hash for Lang-10 (buggy): 0afcd15e183205a85a45a2775f1fb75a162a1389
+[08:20:33] Commit hash for Lang-10 (fixed): afe5dff79fc23d222ba1f1481fbbf55e09d2e6da
+[08:20:33] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:20:33] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/afe5dff79fc23d222ba1f1481fbbf55e09d2e6da
+[08:20:33] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:20:33] [+] checking out project: pid=Lang vid=10f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:20:37] [+] compiling project: pid=Lang vid=10f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:20:42] [+] running tests: pid=Lang vid=10f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:00]    Tests succeeded
+Working on Lang-11f (11 of 65)
+[08:21:00] [+] checking out project: pid=Lang vid=11f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:03] [+] compiling project: pid=Lang vid=11f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:08] [+] running tests: pid=Lang vid=11f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:25] found 3 triggering tests
+[08:21:25] Commit hash for Lang-11 (buggy): c9d786a4fe2639581047d878a64bab6fb24f1ab3
+[08:21:25] Commit hash for Lang-11 (fixed): c821fafce06adefc040e8983fb12d49399a48627
+[08:21:25] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:21:25] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/c821fafce06adefc040e8983fb12d49399a48627
+[08:21:25] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:21:25] [+] checking out project: pid=Lang vid=11f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:29] [+] compiling project: pid=Lang vid=11f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:34] [+] running tests: pid=Lang vid=11f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:52]    Tests succeeded
+Working on Lang-12f (12 of 65)
+[08:21:52] [+] checking out project: pid=Lang vid=12f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:55] [+] compiling project: pid=Lang vid=12f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:21:59] [+] running tests: pid=Lang vid=12f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:22:16] found 3 triggering tests
+[08:22:16] Commit hash for Lang-12 (buggy): 9351ed93365de2d1c316b8f419566820e88839e3
+[08:22:16] Commit hash for Lang-12 (fixed): c9d786a4fe2639581047d878a64bab6fb24f1ab3
+[08:22:16] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:22:16] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/c9d786a4fe2639581047d878a64bab6fb24f1ab3
+[08:22:16] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:22:16] [+] checking out project: pid=Lang vid=12f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:22:20] [+] compiling project: pid=Lang vid=12f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:22:24] [+] running tests: pid=Lang vid=12f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:22:41]    Tests succeeded
+Working on Lang-13f (13 of 65)
+[08:22:41] [+] checking out project: pid=Lang vid=13f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:22:44] [+] compiling project: pid=Lang vid=13f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:22:48] [+] running tests: pid=Lang vid=13f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:04] found 3 triggering tests
+[08:23:04] Commit hash for Lang-13 (buggy): d0cf0fdd4ff2329f9584c4f663f1af177c1994f6
+[08:23:04] Commit hash for Lang-13 (fixed): bd59a1908a1df3364918be7b07782500616b15ac
+[08:23:04] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:23:04] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/bd59a1908a1df3364918be7b07782500616b15ac
+[08:23:04] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:23:04] [+] checking out project: pid=Lang vid=13f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:08] [+] compiling project: pid=Lang vid=13f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:13] [+] running tests: pid=Lang vid=13f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:29]    Tests succeeded
+Working on Lang-14f (14 of 65)
+[08:23:29] [+] checking out project: pid=Lang vid=14f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:32] [+] compiling project: pid=Lang vid=14f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:38] [+] running tests: pid=Lang vid=14f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:52] found 1 triggering tests
+[08:23:52] Commit hash for Lang-14 (buggy): c8afaa3e869cc8c25577641553e0d0b5bdac78b5
+[08:23:52] Commit hash for Lang-14 (fixed): cf7211f9d7d70d56501d8c4c827bf9ce3cac5f0b
+[08:23:52] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:23:52] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/cf7211f9d7d70d56501d8c4c827bf9ce3cac5f0b
+[08:23:52] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:23:52] [+] checking out project: pid=Lang vid=14f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:23:56] [+] compiling project: pid=Lang vid=14f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:01] [+] running tests: pid=Lang vid=14f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:16]    Tests succeeded
+Working on Lang-15f (15 of 65)
+[08:24:16] [+] checking out project: pid=Lang vid=15f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:19] [+] compiling project: pid=Lang vid=15f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:23] [+] running tests: pid=Lang vid=15f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:37] found 1 triggering tests
+[08:24:37] Commit hash for Lang-15 (buggy): 76912e0d8aed581ee4bc6b8635d0512ac2695f5d
+[08:24:37] Commit hash for Lang-15 (fixed): 8185a9e681d6de5f40b0ed07b40730c9761bad37
+[08:24:37] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:24:37] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/8185a9e681d6de5f40b0ed07b40730c9761bad37
+[08:24:38] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:24:38] [+] checking out project: pid=Lang vid=15f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:42] [+] compiling project: pid=Lang vid=15f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:24:48] [+] running tests: pid=Lang vid=15f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:05]    Tests succeeded
+Working on Lang-16f (16 of 65)
+[08:25:05] [+] checking out project: pid=Lang vid=16f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:08] [+] compiling project: pid=Lang vid=16f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:13] [+] running tests: pid=Lang vid=16f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:24] found 1 triggering tests
+[08:25:24] Commit hash for Lang-16 (buggy): a145b6d838914e38ee1027a1497de41140549080
+[08:25:24] Commit hash for Lang-16 (fixed): 13c7f19a5ad506340a7c8d8601ef4bf2426ab325
+[08:25:24] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:25:24] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/13c7f19a5ad506340a7c8d8601ef4bf2426ab325
+[08:25:24] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:25:24] [+] checking out project: pid=Lang vid=16f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:28] [+] compiling project: pid=Lang vid=16f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:34] [+] running tests: pid=Lang vid=16f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:46]    Tests succeeded
+Working on Lang-17f (17 of 65)
+[08:25:46] [+] checking out project: pid=Lang vid=17f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:49] [+] compiling project: pid=Lang vid=17f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:25:56] [+] running tests: pid=Lang vid=17f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:07] found 1 triggering tests
+[08:26:07] Commit hash for Lang-17 (buggy): a7e90b2ffa23ab60c7022e2f94a12651b4fb8ec0
+[08:26:07] Commit hash for Lang-17 (fixed): b4255e6d071dc8d48bfc51037cecb29097b9a49d
+[08:26:07] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:26:07] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/b4255e6d071dc8d48bfc51037cecb29097b9a49d
+[08:26:07] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:26:07] [+] checking out project: pid=Lang vid=17f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:11] [+] compiling project: pid=Lang vid=17f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:17] [+] running tests: pid=Lang vid=17f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:28]    Tests succeeded
+Working on Lang-18f (18 of 65)
+[08:26:28] [+] checking out project: pid=Lang vid=18f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:31] [+] compiling project: pid=Lang vid=18f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:37] [+] running tests: pid=Lang vid=18f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:49] found 1 triggering tests
+[08:26:49] Commit hash for Lang-18 (buggy): aefe0749b2f2e63f9d13393694e7d20173bc032a
+[08:26:49] Commit hash for Lang-18 (fixed): 2aa9dca994b006ccbfcb528de5ff0da6a5578411
+[08:26:49] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:26:49] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/2aa9dca994b006ccbfcb528de5ff0da6a5578411
+[08:26:49] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:26:49] [+] checking out project: pid=Lang vid=18f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:53] [+] compiling project: pid=Lang vid=18f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:26:58] [+] running tests: pid=Lang vid=18f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:09]    Tests succeeded
+Working on Lang-19f (19 of 65)
+[08:27:09] [+] checking out project: pid=Lang vid=19f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:12] [+] compiling project: pid=Lang vid=19f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:17] [+] running tests: pid=Lang vid=19f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:28] found 3 triggering tests
+[08:27:28] Commit hash for Lang-19 (buggy): 85481c8f87075c88a97e793d9a6fcfd8d3c6946f
+[08:27:28] Commit hash for Lang-19 (fixed): 0b3a8a3128890f710700d04e38df48b883d11d91
+[08:27:28] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:27:28] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/0b3a8a3128890f710700d04e38df48b883d11d91
+[08:27:28] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:27:28] [+] checking out project: pid=Lang vid=19f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:32] [+] compiling project: pid=Lang vid=19f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:37] [+] running tests: pid=Lang vid=19f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:49]    Tests succeeded
+Working on Lang-20f (20 of 65)
+[08:27:49] [+] checking out project: pid=Lang vid=20f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:52] [+] compiling project: pid=Lang vid=20f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:27:57] [+] running tests: pid=Lang vid=20f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:08] found 3 triggering tests
+[08:28:08] Commit hash for Lang-20 (buggy): 0c01b4c48bc886a7e53b517efeb2192d1caaffe2
+[08:28:08] Commit hash for Lang-20 (fixed): f08213cc4c35fd71e98aa5233fcb2db3333793a2
+[08:28:08] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:28:08] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/f08213cc4c35fd71e98aa5233fcb2db3333793a2
+[08:28:08] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:28:08] [+] checking out project: pid=Lang vid=20f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:12] [+] compiling project: pid=Lang vid=20f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:17] [+] running tests: pid=Lang vid=20f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:28]    Tests succeeded
+Working on Lang-21f (21 of 65)
+[08:28:28] [+] checking out project: pid=Lang vid=21f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:31] [+] compiling project: pid=Lang vid=21f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:37] [+] running tests: pid=Lang vid=21f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:47] found 3 triggering tests
+[08:28:47] Commit hash for Lang-21 (buggy): a473984ef081ac1c55ce263345c5a54049275935
+[08:28:47] Commit hash for Lang-21 (fixed): 55f642725742513824975af0e5e91cb1920b6d72
+[08:28:47] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:28:47] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/55f642725742513824975af0e5e91cb1920b6d72
+[08:28:47] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:28:47] [+] checking out project: pid=Lang vid=21f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:51] [+] compiling project: pid=Lang vid=21f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:28:56] [+] running tests: pid=Lang vid=21f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:07]    Tests succeeded
+Working on Lang-22f (22 of 65)
+[08:29:07] [+] checking out project: pid=Lang vid=22f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:10] [+] compiling project: pid=Lang vid=22f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:14] [+] running tests: pid=Lang vid=22f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:24] found 3 triggering tests
+[08:29:24] Commit hash for Lang-22 (buggy): 1b708e343781255f50e17bf10b363cca303120af
+[08:29:24] Commit hash for Lang-22 (fixed): 0b2b82ad923b0455cde93286e3f504a1abd0863b
+[08:29:24] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:29:24] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/0b2b82ad923b0455cde93286e3f504a1abd0863b
+[08:29:24] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:29:24] [+] checking out project: pid=Lang vid=22f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:29] [+] compiling project: pid=Lang vid=22f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:33] [+] running tests: pid=Lang vid=22f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:44]    Tests succeeded
+Working on Lang-23f (23 of 65)
+[08:29:44] [+] checking out project: pid=Lang vid=23f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:47] [+] compiling project: pid=Lang vid=23f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:29:52] [+] running tests: pid=Lang vid=23f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:01] found 3 triggering tests
+[08:30:02] Commit hash for Lang-23 (buggy): 458597c6dcc23b01284930521f1cb80e986b442d
+[08:30:02] Commit hash for Lang-23 (fixed): 46356183872f2cba5e340993c6d85597a4f3cdbb
+[08:30:02] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:30:02] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/46356183872f2cba5e340993c6d85597a4f3cdbb
+[08:30:02] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:30:02] [+] checking out project: pid=Lang vid=23f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:05] [+] compiling project: pid=Lang vid=23f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:10] [+] running tests: pid=Lang vid=23f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:20]    Tests succeeded
+Working on Lang-24f (24 of 65)
+[08:30:20] [+] checking out project: pid=Lang vid=24f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:23] [+] compiling project: pid=Lang vid=24f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:29] [+] running tests: pid=Lang vid=24f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:39] found 3 triggering tests
+[08:30:39] Commit hash for Lang-24 (buggy): d61f50a3986b983ba0bfc6d2ec2abc26892c6ed2
+[08:30:39] Commit hash for Lang-24 (fixed): 81903abbb25ff92597d5f1e3acc648d12bdee444
+[08:30:39] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:30:39] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/81903abbb25ff92597d5f1e3acc648d12bdee444
+[08:30:39] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:30:39] [+] checking out project: pid=Lang vid=24f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:43] [+] compiling project: pid=Lang vid=24f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:47] [+] running tests: pid=Lang vid=24f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:30:58]    Tests succeeded
+Working on Lang-25f (25 of 65)
+[08:30:58] [+] checking out project: pid=Lang vid=25f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:01] [+] compiling project: pid=Lang vid=25f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:06] [+] running tests: pid=Lang vid=25f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:16] found 3 triggering tests
+[08:31:16] Commit hash for Lang-25 (buggy): eb94e61a64105bcdd6afd0f6377de7b4fa7fa105
+[08:31:16] Commit hash for Lang-25 (fixed): 2bae68787d15c3d3540380164e62759485078ec1
+[08:31:16] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:31:16] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/2bae68787d15c3d3540380164e62759485078ec1
+[08:31:16] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:31:16] [+] checking out project: pid=Lang vid=25f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:20] [+] compiling project: pid=Lang vid=25f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:25] [+] running tests: pid=Lang vid=25f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:35]    Tests succeeded
+Working on Lang-26f (26 of 65)
+[08:31:35] [+] checking out project: pid=Lang vid=26f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:39] [+] compiling project: pid=Lang vid=26f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:43] [+] running tests: pid=Lang vid=26f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:54] found 3 triggering tests
+[08:31:54] Commit hash for Lang-26 (buggy): e67792f82e7eaccb39007c0fa65f3217f24be10d
+[08:31:54] Commit hash for Lang-26 (fixed): 75d5b74a1a7ef68c5169f4b44cdf972c1ab07ee0
+[08:31:54] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:31:54] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/75d5b74a1a7ef68c5169f4b44cdf972c1ab07ee0
+[08:31:54] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:31:54] [+] checking out project: pid=Lang vid=26f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:31:58] [+] compiling project: pid=Lang vid=26f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:04] [+] running tests: pid=Lang vid=26f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:14]    Tests succeeded
+Working on Lang-27f (27 of 65)
+[08:32:14] [+] checking out project: pid=Lang vid=27f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:17] [+] compiling project: pid=Lang vid=27f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:23] [+] running tests: pid=Lang vid=27f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:34] found 3 triggering tests
+[08:32:34] Commit hash for Lang-27 (buggy): 7c915333685392f7cfc913b2085471709e6d6227
+[08:32:34] Commit hash for Lang-27 (fixed): c2560c028173c3bc0a4627d4ce5ce221bcc9be66
+[08:32:34] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:32:34] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/c2560c028173c3bc0a4627d4ce5ce221bcc9be66
+[08:32:34] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:32:34] [+] checking out project: pid=Lang vid=27f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:38] [+] compiling project: pid=Lang vid=27f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:44] [+] running tests: pid=Lang vid=27f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:54]    Tests succeeded
+Working on Lang-28f (28 of 65)
+[08:32:54] [+] checking out project: pid=Lang vid=28f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:32:58] [+] compiling project: pid=Lang vid=28f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:04] [+] running tests: pid=Lang vid=28f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:13] found 3 triggering tests
+[08:33:14] Commit hash for Lang-28 (buggy): 8da5fb28a764eee26c76a5018c293f224017887b
+[08:33:14] Commit hash for Lang-28 (fixed): 3e1afecc200d7e3be9537c95b7cf52a7c5031300
+[08:33:14] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:33:14] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/3e1afecc200d7e3be9537c95b7cf52a7c5031300
+[08:33:14] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:33:14] [+] checking out project: pid=Lang vid=28f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:18] [+] compiling project: pid=Lang vid=28f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:24] [+] running tests: pid=Lang vid=28f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:35]    Tests succeeded
+Working on Lang-29f (29 of 65)
+[08:33:35] [+] checking out project: pid=Lang vid=29f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:38] [+] compiling project: pid=Lang vid=29f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:44] [+] running tests: pid=Lang vid=29f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:33:56] found 3 triggering tests
+[08:33:56] Commit hash for Lang-29 (buggy): cbf8e4eb017a99af9a8f24eb8429e8a12b62af8b
+[08:33:56] Commit hash for Lang-29 (fixed): 982e295053663787bb0396b81a8956c3c87dc25b
+[08:33:56] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:33:56] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/982e295053663787bb0396b81a8956c3c87dc25b
+[08:33:56] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:33:56] [+] checking out project: pid=Lang vid=29f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:00] [+] compiling project: pid=Lang vid=29f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:06] [+] running tests: pid=Lang vid=29f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:17]    Tests succeeded
+Working on Lang-3f (3 of 65)
+[08:34:17] [+] checking out project: pid=Lang vid=3f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:20] [+] compiling project: pid=Lang vid=3f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:27] [+] running tests: pid=Lang vid=3f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:44] found 3 triggering tests
+[08:34:44] Commit hash for Lang-3 (buggy): 1f001d06a2bde5ee4e3204ab38c4b1db8e95db0b
+[08:34:44] Commit hash for Lang-3 (fixed): 2c9c8753165dc7ce5dd1d5a6d741b445b33302c2
+[08:34:44] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:34:44] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/2c9c8753165dc7ce5dd1d5a6d741b445b33302c2
+[08:34:45] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:34:45] [+] checking out project: pid=Lang vid=3f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:49] [+] compiling project: pid=Lang vid=3f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:34:55] [+] running tests: pid=Lang vid=3f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:15]    Tests succeeded
+Working on Lang-30f (30 of 65)
+[08:35:16] [+] checking out project: pid=Lang vid=30f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:19] [+] compiling project: pid=Lang vid=30f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:23] [+] running tests: pid=Lang vid=30f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:34] found 3 triggering tests
+[08:35:34] Commit hash for Lang-30 (buggy): 24f6517c9d5c1293f0c1209b7b44b6eeaa6ebee2
+[08:35:34] Commit hash for Lang-30 (fixed): 19b6372018c6b800f8e2bf1b85e15ef4cbd500da
+[08:35:34] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:35:34] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/19b6372018c6b800f8e2bf1b85e15ef4cbd500da
+[08:35:34] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:35:34] [+] checking out project: pid=Lang vid=30f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:38] [+] compiling project: pid=Lang vid=30f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:42] [+] running tests: pid=Lang vid=30f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:53]    Tests succeeded
+Working on Lang-31f (31 of 65)
+[08:35:53] [+] checking out project: pid=Lang vid=31f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:35:56] [+] compiling project: pid=Lang vid=31f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:01] [+] running tests: pid=Lang vid=31f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:11] found 3 triggering tests
+[08:36:11] Commit hash for Lang-31 (buggy): 0cc451d5e5cb565eb7311308466f487bc534ebaf
+[08:36:11] Commit hash for Lang-31 (fixed): 38bf7048571f3bc8dd34d14691906426444e4381
+[08:36:11] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:36:11] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/38bf7048571f3bc8dd34d14691906426444e4381
+[08:36:11] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:36:11] [+] checking out project: pid=Lang vid=31f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:15] [+] compiling project: pid=Lang vid=31f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:19] [+] running tests: pid=Lang vid=31f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:29]    Tests succeeded
+Working on Lang-32f (32 of 65)
+[08:36:29] [+] checking out project: pid=Lang vid=32f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:32] [+] compiling project: pid=Lang vid=32f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:36] [+] running tests: pid=Lang vid=32f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:46] found 3 triggering tests
+[08:36:46] Commit hash for Lang-32 (buggy): 1c606c3d96838e595a0664cbafdd60caae34aa0e
+[08:36:46] Commit hash for Lang-32 (fixed): 006fca88e86bd6f650d4d021d2ff3573a572827d
+[08:36:46] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:36:46] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/006fca88e86bd6f650d4d021d2ff3573a572827d
+[08:36:46] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:36:46] [+] checking out project: pid=Lang vid=32f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:50] [+] compiling project: pid=Lang vid=32f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:36:54] [+] running tests: pid=Lang vid=32f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:05]    Tests succeeded
+Working on Lang-33f (33 of 65)
+[08:37:05] [+] checking out project: pid=Lang vid=33f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:08] [+] compiling project: pid=Lang vid=33f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:12] [+] running tests: pid=Lang vid=33f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:21] found 3 triggering tests
+[08:37:21] Commit hash for Lang-33 (buggy): 575be16474e8e8246d4bbde6f243fdf38c34ad5b
+[08:37:21] Commit hash for Lang-33 (fixed): 0603aef594fa60126c2d45f2ab164eee39f7b44c
+[08:37:21] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:37:21] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/0603aef594fa60126c2d45f2ab164eee39f7b44c
+[08:37:21] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:37:21] [+] checking out project: pid=Lang vid=33f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:25] [+] compiling project: pid=Lang vid=33f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:30] [+] running tests: pid=Lang vid=33f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:40]    Tests succeeded
+Working on Lang-34f (34 of 65)
+[08:37:40] [+] checking out project: pid=Lang vid=34f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:43] [+] compiling project: pid=Lang vid=34f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:37:49] [+] running tests: pid=Lang vid=34f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:00] found 3 triggering tests
+[08:38:00] Commit hash for Lang-34 (buggy): 3f900a7395e31eaa72e0fa2fb43c090e5a8fa4ed
+[08:38:00] Commit hash for Lang-34 (fixed): 496525b0d626dd5049528cdef61d71681154b660
+[08:38:00] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:38:00] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/496525b0d626dd5049528cdef61d71681154b660
+[08:38:00] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:38:00] [+] checking out project: pid=Lang vid=34f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:04] [+] compiling project: pid=Lang vid=34f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:10] [+] running tests: pid=Lang vid=34f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:21]    Tests succeeded
+Working on Lang-35f (35 of 65)
+[08:38:21] [+] checking out project: pid=Lang vid=35f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:25] [+] compiling project: pid=Lang vid=35f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:29] [+] running tests: pid=Lang vid=35f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:39] found 5 triggering tests
+[08:38:39] Commit hash for Lang-35 (buggy): 48bf241d4149919e0928e39616bee2e3783e2987
+[08:38:39] Commit hash for Lang-35 (fixed): 80bd78ea0685d28ddec9b8162d652db9dec949ce
+[08:38:39] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:38:39] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/80bd78ea0685d28ddec9b8162d652db9dec949ce
+[08:38:39] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:38:39] [+] checking out project: pid=Lang vid=35f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:44] [+] compiling project: pid=Lang vid=35f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:48] [+] running tests: pid=Lang vid=35f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:38:57]    Tests succeeded
+Working on Lang-36f (36 of 65)
+[08:38:58] [+] checking out project: pid=Lang vid=36f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:01] [+] compiling project: pid=Lang vid=36f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:05] [+] running tests: pid=Lang vid=36f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:14] found 3 triggering tests
+[08:39:14] Commit hash for Lang-36 (buggy): ec0c4e5508dbd8af83253f7c50f8b728a1003388
+[08:39:14] Commit hash for Lang-36 (fixed): da0612b348fcfa7679b92a5e9b8e1603e8e2da3a
+[08:39:14] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:39:14] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/da0612b348fcfa7679b92a5e9b8e1603e8e2da3a
+[08:39:14] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:39:14] [+] checking out project: pid=Lang vid=36f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:19] [+] compiling project: pid=Lang vid=36f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:24] [+] running tests: pid=Lang vid=36f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:33]    Tests succeeded
+Working on Lang-37f (37 of 65)
+[08:39:33] [+] checking out project: pid=Lang vid=37f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:36] [+] compiling project: pid=Lang vid=37f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:40] [+] running tests: pid=Lang vid=37f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:49] found 3 triggering tests
+[08:39:49] Commit hash for Lang-37 (buggy): b5906d3f325ca3a1147d5fa68912975e2e6c347e
+[08:39:49] Commit hash for Lang-37 (fixed): ea140fb5c327e2b58f6c5bf1057c7dede909a50c
+[08:39:49] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:39:49] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/ea140fb5c327e2b58f6c5bf1057c7dede909a50c
+[08:39:49] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:39:49] [+] checking out project: pid=Lang vid=37f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:53] [+] compiling project: pid=Lang vid=37f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:39:58] [+] running tests: pid=Lang vid=37f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:07]    Tests succeeded
+Working on Lang-38f (38 of 65)
+[08:40:07] [+] checking out project: pid=Lang vid=38f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:11] [+] compiling project: pid=Lang vid=38f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:16] [+] running tests: pid=Lang vid=38f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:24] found 3 triggering tests
+[08:40:24] Commit hash for Lang-38 (buggy): e28c95ac2ce95852add84bdf3d2d9c00ac98f5de
+[08:40:24] Commit hash for Lang-38 (fixed): a95e76eefb91bdd9cf1c22734874a3d3c95ed327
+[08:40:24] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:40:24] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/a95e76eefb91bdd9cf1c22734874a3d3c95ed327
+[08:40:24] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:40:24] [+] checking out project: pid=Lang vid=38f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:29] [+] compiling project: pid=Lang vid=38f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:34] [+] running tests: pid=Lang vid=38f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:43]    Tests succeeded
+Working on Lang-39f (39 of 65)
+[08:40:43] [+] checking out project: pid=Lang vid=39f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:46] [+] compiling project: pid=Lang vid=39f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:50] [+] running tests: pid=Lang vid=39f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:40:59] found 3 triggering tests
+[08:40:59] Commit hash for Lang-39 (buggy): 0aa57f04ede369a4f813bbb86d3eac1ed20b084c
+[08:40:59] Commit hash for Lang-39 (fixed): cb40e35f5e0990fad4c5278964fcc24e112dde8c
+[08:40:59] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:40:59] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/cb40e35f5e0990fad4c5278964fcc24e112dde8c
+[08:40:59] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:40:59] [+] checking out project: pid=Lang vid=39f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:03] [+] compiling project: pid=Lang vid=39f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:08] [+] running tests: pid=Lang vid=39f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:17]    Tests succeeded
+Working on Lang-4f (4 of 65)
+[08:41:17] [+] checking out project: pid=Lang vid=4f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:20] [+] compiling project: pid=Lang vid=4f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:25] [+] running tests: pid=Lang vid=4f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:46] found 3 triggering tests
+[08:41:46] Commit hash for Lang-4 (buggy): 4ddbd99c5805781bd3c2287ab7920fecc23dab53
+[08:41:46] Commit hash for Lang-4 (fixed): fb47b96ab635d7cc6e9edefdddc46f1baf63b117
+[08:41:46] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:41:46] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/fb47b96ab635d7cc6e9edefdddc46f1baf63b117
+[08:41:46] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:41:46] [+] checking out project: pid=Lang vid=4f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:50] [+] compiling project: pid=Lang vid=4f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:41:56] [+] running tests: pid=Lang vid=4f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:15]    Tests succeeded
+Working on Lang-40f (40 of 65)
+[08:42:15] [+] checking out project: pid=Lang vid=40f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:18] [+] compiling project: pid=Lang vid=40f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:22] [+] running tests: pid=Lang vid=40f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:31] found 3 triggering tests
+[08:42:31] Commit hash for Lang-40 (buggy): c72adf1b7592f302b8abefdb3b2f95782cc75aa2
+[08:42:31] Commit hash for Lang-40 (fixed): 8b1a8e178abb46cc048a3982636b8ec4e6ffc8dc
+[08:42:31] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:42:31] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/8b1a8e178abb46cc048a3982636b8ec4e6ffc8dc
+[08:42:31] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:42:31] [+] checking out project: pid=Lang vid=40f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:35] [+] compiling project: pid=Lang vid=40f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:39] [+] running tests: pid=Lang vid=40f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:47]    Tests succeeded
+Working on Lang-41f (41 of 65)
+[08:42:48] [+] checking out project: pid=Lang vid=41f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:51] [+] compiling project: pid=Lang vid=41f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:42:56] [+] running tests: pid=Lang vid=41f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:04] found 2 triggering tests
+[08:43:04] Commit hash for Lang-41 (buggy): ac58807ede6d9a0625b489cdca6fd37bad9cacfe
+[08:43:04] Commit hash for Lang-41 (fixed): 4d3629f310e84cc24c0e5f09d97f5126692d0128
+[08:43:04] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:43:04] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/4d3629f310e84cc24c0e5f09d97f5126692d0128
+[08:43:05] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:43:05] [+] checking out project: pid=Lang vid=41f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:09] [+] compiling project: pid=Lang vid=41f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:13] [+] running tests: pid=Lang vid=41f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:21]    Tests succeeded
+Working on Lang-42f (42 of 65)
+[08:43:21] [+] checking out project: pid=Lang vid=42f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:24] [+] compiling project: pid=Lang vid=42f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:28] [+] running tests: pid=Lang vid=42f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:41] found 15 triggering tests
+[08:43:41] Commit hash for Lang-42 (buggy): 68217617c54467c7c6098168e714a2fb6a48847d
+[08:43:41] Commit hash for Lang-42 (fixed): dd2ae757d12554f290931f0b3c05e33ad993ecd1
+[08:43:41] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:43:41] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/dd2ae757d12554f290931f0b3c05e33ad993ecd1
+[08:43:41] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:43:41] [+] checking out project: pid=Lang vid=42f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:45] [+] compiling project: pid=Lang vid=42f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:43:50] [+] running tests: pid=Lang vid=42f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:02]    Tests succeeded
+Working on Lang-43f (43 of 65)
+[08:44:02] [+] checking out project: pid=Lang vid=43f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:05] [+] compiling project: pid=Lang vid=43f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:11] [+] running tests: pid=Lang vid=43f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:24] found 15 triggering tests
+[08:44:24] Commit hash for Lang-43 (buggy): ac2a39e92a71d5f9eb3ca7c6cc789b6341c582a4
+[08:44:24] Commit hash for Lang-43 (fixed): eb3e2ae1f3734986a9f0225c661888baac3cb13b
+[08:44:24] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:44:24] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/eb3e2ae1f3734986a9f0225c661888baac3cb13b
+[08:44:24] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:44:24] [+] checking out project: pid=Lang vid=43f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:28] [+] compiling project: pid=Lang vid=43f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:33] [+] running tests: pid=Lang vid=43f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:45]    Tests succeeded
+Working on Lang-44f (44 of 65)
+[08:44:46] [+] checking out project: pid=Lang vid=44f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:49] [+] compiling project: pid=Lang vid=44f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:44:54] [+] running tests: pid=Lang vid=44f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:06] found 15 triggering tests
+[08:45:06] Commit hash for Lang-44 (buggy): cf28c89dcf72d27573c478eb91e3b470de060edd
+[08:45:06] Commit hash for Lang-44 (fixed): 81f10d7f1ef52d44f43b38d81ac3dc1c83d45134
+[08:45:06] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:45:06] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/81f10d7f1ef52d44f43b38d81ac3dc1c83d45134
+[08:45:06] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:45:06] [+] checking out project: pid=Lang vid=44f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:11] [+] compiling project: pid=Lang vid=44f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:17] [+] running tests: pid=Lang vid=44f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:29]    Tests succeeded
+Working on Lang-45f (45 of 65)
+[08:45:29] [+] checking out project: pid=Lang vid=45f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:32] [+] compiling project: pid=Lang vid=45f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:39] [+] running tests: pid=Lang vid=45f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:51] found 15 triggering tests
+[08:45:51] Commit hash for Lang-45 (buggy): cfff06bead88e2c1bb164285f89503a919e0e27f
+[08:45:51] Commit hash for Lang-45 (fixed): d95fcd8e24568b4f9d3cb9da922a4029e293c793
+[08:45:51] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:45:51] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/d95fcd8e24568b4f9d3cb9da922a4029e293c793
+[08:45:51] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:45:51] [+] checking out project: pid=Lang vid=45f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:45:55] [+] compiling project: pid=Lang vid=45f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:00] [+] running tests: pid=Lang vid=45f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:13]    Tests succeeded
+Working on Lang-46f (46 of 65)
+[08:46:13] [+] checking out project: pid=Lang vid=46f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:16] [+] compiling project: pid=Lang vid=46f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:20] [+] running tests: pid=Lang vid=46f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:33] found 15 triggering tests
+[08:46:33] Commit hash for Lang-46 (buggy): 229151ec41339450e4d4f857bf92ed080d3e2430
+[08:46:33] Commit hash for Lang-46 (fixed): 916639bda234a8e5a030361c4068667764b34cb7
+[08:46:33] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:46:33] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/916639bda234a8e5a030361c4068667764b34cb7
+[08:46:33] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:46:33] [+] checking out project: pid=Lang vid=46f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:37] [+] compiling project: pid=Lang vid=46f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:42] [+] running tests: pid=Lang vid=46f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:54]    Tests succeeded
+Working on Lang-47f (47 of 65)
+[08:46:54] [+] checking out project: pid=Lang vid=47f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:46:57] [+] compiling project: pid=Lang vid=47f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:03] [+] running tests: pid=Lang vid=47f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:15] found 18 triggering tests
+[08:47:15] Commit hash for Lang-47 (buggy): 19f33e4e0d824e732d07f06a08567c27b3c808f3
+[08:47:15] Commit hash for Lang-47 (fixed): d5e343049c2610c31ddacb24f0d173942f6d5ac9
+[08:47:15] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:47:15] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/d5e343049c2610c31ddacb24f0d173942f6d5ac9
+[08:47:16] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:47:16] [+] checking out project: pid=Lang vid=47f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:20] [+] compiling project: pid=Lang vid=47f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:25] [+] running tests: pid=Lang vid=47f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:37]    Tests succeeded
+Working on Lang-48f (48 of 65)
+[08:47:38] [+] checking out project: pid=Lang vid=48f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:41] [+] compiling project: pid=Lang vid=48f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:45] [+] running tests: pid=Lang vid=48f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:47:58] found 18 triggering tests
+[08:47:58] Commit hash for Lang-48 (buggy): 3cea4b2af3f9caf6aa72fa56d647c513d320e073
+[08:47:58] Commit hash for Lang-48 (fixed): eb8f74efb75e71fc91e515a38becc2aac203e339
+[08:47:58] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:47:58] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/eb8f74efb75e71fc91e515a38becc2aac203e339
+[08:47:58] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:47:58] [+] checking out project: pid=Lang vid=48f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:02] [+] compiling project: pid=Lang vid=48f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:08] [+] running tests: pid=Lang vid=48f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:20]    Tests succeeded
+Working on Lang-49f (49 of 65)
+[08:48:20] [+] checking out project: pid=Lang vid=49f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:23] [+] compiling project: pid=Lang vid=49f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:28] [+] running tests: pid=Lang vid=49f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:40] found 18 triggering tests
+[08:48:40] Commit hash for Lang-49 (buggy): 3905071819a14403d1cdb9437d2e005adf18fc70
+[08:48:40] Commit hash for Lang-49 (fixed): 0ac772a4e3b07287c435fdc3c812f67277c85cc8
+[08:48:40] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:48:40] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/0ac772a4e3b07287c435fdc3c812f67277c85cc8
+[08:48:40] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:48:40] [+] checking out project: pid=Lang vid=49f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:45] [+] compiling project: pid=Lang vid=49f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:48:51] [+] running tests: pid=Lang vid=49f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:49:03]    Tests succeeded
+Working on Lang-5f (5 of 65)
+[08:49:03] [+] checking out project: pid=Lang vid=5f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:49:06] [+] compiling project: pid=Lang vid=5f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:49:12] [+] running tests: pid=Lang vid=5f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:49:32] found 3 triggering tests
+[08:49:32] Commit hash for Lang-5 (buggy): 379151bad9c5402c335db67f9494351b99298732
+[08:49:32] Commit hash for Lang-5 (fixed): 75944e541d358d5b06ebbba3098a919fbf2539d4
+[08:49:32] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:49:32] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/75944e541d358d5b06ebbba3098a919fbf2539d4
+[08:49:32] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:49:32] [+] checking out project: pid=Lang vid=5f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:49:36] [+] compiling project: pid=Lang vid=5f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:49:42] [+] running tests: pid=Lang vid=5f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:02]    Tests succeeded
+Working on Lang-50f (50 of 65)
+[08:50:02] [+] checking out project: pid=Lang vid=50f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:05] [+] compiling project: pid=Lang vid=50f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:09] [+] running tests: pid=Lang vid=50f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:20] found 14 triggering tests
+[08:50:20] Commit hash for Lang-50 (buggy): b2f1757bf9ec1632a940b9a2e65a1a022ba54af8
+[08:50:20] Commit hash for Lang-50 (fixed): 659ef247b1452b6d5b9f92271357381fa59fea50
+[08:50:20] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:50:20] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/659ef247b1452b6d5b9f92271357381fa59fea50
+[08:50:20] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:50:20] [+] checking out project: pid=Lang vid=50f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:24] [+] compiling project: pid=Lang vid=50f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:29] [+] running tests: pid=Lang vid=50f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:41]    Tests succeeded
+Working on Lang-51f (51 of 65)
+[08:50:41] [+] checking out project: pid=Lang vid=51f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:44] [+] compiling project: pid=Lang vid=51f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:50:48] [+] running tests: pid=Lang vid=51f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:00] found 14 triggering tests
+[08:51:00] Commit hash for Lang-51 (buggy): 3b46d611b2d595131ce0bce9bdb3209c55391be7
+[08:51:00] Commit hash for Lang-51 (fixed): a5589b39e985e64861bd920aa7b13ab32c215b06
+[08:51:00] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:51:00] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/a5589b39e985e64861bd920aa7b13ab32c215b06
+[08:51:01] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:51:01] [+] checking out project: pid=Lang vid=51f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:05] [+] compiling project: pid=Lang vid=51f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:09] [+] running tests: pid=Lang vid=51f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:21]    Tests succeeded
+Working on Lang-52f (52 of 65)
+[08:51:21] [+] checking out project: pid=Lang vid=52f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:24] [+] compiling project: pid=Lang vid=52f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:30] [+] running tests: pid=Lang vid=52f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:42] found 14 triggering tests
+[08:51:42] Commit hash for Lang-52 (buggy): 5209cefa81c9c48a34e5472fdcf2a308a4da2589
+[08:51:42] Commit hash for Lang-52 (fixed): 868f6976aea222e96259843f56df9aed8e48584b
+[08:51:42] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:51:42] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/868f6976aea222e96259843f56df9aed8e48584b
+[08:51:42] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:51:42] [+] checking out project: pid=Lang vid=52f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:46] [+] compiling project: pid=Lang vid=52f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:51:52] [+] running tests: pid=Lang vid=52f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:04]    Tests succeeded
+Working on Lang-53f (53 of 65)
+[08:52:04] [+] checking out project: pid=Lang vid=53f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:07] [+] compiling project: pid=Lang vid=53f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:11] [+] running tests: pid=Lang vid=53f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:23] found 14 triggering tests
+[08:52:23] Commit hash for Lang-53 (buggy): b6f7a8a8be57c9525c59e9f21e958e76cee0dbaf
+[08:52:23] Commit hash for Lang-53 (fixed): d3b1163073c7aeb6011a5b65bfadad15bfc0f108
+[08:52:23] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:52:23] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/d3b1163073c7aeb6011a5b65bfadad15bfc0f108
+[08:52:24] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:52:24] [+] checking out project: pid=Lang vid=53f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:28] [+] compiling project: pid=Lang vid=53f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:32] [+] running tests: pid=Lang vid=53f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:44]    Tests succeeded
+Working on Lang-54f (54 of 65)
+[08:52:45] [+] checking out project: pid=Lang vid=54f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:48] [+] compiling project: pid=Lang vid=54f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:52:52] [+] running tests: pid=Lang vid=54f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:05] found 14 triggering tests
+[08:53:05] Commit hash for Lang-54 (buggy): 5ccddb3ff7c65882ad6bbf95cbdac9debc76a871
+[08:53:05] Commit hash for Lang-54 (fixed): e89e8d62b911340cc5b293465cdae909f3dfd640
+[08:53:05] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:53:05] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/e89e8d62b911340cc5b293465cdae909f3dfd640
+[08:53:05] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:53:05] [+] checking out project: pid=Lang vid=54f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:09] [+] compiling project: pid=Lang vid=54f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:15] [+] running tests: pid=Lang vid=54f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:27]    Tests succeeded
+Working on Lang-55f (55 of 65)
+[08:53:27] [+] checking out project: pid=Lang vid=55f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:30] [+] compiling project: pid=Lang vid=55f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:35] [+] running tests: pid=Lang vid=55f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:47] found 15 triggering tests
+[08:53:47] Commit hash for Lang-55 (buggy): d8c22b8e1c8592bc8c6f6169a5b090082969acd4
+[08:53:47] Commit hash for Lang-55 (fixed): 3ef8a796b5ddf87e3e9afec9ba94aac62681b394
+[08:53:47] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:53:47] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/3ef8a796b5ddf87e3e9afec9ba94aac62681b394
+[08:53:47] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:53:47] [+] checking out project: pid=Lang vid=55f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:51] [+] compiling project: pid=Lang vid=55f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:53:56] [+] running tests: pid=Lang vid=55f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:08]    Tests succeeded
+Working on Lang-56f (56 of 65)
+[08:54:08] [+] checking out project: pid=Lang vid=56f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:12] [+] compiling project: pid=Lang vid=56f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:16] [+] running tests: pid=Lang vid=56f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:28] found 15 triggering tests
+[08:54:28] Commit hash for Lang-56 (buggy): 7d1b54b33b07a570060824a703222a77c35b1fa0
+[08:54:28] Commit hash for Lang-56 (fixed): 672e3a8ead2970181c32cf5fc70a3ea3d020c1fc
+[08:54:28] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:54:28] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/672e3a8ead2970181c32cf5fc70a3ea3d020c1fc
+[08:54:29] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:54:29] [+] checking out project: pid=Lang vid=56f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:33] [+] compiling project: pid=Lang vid=56f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:39] [+] running tests: pid=Lang vid=56f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:50]    Tests succeeded
+Working on Lang-57f (57 of 65)
+[08:54:50] [+] checking out project: pid=Lang vid=57f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:53] [+] compiling project: pid=Lang vid=57f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:54:57] [+] running tests: pid=Lang vid=57f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:09] found 15 triggering tests
+[08:55:09] Commit hash for Lang-57 (buggy): c71373047dc2172b0f06cebf61da284323d6ff99
+[08:55:09] Commit hash for Lang-57 (fixed): bbd990b81fd7f8ab9dde75c8070b973b9ce500fc
+[08:55:09] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:55:09] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/bbd990b81fd7f8ab9dde75c8070b973b9ce500fc
+[08:55:10] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:55:10] [+] checking out project: pid=Lang vid=57f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:14] [+] compiling project: pid=Lang vid=57f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:18] [+] running tests: pid=Lang vid=57f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:30]    Tests succeeded
+Working on Lang-58f (58 of 65)
+[08:55:30] [+] checking out project: pid=Lang vid=58f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:33] [+] compiling project: pid=Lang vid=58f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:39] [+] running tests: pid=Lang vid=58f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:54] found 15 triggering tests
+[08:55:54] Commit hash for Lang-58 (buggy): 8185a5f63e23be852d600a80daa5b848fa836a65
+[08:55:54] Commit hash for Lang-58 (fixed): 1fd45a4f68ea497dfbdf1a67b8b8805a4a9b1166
+[08:55:54] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:55:54] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/1fd45a4f68ea497dfbdf1a67b8b8805a4a9b1166
+[08:55:54] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:55:54] [+] checking out project: pid=Lang vid=58f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:55:58] [+] compiling project: pid=Lang vid=58f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:03] [+] running tests: pid=Lang vid=58f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:14]    Tests succeeded
+Working on Lang-59f (59 of 65)
+[08:56:14] [+] checking out project: pid=Lang vid=59f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:17] [+] compiling project: pid=Lang vid=59f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:21] [+] running tests: pid=Lang vid=59f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:32] found 15 triggering tests
+[08:56:32] Commit hash for Lang-59 (buggy): 38f8bcc60b90295f0a697f32e760a0082571bc09
+[08:56:32] Commit hash for Lang-59 (fixed): c04cd2337786ce7d54ed1fb757192fb8bc8c5e41
+[08:56:32] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:56:32] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/c04cd2337786ce7d54ed1fb757192fb8bc8c5e41
+[08:56:32] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:56:32] [+] checking out project: pid=Lang vid=59f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:36] [+] compiling project: pid=Lang vid=59f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:41] [+] running tests: pid=Lang vid=59f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:52]    Tests succeeded
+Working on Lang-6f (6 of 65)
+[08:56:52] [+] checking out project: pid=Lang vid=6f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:56:55] [+] compiling project: pid=Lang vid=6f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:00] [+] running tests: pid=Lang vid=6f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:17] found 3 triggering tests
+[08:57:17] Commit hash for Lang-6 (buggy): 6823c3742ee16f5b28e550a6afb685553befc0c2
+[08:57:17] Commit hash for Lang-6 (fixed): cff0f1ae37bb2b7ab2dcdb10dec1f3cad7532e1c
+[08:57:17] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:57:17] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/cff0f1ae37bb2b7ab2dcdb10dec1f3cad7532e1c
+[08:57:17] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:57:17] [+] checking out project: pid=Lang vid=6f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:22] [+] compiling project: pid=Lang vid=6f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:28] [+] running tests: pid=Lang vid=6f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:48]    Tests succeeded
+Working on Lang-60f (60 of 65)
+[08:57:48] [+] checking out project: pid=Lang vid=60f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:51] [+] compiling project: pid=Lang vid=60f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:57:56] [+] running tests: pid=Lang vid=60f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:07] found 15 triggering tests
+[08:58:07] Commit hash for Lang-60 (buggy): 88c76d207f642831ca899e144159424aaa60cf8e
+[08:58:07] Commit hash for Lang-60 (fixed): a8203b65261110c4a30ff69fe0da7a2390d82757
+[08:58:07] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:58:07] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/a8203b65261110c4a30ff69fe0da7a2390d82757
+[08:58:08] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:58:08] [+] checking out project: pid=Lang vid=60f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:12] [+] compiling project: pid=Lang vid=60f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:17] [+] running tests: pid=Lang vid=60f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:28]    Tests succeeded
+Working on Lang-61f (61 of 65)
+[08:58:28] [+] checking out project: pid=Lang vid=61f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:31] [+] compiling project: pid=Lang vid=61f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:37] [+] running tests: pid=Lang vid=61f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:48] found 15 triggering tests
+[08:58:48] Commit hash for Lang-61 (buggy): 1313a65c11dea54f1baf492d4185fb2d673b6716
+[08:58:48] Commit hash for Lang-61 (fixed): 88c76d207f642831ca899e144159424aaa60cf8e
+[08:58:48] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:58:48] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/88c76d207f642831ca899e144159424aaa60cf8e
+[08:58:48] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:58:48] [+] checking out project: pid=Lang vid=61f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:52] [+] compiling project: pid=Lang vid=61f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:58:58] [+] running tests: pid=Lang vid=61f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:09]    Tests succeeded
+Working on Lang-62f (62 of 65)
+[08:59:09] [+] checking out project: pid=Lang vid=62f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:12] [+] compiling project: pid=Lang vid=62f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:17] [+] running tests: pid=Lang vid=62f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:29] found 15 triggering tests
+[08:59:29] Commit hash for Lang-62 (buggy): cb7bfbc06d5d289be61733824d7f3e81321b2b3a
+[08:59:29] Commit hash for Lang-62 (fixed): 1313a65c11dea54f1baf492d4185fb2d673b6716
+[08:59:29] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[08:59:29] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/1313a65c11dea54f1baf492d4185fb2d673b6716
+[08:59:29] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[08:59:29] [+] checking out project: pid=Lang vid=62f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:33] [+] compiling project: pid=Lang vid=62f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:37] [+] running tests: pid=Lang vid=62f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:48]    Tests succeeded
+Working on Lang-63f (63 of 65)
+[08:59:48] [+] checking out project: pid=Lang vid=63f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:51] [+] compiling project: pid=Lang vid=63f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[08:59:57] [+] running tests: pid=Lang vid=63f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:09] found 15 triggering tests
+[09:00:09] Commit hash for Lang-63 (buggy): 3333dcc11f2d65ee99043945502102dcf3bca50c
+[09:00:09] Commit hash for Lang-63 (fixed): 0695c3f71e3fc5abe29d8b9b33eed7faac7e73bf
+[09:00:09] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[09:00:09] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/0695c3f71e3fc5abe29d8b9b33eed7faac7e73bf
+[09:00:09] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[09:00:09] [+] checking out project: pid=Lang vid=63f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:13] [+] compiling project: pid=Lang vid=63f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:17] [+] running tests: pid=Lang vid=63f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:29]    Tests succeeded
+Working on Lang-64f (64 of 65)
+[09:00:29] [+] checking out project: pid=Lang vid=64f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:32] [+] compiling project: pid=Lang vid=64f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:38] [+] running tests: pid=Lang vid=64f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:49] found 15 triggering tests
+[09:00:49] Commit hash for Lang-64 (buggy): df1653a8490feba4a21ad8aade5c960b402c3c7a
+[09:00:49] Commit hash for Lang-64 (fixed): 8de71ae52958ae70fe651b7327319c9beecd9b84
+[09:00:49] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[09:00:49] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/8de71ae52958ae70fe651b7327319c9beecd9b84
+[09:00:49] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[09:00:49] [+] checking out project: pid=Lang vid=64f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:53] [+] compiling project: pid=Lang vid=64f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:00:58] [+] running tests: pid=Lang vid=64f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:10]    Tests succeeded
+Working on Lang-65f (65 of 65)
+[09:01:10] [+] checking out project: pid=Lang vid=65f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:13] [+] compiling project: pid=Lang vid=65f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:17] [+] running tests: pid=Lang vid=65f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:29] found 16 triggering tests
+[09:01:29] Commit hash for Lang-65 (buggy): c8fc5f3dff9491b076a1f76ed5a2584908b1db4f
+[09:01:29] Commit hash for Lang-65 (fixed): bb1671667d9085fb76bd06af7f7ad91d2c1c8389
+[09:01:29] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[09:01:29] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/bb1671667d9085fb76bd06af7f7ad91d2c1c8389
+[09:01:29] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[09:01:29] [+] checking out project: pid=Lang vid=65f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:33] [+] compiling project: pid=Lang vid=65f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:38] [+] running tests: pid=Lang vid=65f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:49]    Tests succeeded
+Working on Lang-7f (7 of 65)
+[09:01:49] [+] checking out project: pid=Lang vid=7f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:53] [+] compiling project: pid=Lang vid=7f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:01:57] [+] running tests: pid=Lang vid=7f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:02:16] found 3 triggering tests
+[09:02:16] Commit hash for Lang-7 (buggy): f0c7e60bbaf975b64ab5bf1b75ba6b7dbc256300
+[09:02:16] Commit hash for Lang-7 (fixed): e71f6dd3f2f70c640ae73d28b432b3a69ffcab4b
+[09:02:16] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[09:02:16] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/e71f6dd3f2f70c640ae73d28b432b3a69ffcab4b
+[09:02:16] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[09:02:16] [+] checking out project: pid=Lang vid=7f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:02:20] [+] compiling project: pid=Lang vid=7f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:02:25] [+] running tests: pid=Lang vid=7f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:02:45]    Tests succeeded
+Working on Lang-8f (8 of 65)
+[09:02:45] [+] checking out project: pid=Lang vid=8f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:02:48] [+] compiling project: pid=Lang vid=8f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:02:53] [+] running tests: pid=Lang vid=8f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:03:12] found 3 triggering tests
+[09:03:12] Commit hash for Lang-8 (buggy): 8d192d7063cc747a3c6226122ea83c7348e199e7
+[09:03:12] Commit hash for Lang-8 (fixed): a4a455053e7e4a77320efd6db0814f4de82d754d
+[09:03:12] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[09:03:12] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/a4a455053e7e4a77320efd6db0814f4de82d754d
+[09:03:12] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[09:03:12] [+] checking out project: pid=Lang vid=8f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:03:16] [+] compiling project: pid=Lang vid=8f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:03:21] [+] running tests: pid=Lang vid=8f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:03:39]    Tests succeeded
+Working on Lang-9f (9 of 65)
+[09:03:39] [+] checking out project: pid=Lang vid=9f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:03:42] [+] compiling project: pid=Lang vid=9f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:03:47] [+] running tests: pid=Lang vid=9f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:04:02] found 7 triggering tests
+[09:04:02] Commit hash for Lang-9 (buggy): afe5dff79fc23d222ba1f1481fbbf55e09d2e6da
+[09:04:02] Commit hash for Lang-9 (fixed): c45d5bff75edfef6387d40e681f9dc7c9b517bbb
+[09:04:02] Directory /scratch/benku/defects4j/framework/projects/Lang/failing_tests exists...continuing
+[09:04:02] updating failing tests: /tmp/test_d4j_7310_1587309544/run_tests/Lang/failing_tests >> /scratch/benku/defects4j/framework/projects/Lang/failing_tests/c45d5bff75edfef6387d40e681f9dc7c9b517bbb
+[09:04:02] rerunning defects4j test -w /tmp/test_d4j_7310_1587309544/run_tests/Lang with appended failing tests
+[09:04:02] [+] checking out project: pid=Lang vid=9f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:04:06] [+] compiling project: pid=Lang vid=9f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:04:12] [+] running tests: pid=Lang vid=9f work_dir=/tmp/test_d4j_7310_1587309544/run_tests/Lang
+[09:04:32]    Tests succeeded
