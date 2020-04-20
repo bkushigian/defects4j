@@ -1,0 +1,104 @@
+Running tests on Mockito
+[18:49:32] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Mockito_33819.log
+[18:49:32] all_bugs: 38
+[18:49:32] test_dir: /tmp/test_d4j_33796_1587347372/run_tests
+[18:49:32] work_dir: /tmp/test_d4j_33796_1587347372/run_tests/Mockito
+Working on Mockito-1f (1 of 38)
+[18:49:32] [+] checking out project: pid=Mockito vid=1f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:49:36] [+] compiling project: pid=Mockito vid=1f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:50:16] [+] running tests: pid=Mockito vid=1f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:51:42] found 25 triggering tests
+[18:51:42] Commit hash for Mockito-1 (buggy): 837fd054a0da2c8706732dcd4bc880a64b957c78
+[18:51:42] Commit hash for Mockito-1 (fixed): 4e9d7607825c3c668fd43f19507bfead566c528c
+[18:51:42] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests doesn't exist
+[18:51:42] Making directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests
+[18:51:42] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/4e9d7607825c3c668fd43f19507bfead566c528c
+[18:51:43] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[18:51:43] [+] checking out project: pid=Mockito vid=1f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:51:47] [+] compiling project: pid=Mockito vid=1f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:52:24] [+] running tests: pid=Mockito vid=1f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:53:50]    Tests succeeded
+Working on Mockito-10f (10 of 38)
+[18:53:50] [+] checking out project: pid=Mockito vid=10f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:53:54] [+] compiling project: pid=Mockito vid=10f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:54:34] [+] running tests: pid=Mockito vid=10f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:55:24] found 38 triggering tests
+[18:55:24] Commit hash for Mockito-10 (buggy): b00a6d252f87c886e5f8830bbdb6c1af2bd0ee9c
+[18:55:24] Commit hash for Mockito-10 (fixed): 1beeae39ac9f79d6a0db285dec311b78025ac062
+[18:55:24] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests exists...continuing
+[18:55:24] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/1beeae39ac9f79d6a0db285dec311b78025ac062
+[18:55:25] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[18:55:25] [+] checking out project: pid=Mockito vid=10f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:55:29] [+] compiling project: pid=Mockito vid=10f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:56:06] [+] running tests: pid=Mockito vid=10f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:56:57]    Tests succeeded
+Working on Mockito-11f (11 of 38)
+[18:56:57] [+] checking out project: pid=Mockito vid=11f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:57:00] [+] compiling project: pid=Mockito vid=11f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:57:38] [+] running tests: pid=Mockito vid=11f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:58:30] found 36 triggering tests
+[18:58:30] Commit hash for Mockito-11 (buggy): 57be784ef15d4d4d685e59d7e855e01de81a77a5
+[18:58:30] Commit hash for Mockito-11 (fixed): 1802cf79c482f2df29abb3d6735bcf0b16cedb7d
+[18:58:30] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests exists...continuing
+[18:58:30] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/1802cf79c482f2df29abb3d6735bcf0b16cedb7d
+[18:58:31] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[18:58:31] [+] checking out project: pid=Mockito vid=11f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:58:35] [+] compiling project: pid=Mockito vid=11f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[18:59:13] [+] running tests: pid=Mockito vid=11f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:00:06]    Tests succeeded
+Working on Mockito-12f (12 of 38)
+[19:00:07] [+] checking out project: pid=Mockito vid=12f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:00:10] [+] compiling project: pid=Mockito vid=12f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:00:17] [+] running tests: pid=Mockito vid=12f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:00:43] found 13 triggering tests
+[19:00:43] Commit hash for Mockito-12 (buggy): a154b66c1a87eb4ff26d91781414dde042bb9a9f
+[19:00:43] Commit hash for Mockito-12 (fixed): 7a647a702c8af81ccf5d37b09c11529c6c0cb1b7
+[19:00:43] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests exists...continuing
+[19:00:43] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/7a647a702c8af81ccf5d37b09c11529c6c0cb1b7
+[19:00:43] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[19:00:43] [+] checking out project: pid=Mockito vid=12f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:00:48] [+] compiling project: pid=Mockito vid=12f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:00:54] [+] running tests: pid=Mockito vid=12f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:01:20]    Tests succeeded
+Working on Mockito-13f (13 of 38)
+[19:01:20] [+] checking out project: pid=Mockito vid=13f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:01:23] [+] compiling project: pid=Mockito vid=13f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:01:30] [+] running tests: pid=Mockito vid=13f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:01:58] found 13 triggering tests
+[19:01:58] Commit hash for Mockito-13 (buggy): 88100667b90c4621178fd870fa1ca43060512fc6
+[19:01:58] Commit hash for Mockito-13 (fixed): 2037361bea014c9ac87393eb96a95374dff46182
+[19:01:58] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests exists...continuing
+[19:01:58] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/2037361bea014c9ac87393eb96a95374dff46182
+[19:01:58] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[19:01:58] [+] checking out project: pid=Mockito vid=13f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:02:02] [+] compiling project: pid=Mockito vid=13f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:02:09] [+] running tests: pid=Mockito vid=13f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:02:35]    Tests succeeded
+Working on Mockito-14f (14 of 38)
+[19:02:36] [+] checking out project: pid=Mockito vid=14f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:02:39] [+] compiling project: pid=Mockito vid=14f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:02:45] [+] running tests: pid=Mockito vid=14f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:03:12] found 13 triggering tests
+[19:03:12] Commit hash for Mockito-14 (buggy): c478a8809b640713e8ffb6da2f554dda3a3674b0
+[19:03:12] Commit hash for Mockito-14 (fixed): 9b2cf8072ece7c7629eff6037853b3e14ab5f524
+[19:03:12] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests exists...continuing
+[19:03:12] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/9b2cf8072ece7c7629eff6037853b3e14ab5f524
+[19:03:12] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[19:03:12] [+] checking out project: pid=Mockito vid=14f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:03:16] [+] compiling project: pid=Mockito vid=14f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:03:23] [+] running tests: pid=Mockito vid=14f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:03:49]    Tests succeeded
+Working on Mockito-15f (15 of 38)
+[19:03:49] [+] checking out project: pid=Mockito vid=15f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:03:52] [+] compiling project: pid=Mockito vid=15f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:04:00] [+] running tests: pid=Mockito vid=15f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:04:29] found 13 triggering tests
+[19:04:29] Commit hash for Mockito-15 (buggy): 77c6703f60d87b88b0e5b175b8fb0462483a8f69
+[19:04:29] Commit hash for Mockito-15 (fixed): 81a380951402d2a158af115ed616ab36e94793b8
+[19:04:29] Directory /scratch/benku/defects4j/framework/projects/Mockito/failing_tests exists...continuing
+[19:04:29] updating failing tests: /tmp/test_d4j_33796_1587347372/run_tests/Mockito/failing_tests >> /scratch/benku/defects4j/framework/projects/Mockito/failing_tests/81a380951402d2a158af115ed616ab36e94793b8
+[19:04:29] rerunning defects4j test -w /tmp/test_d4j_33796_1587347372/run_tests/Mockito with appended failing tests
+[19:04:29] [+] checking out project: pid=Mockito vid=15f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:04:33] [+] compiling project: pid=Mockito vid=15f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:04:40] [+] running tests: pid=Mockito vid=15f work_dir=/tmp/test_d4j_33796_1587347372/run_tests/Mockito
+[19:05:08] [Error] [!!!] Tests still failing after updating project failing tests
