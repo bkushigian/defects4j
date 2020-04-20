@@ -1,0 +1,25 @@
+Running tests on Collections
+[05:08:33] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Collections_36893.log
+[05:08:33] all_bugs: 28
+[05:08:33] test_dir: /tmp/test_d4j_36875_1587384513/run_tests
+[05:08:33] work_dir: /tmp/test_d4j_36875_1587384513/run_tests/Collections
+Working on Collections-25f (25 of 28)
+[05:08:33] [+] checking out project: pid=Collections vid=25f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:08:36] [+] compiling project: pid=Collections vid=25f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:08:43] [+] running tests: pid=Collections vid=25f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:03] found 0 triggering tests
+Working on Collections-26f (26 of 28)
+[05:09:03] [+] checking out project: pid=Collections vid=26f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:04] [+] compiling project: pid=Collections vid=26f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:12] [+] running tests: pid=Collections vid=26f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:32] found 0 triggering tests
+Working on Collections-27f (27 of 28)
+[05:09:32] [+] checking out project: pid=Collections vid=27f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:34] [+] compiling project: pid=Collections vid=27f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:40] [+] running tests: pid=Collections vid=27f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:09:59] found 0 triggering tests
+Working on Collections-28f (28 of 28)
+[05:09:59] [+] checking out project: pid=Collections vid=28f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:10:01] [+] compiling project: pid=Collections vid=28f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:10:16] [+] running tests: pid=Collections vid=28f work_dir=/tmp/test_d4j_36875_1587384513/run_tests/Collections
+[05:10:34] found 0 triggering tests
