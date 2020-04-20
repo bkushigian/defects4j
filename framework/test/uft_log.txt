@@ -1,0 +1,369 @@
+Running tests on Time
+[19:16:07] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Time_60122.log
+[19:16:07] all_bugs: 27
+[19:16:07] test_dir: /tmp/test_d4j_60100_1587348967/run_tests
+[19:16:07] work_dir: /tmp/test_d4j_60100_1587348967/run_tests/Time
+Working on Time-1f (1 of 27)
+[19:16:07] [+] checking out project: pid=Time vid=1f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:16:10] [+] compiling project: pid=Time vid=1f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:16:17] [+] running tests: pid=Time vid=1f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:16:32] found 21 triggering tests
+[19:16:32] Commit hash for Time-1 (buggy): 8612f9e5b88c1bea933ef9ab1e431f5db3006b48
+[19:16:32] Commit hash for Time-1 (fixed): 9a62b06be5d0df8e833ff8583398cca386608cac
+[19:16:32] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:16:32] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/9a62b06be5d0df8e833ff8583398cca386608cac
+[19:16:32] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:16:32] [+] checking out project: pid=Time vid=1f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:16:36] [+] compiling project: pid=Time vid=1f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:16:44] [+] running tests: pid=Time vid=1f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:17:01]    Tests succeeded
+Working on Time-10f (10 of 27)
+[19:17:01] [+] checking out project: pid=Time vid=10f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:17:04] [+] compiling project: pid=Time vid=10f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:17:16] [+] running tests: pid=Time vid=10f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:17:31] found 21 triggering tests
+[19:17:31] Commit hash for Time-10 (buggy): efce99164f0bbd2c70e7f9d71884a32473e02c6d
+[19:17:31] Commit hash for Time-10 (fixed): 3a413d7844c22dc6ddd50bf5d0d55ff3589e47ac
+[19:17:31] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:17:31] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/3a413d7844c22dc6ddd50bf5d0d55ff3589e47ac
+[19:17:31] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:17:31] [+] checking out project: pid=Time vid=10f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:17:35] [+] compiling project: pid=Time vid=10f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:17:47] [+] running tests: pid=Time vid=10f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:18:01]    Tests succeeded
+Working on Time-11f (11 of 27)
+[19:18:02] [+] checking out project: pid=Time vid=11f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:18:05] [+] compiling project: pid=Time vid=11f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:18:17] [+] running tests: pid=Time vid=11f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:18:31] found 21 triggering tests
+[19:18:31] Commit hash for Time-11 (buggy): 6d5104753470c130336e319a64009c0553b29c96
+[19:18:31] Commit hash for Time-11 (fixed): 57eb4cbb9044771cd46a9eee0c62016618930226
+[19:18:31] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:18:31] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/57eb4cbb9044771cd46a9eee0c62016618930226
+[19:18:31] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:18:31] [+] checking out project: pid=Time vid=11f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:18:35] [+] compiling project: pid=Time vid=11f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:18:47] [+] running tests: pid=Time vid=11f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:01]    Tests succeeded
+Working on Time-12f (12 of 27)
+[19:19:01] [+] checking out project: pid=Time vid=12f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:04] [+] compiling project: pid=Time vid=12f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:11] [+] running tests: pid=Time vid=12f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:25] found 21 triggering tests
+[19:19:25] Commit hash for Time-12 (buggy): f2f9c8146446eff341dc7b66b5237b56d50abec0
+[19:19:25] Commit hash for Time-12 (fixed): 77a6b3a44da7ae4af62e88b4b27eeefec2d768c2
+[19:19:25] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:19:25] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/77a6b3a44da7ae4af62e88b4b27eeefec2d768c2
+[19:19:25] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:19:25] [+] checking out project: pid=Time vid=12f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:29] [+] compiling project: pid=Time vid=12f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:36] [+] running tests: pid=Time vid=12f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:50]    Tests succeeded
+Working on Time-13f (13 of 27)
+[19:19:50] [+] checking out project: pid=Time vid=13f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:19:53] [+] compiling project: pid=Time vid=13f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:00] [+] running tests: pid=Time vid=13f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:14] found 21 triggering tests
+[19:20:14] Commit hash for Time-13 (buggy): 6a1b24c5d85270b57706b3f7ca0b4c05a752b3ff
+[19:20:14] Commit hash for Time-13 (fixed): 5d08a1cdbfa6ce86a0baf637493c464e91e91968
+[19:20:14] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:20:14] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/5d08a1cdbfa6ce86a0baf637493c464e91e91968
+[19:20:14] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:20:14] [+] checking out project: pid=Time vid=13f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:18] [+] compiling project: pid=Time vid=13f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:25] [+] running tests: pid=Time vid=13f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:40]    Tests succeeded
+Working on Time-14f (14 of 27)
+[19:20:40] [+] checking out project: pid=Time vid=14f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:42] [+] compiling project: pid=Time vid=14f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:20:50] [+] running tests: pid=Time vid=14f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:03] found 20 triggering tests
+[19:21:03] Commit hash for Time-14 (buggy): cc3262ff42e41f3b1f64290262704da3895fbe85
+[19:21:03] Commit hash for Time-14 (fixed): 2ea856328ed5710537778d755a5ff52a6831a2ee
+[19:21:03] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:21:03] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/2ea856328ed5710537778d755a5ff52a6831a2ee
+[19:21:04] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:21:04] [+] checking out project: pid=Time vid=14f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:07] [+] compiling project: pid=Time vid=14f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:14] [+] running tests: pid=Time vid=14f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:27]    Tests succeeded
+Working on Time-15f (15 of 27)
+[19:21:27] [+] checking out project: pid=Time vid=15f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:30] [+] compiling project: pid=Time vid=15f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:36] [+] running tests: pid=Time vid=15f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:50] found 20 triggering tests
+[19:21:50] Commit hash for Time-15 (buggy): 383354adc669c3fd8d9e6fe3a25403df993e11e7
+[19:21:50] Commit hash for Time-15 (fixed): 0cefc4c212e92e5dccdfa658785c419483317558
+[19:21:50] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:21:50] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/0cefc4c212e92e5dccdfa658785c419483317558
+[19:21:50] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:21:50] [+] checking out project: pid=Time vid=15f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:21:54] [+] compiling project: pid=Time vid=15f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:01] [+] running tests: pid=Time vid=15f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:14]    Tests succeeded
+Working on Time-16f (16 of 27)
+[19:22:14] [+] checking out project: pid=Time vid=16f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:16] [+] compiling project: pid=Time vid=16f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:23] [+] running tests: pid=Time vid=16f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:36] found 20 triggering tests
+[19:22:36] Commit hash for Time-16 (buggy): dba7c37ea3d83b32779d3bb13cb184aedf761a8a
+[19:22:36] Commit hash for Time-16 (fixed): 706513d59425e7a9dc6bdb972f25b03b02e48558
+[19:22:36] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:22:36] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/706513d59425e7a9dc6bdb972f25b03b02e48558
+[19:22:36] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:22:36] [+] checking out project: pid=Time vid=16f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:40] [+] compiling project: pid=Time vid=16f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:22:47] [+] running tests: pid=Time vid=16f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:02]    Tests succeeded
+Working on Time-17f (17 of 27)
+[19:23:02] [+] checking out project: pid=Time vid=17f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:04] [+] compiling project: pid=Time vid=17f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:12] [+] running tests: pid=Time vid=17f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:26] found 20 triggering tests
+[19:23:26] Commit hash for Time-17 (buggy): cdeacf09e33ddbaf75a4563d7bc62063f50972b1
+[19:23:26] Commit hash for Time-17 (fixed): a8913f5ad5dfde59263c981c9e9eb28e43fd2e00
+[19:23:26] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:23:26] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/a8913f5ad5dfde59263c981c9e9eb28e43fd2e00
+[19:23:26] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:23:26] [+] checking out project: pid=Time vid=17f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:30] [+] compiling project: pid=Time vid=17f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:38] [+] running tests: pid=Time vid=17f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:52]    Tests succeeded
+Working on Time-18f (18 of 27)
+[19:23:52] [+] checking out project: pid=Time vid=18f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:23:55] [+] compiling project: pid=Time vid=18f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:03] [+] running tests: pid=Time vid=18f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:16] found 20 triggering tests
+[19:24:16] Commit hash for Time-18 (buggy): e16eb72a29d06ce36030b109156bea3244273fb8
+[19:24:16] Commit hash for Time-18 (fixed): b609d7d66d180f2eb537b27f5d605d0596e096ce
+[19:24:16] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:24:16] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/b609d7d66d180f2eb537b27f5d605d0596e096ce
+[19:24:16] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:24:16] [+] checking out project: pid=Time vid=18f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:20] [+] compiling project: pid=Time vid=18f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:28] [+] running tests: pid=Time vid=18f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:42]    Tests succeeded
+Working on Time-19f (19 of 27)
+[19:24:42] [+] checking out project: pid=Time vid=19f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:45] [+] compiling project: pid=Time vid=19f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:24:51] [+] running tests: pid=Time vid=19f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:05] found 20 triggering tests
+[19:25:05] Commit hash for Time-19 (buggy): a92450e88df85d6b7a0fa53517da46286c24f53f
+[19:25:05] Commit hash for Time-19 (fixed): 82c5e4f9550e4df36e07b66f35f7c3e9d7eb5eba
+[19:25:05] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:25:05] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/82c5e4f9550e4df36e07b66f35f7c3e9d7eb5eba
+[19:25:05] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:25:05] [+] checking out project: pid=Time vid=19f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:09] [+] compiling project: pid=Time vid=19f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:18] [+] running tests: pid=Time vid=19f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:32]    Tests succeeded
+Working on Time-2f (2 of 27)
+[19:25:32] [+] checking out project: pid=Time vid=2f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:35] [+] compiling project: pid=Time vid=2f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:43] [+] running tests: pid=Time vid=2f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:25:58] found 22 triggering tests
+[19:25:58] Commit hash for Time-2 (buggy): 8d109fe1a999a11b4557536dd96f9210460a5936
+[19:25:58] Commit hash for Time-2 (fixed): 8612f9e5b88c1bea933ef9ab1e431f5db3006b48
+[19:25:58] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:25:58] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/8612f9e5b88c1bea933ef9ab1e431f5db3006b48
+[19:25:58] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:25:58] [+] checking out project: pid=Time vid=2f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:02] [+] compiling project: pid=Time vid=2f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:09] [+] running tests: pid=Time vid=2f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:25]    Tests succeeded
+Working on Time-20f (20 of 27)
+[19:26:25] [+] checking out project: pid=Time vid=20f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:27] [+] compiling project: pid=Time vid=20f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:37] [+] running tests: pid=Time vid=20f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:50] found 20 triggering tests
+[19:26:50] Commit hash for Time-20 (buggy): 17a60c9a7253d9a8fce6afe2ce46bea78ac53ebe
+[19:26:50] Commit hash for Time-20 (fixed): a92450e88df85d6b7a0fa53517da46286c24f53f
+[19:26:50] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:26:50] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/a92450e88df85d6b7a0fa53517da46286c24f53f
+[19:26:50] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:26:50] [+] checking out project: pid=Time vid=20f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:26:54] [+] compiling project: pid=Time vid=20f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:01] [+] running tests: pid=Time vid=20f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:15]    Tests succeeded
+Working on Time-22f (22 of 27)
+[19:27:15] [+] checking out project: pid=Time vid=22f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:18] [+] compiling project: pid=Time vid=22f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:26] [+] running tests: pid=Time vid=22f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:40] found 14 triggering tests
+[19:27:40] Commit hash for Time-22 (buggy): 14dedcbc04682c1b1b6c5ebe91bc930b79eeb572
+[19:27:40] Commit hash for Time-22 (fixed): 57c8aaf94b95323c295dcfec5f40f181846164e7
+[19:27:40] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:27:40] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/57c8aaf94b95323c295dcfec5f40f181846164e7
+[19:27:40] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:27:40] [+] checking out project: pid=Time vid=22f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:44] [+] compiling project: pid=Time vid=22f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:27:52] [+] running tests: pid=Time vid=22f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:05]    Tests succeeded
+Working on Time-23f (23 of 27)
+[19:28:05] [+] checking out project: pid=Time vid=23f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:09] [+] compiling project: pid=Time vid=23f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:16] [+] running tests: pid=Time vid=23f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:30] found 14 triggering tests
+[19:28:30] Commit hash for Time-23 (buggy): bfd37a81dd7f4c9e35340f3de0b5b1e8066a141b
+[19:28:30] Commit hash for Time-23 (fixed): 14dedcbc04682c1b1b6c5ebe91bc930b79eeb572
+[19:28:30] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:28:30] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/14dedcbc04682c1b1b6c5ebe91bc930b79eeb572
+[19:28:30] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:28:30] [+] checking out project: pid=Time vid=23f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:35] [+] compiling project: pid=Time vid=23f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:43] [+] running tests: pid=Time vid=23f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:28:57]    Tests succeeded
+Working on Time-24f (24 of 27)
+[19:28:57] [+] checking out project: pid=Time vid=24f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:00] [+] compiling project: pid=Time vid=24f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:08] [+] running tests: pid=Time vid=24f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:22] found 14 triggering tests
+[19:29:22] Commit hash for Time-24 (buggy): c3bec2cd4eea2e87c650f5ad9b537dddb804778c
+[19:29:22] Commit hash for Time-24 (fixed): d50efdf75a8daeced88d79b168f68d189fb87e13
+[19:29:22] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:29:22] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/d50efdf75a8daeced88d79b168f68d189fb87e13
+[19:29:22] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:29:22] [+] checking out project: pid=Time vid=24f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:26] [+] compiling project: pid=Time vid=24f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:32] [+] running tests: pid=Time vid=24f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:45]    Tests succeeded
+Working on Time-25f (25 of 27)
+[19:29:45] [+] checking out project: pid=Time vid=25f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:49] [+] compiling project: pid=Time vid=25f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:29:56] [+] running tests: pid=Time vid=25f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:09] found 14 triggering tests
+[19:30:09] Commit hash for Time-25 (buggy): c7a581e55fc988bd90fa4bb1b0acece5181b7c5f
+[19:30:09] Commit hash for Time-25 (fixed): 552be4b677ec30a34d04d234395ba1a8c7beaacf
+[19:30:09] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:30:09] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/552be4b677ec30a34d04d234395ba1a8c7beaacf
+[19:30:09] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:30:09] [+] checking out project: pid=Time vid=25f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:13] [+] compiling project: pid=Time vid=25f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:20] [+] running tests: pid=Time vid=25f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:32]    Tests succeeded
+Working on Time-26f (26 of 27)
+[19:30:32] [+] checking out project: pid=Time vid=26f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:35] [+] compiling project: pid=Time vid=26f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:42] [+] running tests: pid=Time vid=26f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:30:55] found 14 triggering tests
+[19:30:55] Commit hash for Time-26 (buggy): 218a7fe91a685e089ab8fd7700806f7a6083f18d
+[19:30:55] Commit hash for Time-26 (fixed): c7a581e55fc988bd90fa4bb1b0acece5181b7c5f
+[19:30:55] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:30:55] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/c7a581e55fc988bd90fa4bb1b0acece5181b7c5f
+[19:30:55] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:30:55] [+] checking out project: pid=Time vid=26f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:00] [+] compiling project: pid=Time vid=26f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:08] [+] running tests: pid=Time vid=26f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:21]    Tests succeeded
+Working on Time-27f (27 of 27)
+[19:31:21] [+] checking out project: pid=Time vid=27f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:25] [+] compiling project: pid=Time vid=27f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:33] [+] running tests: pid=Time vid=27f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:46] found 14 triggering tests
+[19:31:46] Commit hash for Time-27 (buggy): d090b642dc04259286d3478cfa49f1da2f0755e6
+[19:31:46] Commit hash for Time-27 (fixed): e0559c503f65641b9546c37e7c84c866caf37e66
+[19:31:46] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:31:46] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/e0559c503f65641b9546c37e7c84c866caf37e66
+[19:31:46] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:31:46] [+] checking out project: pid=Time vid=27f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:50] [+] compiling project: pid=Time vid=27f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:31:58] [+] running tests: pid=Time vid=27f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:32:11]    Tests succeeded
+Working on Time-3f (3 of 27)
+[19:32:11] [+] checking out project: pid=Time vid=3f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:32:14] [+] compiling project: pid=Time vid=3f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:32:20] [+] running tests: pid=Time vid=3f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:32:34] found 21 triggering tests
+[19:32:35] Commit hash for Time-3 (buggy): 3ba9ba799b3261b7332a467a88be142c83b298fd
+[19:32:35] Commit hash for Time-3 (fixed): 8d109fe1a999a11b4557536dd96f9210460a5936
+[19:32:35] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:32:35] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/8d109fe1a999a11b4557536dd96f9210460a5936
+[19:32:35] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:32:35] [+] checking out project: pid=Time vid=3f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:32:39] [+] compiling project: pid=Time vid=3f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:32:46] [+] running tests: pid=Time vid=3f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:01]    Tests succeeded
+Working on Time-4f (4 of 27)
+[19:33:01] [+] checking out project: pid=Time vid=4f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:04] [+] compiling project: pid=Time vid=4f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:12] [+] running tests: pid=Time vid=4f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:26] found 21 triggering tests
+[19:33:26] Commit hash for Time-4 (buggy): bcb044669b4d1f8d334861ccbd169924d6ef3b54
+[19:33:26] Commit hash for Time-4 (fixed): 3ba9ba799b3261b7332a467a88be142c83b298fd
+[19:33:26] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:33:26] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/3ba9ba799b3261b7332a467a88be142c83b298fd
+[19:33:26] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:33:26] [+] checking out project: pid=Time vid=4f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:30] [+] compiling project: pid=Time vid=4f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:39] [+] running tests: pid=Time vid=4f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:53]    Tests succeeded
+Working on Time-5f (5 of 27)
+[19:33:53] [+] checking out project: pid=Time vid=5f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:33:56] [+] compiling project: pid=Time vid=5f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:03] [+] running tests: pid=Time vid=5f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:17] found 21 triggering tests
+[19:34:17] Commit hash for Time-5 (buggy): a38b5e0c620a4a4dc310d35105e3e432c4e91fc3
+[19:34:17] Commit hash for Time-5 (fixed): a6cb59ed2280ab0a32995fa8b5f1a7b0d47cb815
+[19:34:17] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:34:17] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/a6cb59ed2280ab0a32995fa8b5f1a7b0d47cb815
+[19:34:17] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:34:17] [+] checking out project: pid=Time vid=5f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:21] [+] compiling project: pid=Time vid=5f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:28] [+] running tests: pid=Time vid=5f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:43]    Tests succeeded
+Working on Time-6f (6 of 27)
+[19:34:43] [+] checking out project: pid=Time vid=6f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:45] [+] compiling project: pid=Time vid=6f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:34:56] [+] running tests: pid=Time vid=6f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:35:11] found 21 triggering tests
+[19:35:11] Commit hash for Time-6 (buggy): 91b1ba4ed42ca0b345370ea3cc0ddcdb33781c6d
+[19:35:11] Commit hash for Time-6 (fixed): 28aeba952e838fb12c9b934ce6ef65658e45d7b2
+[19:35:11] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:35:11] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/28aeba952e838fb12c9b934ce6ef65658e45d7b2
+[19:35:11] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:35:11] [+] checking out project: pid=Time vid=6f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:35:15] [+] compiling project: pid=Time vid=6f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:35:26] [+] running tests: pid=Time vid=6f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:35:41]    Tests succeeded
+Working on Time-7f (7 of 27)
+[19:35:41] [+] checking out project: pid=Time vid=7f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:35:44] [+] compiling project: pid=Time vid=7f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:35:56] [+] running tests: pid=Time vid=7f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:36:10] found 21 triggering tests
+[19:36:10] Commit hash for Time-7 (buggy): 6bf5bba0f77f3023dec23a1de6e0a8cef8585f61
+[19:36:10] Commit hash for Time-7 (fixed): 1adb1e69863dcd1ff282692bf1452c422528eeb9
+[19:36:10] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:36:10] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/1adb1e69863dcd1ff282692bf1452c422528eeb9
+[19:36:11] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:36:11] [+] checking out project: pid=Time vid=7f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:36:14] [+] compiling project: pid=Time vid=7f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:36:27] [+] running tests: pid=Time vid=7f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:36:41]    Tests succeeded
+Working on Time-8f (8 of 27)
+[19:36:41] [+] checking out project: pid=Time vid=8f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:36:44] [+] compiling project: pid=Time vid=8f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:36:56] [+] running tests: pid=Time vid=8f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:37:11] found 21 triggering tests
+[19:37:11] Commit hash for Time-8 (buggy): 96f586cb8dac7eee62e9be519a3eab125c47bb23
+[19:37:11] Commit hash for Time-8 (fixed): 362ed1787724cda3ded37de2b0aa0f13adf0a66e
+[19:37:11] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:37:11] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/362ed1787724cda3ded37de2b0aa0f13adf0a66e
+[19:37:11] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:37:11] [+] checking out project: pid=Time vid=8f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:37:15] [+] compiling project: pid=Time vid=8f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:37:26] [+] running tests: pid=Time vid=8f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:37:41]    Tests succeeded
+Working on Time-9f (9 of 27)
+[19:37:41] [+] checking out project: pid=Time vid=9f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:37:44] [+] compiling project: pid=Time vid=9f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:37:56] [+] running tests: pid=Time vid=9f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:38:10] found 21 triggering tests
+[19:38:10] Commit hash for Time-9 (buggy): 08a3a0b969b1e5d1d06489a698fe9c9b69e2f2d9
+[19:38:10] Commit hash for Time-9 (fixed): 96f586cb8dac7eee62e9be519a3eab125c47bb23
+[19:38:10] Directory /scratch/benku/defects4j/framework/projects/Time/failing_tests exists...continuing
+[19:38:10] updating failing tests: /tmp/test_d4j_60100_1587348967/run_tests/Time/failing_tests >> /scratch/benku/defects4j/framework/projects/Time/failing_tests/96f586cb8dac7eee62e9be519a3eab125c47bb23
+[19:38:10] rerunning defects4j test -w /tmp/test_d4j_60100_1587348967/run_tests/Time with appended failing tests
+[19:38:10] [+] checking out project: pid=Time vid=9f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:38:14] [+] compiling project: pid=Time vid=9f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:38:29] [+] running tests: pid=Time vid=9f work_dir=/tmp/test_d4j_60100_1587348967/run_tests/Time
+[19:38:43]    Tests succeeded
