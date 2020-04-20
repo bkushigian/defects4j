@@ -198,7 +198,7 @@ function run_tests_on_pid {
     export HALT_ON_ERROR=0
 
     # Compute $BUGS as a sequence of each bug id
-    BUGS="$(ls "$BASE_DIR/framework/projects/$pid/relevant_tests")"
+    BUGS="$(ls "$BASE_DIR/framework/projects/$pid/relevant_tests" | sort -n)"
     num_bugs=$(echo $BUGS | wc -w)
 
     test_dir="$TMP_DIR/run_tests"
