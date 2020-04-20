@@ -1,0 +1,516 @@
+Running tests on Cli
+[21:41:34] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Cli_27747.log
+[21:41:34] all_bugs: 40
+[21:41:34] test_dir: /tmp/test_d4j_27727_1587357694/run_tests
+[21:41:34] work_dir: /tmp/test_d4j_27727_1587357694/run_tests/Cli
+Working on Cli-1f (1 of 40)
+[21:41:34] [+] checking out project: pid=Cli vid=1f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:35] [+] compiling project: pid=Cli vid=1f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:38] [+] running tests: pid=Cli vid=1f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:41] found 1 triggering tests
+[21:41:41] Commit hash for Cli-1 (buggy): 8f46f467a33ace44ccd9f394910940b6c48a3827
+[21:41:41] Commit hash for Cli-1 (fixed): b0e1b80b6d4a10a9c9f46539bc4c7a3cce55886e
+[21:41:41] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests doesn't exist
+[21:41:41] Making directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests
+[21:41:41] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/b0e1b80b6d4a10a9c9f46539bc4c7a3cce55886e
+[21:41:41] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:41:41] [+] checking out project: pid=Cli vid=1f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:43] [+] compiling project: pid=Cli vid=1f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:47] [+] running tests: pid=Cli vid=1f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:48]    Tests succeeded
+Working on Cli-10f (10 of 40)
+[21:41:48] [+] checking out project: pid=Cli vid=10f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:50] [+] compiling project: pid=Cli vid=10f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:52] [+] running tests: pid=Cli vid=10f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:54] found 0 triggering tests
+Working on Cli-11f (11 of 40)
+[21:41:54] [+] checking out project: pid=Cli vid=11f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:55] [+] compiling project: pid=Cli vid=11f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:41:59] [+] running tests: pid=Cli vid=11f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:01] found 0 triggering tests
+Working on Cli-12f (12 of 40)
+[21:42:01] [+] checking out project: pid=Cli vid=12f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:02] [+] compiling project: pid=Cli vid=12f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:04] [+] running tests: pid=Cli vid=12f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:06] found 1 triggering tests
+[21:42:06] Commit hash for Cli-12 (buggy): b8f825936796e2f5b6663de021aefa53fa728f67
+[21:42:06] Commit hash for Cli-12 (fixed): aa050a69b2395f496f953f4f9c4f63a475dcf430
+[21:42:06] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:42:06] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/aa050a69b2395f496f953f4f9c4f63a475dcf430
+[21:42:06] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:42:06] [+] checking out project: pid=Cli vid=12f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:08] [+] compiling project: pid=Cli vid=12f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:11] [+] running tests: pid=Cli vid=12f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:13]    Tests succeeded
+Working on Cli-13f (13 of 40)
+[21:42:13] [+] checking out project: pid=Cli vid=13f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:14] [+] compiling project: pid=Cli vid=13f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:17] [+] running tests: pid=Cli vid=13f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:21] found 7 triggering tests
+[21:42:21] Commit hash for Cli-13 (buggy): e2ba946ea0e01c36c84f97f483e1d22cfd64b917
+[21:42:21] Commit hash for Cli-13 (fixed): 538fb6889f0387a40b821cfb315685e929110736
+[21:42:21] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:42:21] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/538fb6889f0387a40b821cfb315685e929110736
+[21:42:21] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:42:21] [+] checking out project: pid=Cli vid=13f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:24] [+] compiling project: pid=Cli vid=13f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:28] [+] running tests: pid=Cli vid=13f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:31]    Tests succeeded
+Working on Cli-14f (14 of 40)
+[21:42:31] [+] checking out project: pid=Cli vid=14f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:32] [+] compiling project: pid=Cli vid=14f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:35] [+] running tests: pid=Cli vid=14f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:38] found 7 triggering tests
+[21:42:38] Commit hash for Cli-14 (buggy): b7b2069f9d846c6aea5fee98508ec1491fdf1123
+[21:42:38] Commit hash for Cli-14 (fixed): c338c8aca40d43efda580057f6d41ba228e26ec1
+[21:42:38] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:42:38] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/c338c8aca40d43efda580057f6d41ba228e26ec1
+[21:42:38] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:42:38] [+] checking out project: pid=Cli vid=14f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:41] [+] compiling project: pid=Cli vid=14f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:44] [+] running tests: pid=Cli vid=14f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:47]    Tests succeeded
+Working on Cli-15f (15 of 40)
+[21:42:48] [+] checking out project: pid=Cli vid=15f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:49] [+] compiling project: pid=Cli vid=15f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:52] [+] running tests: pid=Cli vid=15f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:55] found 7 triggering tests
+[21:42:55] Commit hash for Cli-15 (buggy): c338c8aca40d43efda580057f6d41ba228e26ec1
+[21:42:55] Commit hash for Cli-15 (fixed): a93139165b160af1c908c85a06b0af6b3dda3387
+[21:42:55] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:42:55] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/a93139165b160af1c908c85a06b0af6b3dda3387
+[21:42:55] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:42:55] [+] checking out project: pid=Cli vid=15f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:42:58] [+] compiling project: pid=Cli vid=15f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:01] [+] running tests: pid=Cli vid=15f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:04]    Tests succeeded
+Working on Cli-16f (16 of 40)
+[21:43:04] [+] checking out project: pid=Cli vid=16f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:05] [+] compiling project: pid=Cli vid=16f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:08] [+] running tests: pid=Cli vid=16f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:12] found 7 triggering tests
+[21:43:12] Commit hash for Cli-16 (buggy): eed25612b11caf1f4e6e572e58db4306f31803c9
+[21:43:12] Commit hash for Cli-16 (fixed): f104dd060c6c88450ac9ee9eb818b26374512440
+[21:43:12] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:43:12] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/f104dd060c6c88450ac9ee9eb818b26374512440
+[21:43:12] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:43:12] [+] checking out project: pid=Cli vid=16f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:14] [+] compiling project: pid=Cli vid=16f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:17] [+] running tests: pid=Cli vid=16f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:20]    Tests succeeded
+Working on Cli-17f (17 of 40)
+[21:43:20] [+] checking out project: pid=Cli vid=17f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:22] [+] compiling project: pid=Cli vid=17f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:24] [+] running tests: pid=Cli vid=17f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:26] found 1 triggering tests
+[21:43:26] Commit hash for Cli-17 (buggy): cfbb46adb163d9b8af00e9a29e6b42d597f8804f
+[21:43:26] Commit hash for Cli-17 (fixed): 9c5ce3501938cff01d78b7a1fff10a60abe9e0cf
+[21:43:26] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:43:26] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/9c5ce3501938cff01d78b7a1fff10a60abe9e0cf
+[21:43:26] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:43:26] [+] checking out project: pid=Cli vid=17f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:28] [+] compiling project: pid=Cli vid=17f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:31] [+] running tests: pid=Cli vid=17f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:33]    Tests succeeded
+Working on Cli-18f (18 of 40)
+[21:43:33] [+] checking out project: pid=Cli vid=18f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:34] [+] compiling project: pid=Cli vid=18f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:37] [+] running tests: pid=Cli vid=18f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:39] found 1 triggering tests
+[21:43:39] Commit hash for Cli-18 (buggy): 9c5ce3501938cff01d78b7a1fff10a60abe9e0cf
+[21:43:39] Commit hash for Cli-18 (fixed): c8606251c904dfaf5303f71b788e12f7fff15fab
+[21:43:39] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:43:39] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/c8606251c904dfaf5303f71b788e12f7fff15fab
+[21:43:39] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:43:39] [+] checking out project: pid=Cli vid=18f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:41] [+] compiling project: pid=Cli vid=18f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:44] [+] running tests: pid=Cli vid=18f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:45]    Tests succeeded
+Working on Cli-19f (19 of 40)
+[21:43:45] [+] checking out project: pid=Cli vid=19f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:47] [+] compiling project: pid=Cli vid=19f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:50] [+] running tests: pid=Cli vid=19f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:51] found 1 triggering tests
+[21:43:51] Commit hash for Cli-19 (buggy): c8606251c904dfaf5303f71b788e12f7fff15fab
+[21:43:51] Commit hash for Cli-19 (fixed): b1331806960001da95424315b6103d755107b519
+[21:43:51] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:43:51] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/b1331806960001da95424315b6103d755107b519
+[21:43:51] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:43:51] [+] checking out project: pid=Cli vid=19f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:54] [+] compiling project: pid=Cli vid=19f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:56] [+] running tests: pid=Cli vid=19f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:43:58]    Tests succeeded
+Working on Cli-2f (2 of 40)
+[21:43:58] [+] checking out project: pid=Cli vid=2f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:00] [+] compiling project: pid=Cli vid=2f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:03] [+] running tests: pid=Cli vid=2f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:05] found 1 triggering tests
+[21:44:05] Commit hash for Cli-2 (buggy): b0e1b80b6d4a10a9c9f46539bc4c7a3cce55886e
+[21:44:05] Commit hash for Cli-2 (fixed): 2ff9573ffb08dd52ec3a55a49f2d77a1e94efbdf
+[21:44:05] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:44:05] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/2ff9573ffb08dd52ec3a55a49f2d77a1e94efbdf
+[21:44:05] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:44:05] [+] checking out project: pid=Cli vid=2f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:07] [+] compiling project: pid=Cli vid=2f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:10] [+] running tests: pid=Cli vid=2f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:12]    Tests succeeded
+Working on Cli-20f (20 of 40)
+[21:44:12] [+] checking out project: pid=Cli vid=20f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:14] [+] compiling project: pid=Cli vid=20f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:16] [+] running tests: pid=Cli vid=20f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:18] found 1 triggering tests
+[21:44:18] Commit hash for Cli-20 (buggy): b1331806960001da95424315b6103d755107b519
+[21:44:18] Commit hash for Cli-20 (fixed): 99aa05af2bfef3980ad8f94230cd077e8d30c5ea
+[21:44:18] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:44:18] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/99aa05af2bfef3980ad8f94230cd077e8d30c5ea
+[21:44:18] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:44:18] [+] checking out project: pid=Cli vid=20f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:20] [+] compiling project: pid=Cli vid=20f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:23] [+] running tests: pid=Cli vid=20f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:25]    Tests succeeded
+Working on Cli-21f (21 of 40)
+[21:44:26] [+] checking out project: pid=Cli vid=21f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:27] [+] compiling project: pid=Cli vid=21f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:31] [+] running tests: pid=Cli vid=21f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:35] found 7 triggering tests
+[21:44:35] Commit hash for Cli-21 (buggy): 028893dad71e4823f67a427903699999d6eedd4b
+[21:44:35] Commit hash for Cli-21 (fixed): 9cd78b4c83df53ba302baadac4c976ca84f428f9
+[21:44:35] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:44:35] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/9cd78b4c83df53ba302baadac4c976ca84f428f9
+[21:44:35] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:44:35] [+] checking out project: pid=Cli vid=21f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:37] [+] compiling project: pid=Cli vid=21f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:41] [+] running tests: pid=Cli vid=21f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:44]    Tests succeeded
+Working on Cli-22f (22 of 40)
+[21:44:44] [+] checking out project: pid=Cli vid=22f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:46] [+] compiling project: pid=Cli vid=22f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:48] [+] running tests: pid=Cli vid=22f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:49] found 2 triggering tests
+[21:44:49] Commit hash for Cli-22 (buggy): ae2ff1d12efd8f0f55bfa1febd8c77af4bb433c7
+[21:44:49] Commit hash for Cli-22 (fixed): db4a638cf642fd7d031fcaebffa306b0a16ba771
+[21:44:49] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:44:49] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/db4a638cf642fd7d031fcaebffa306b0a16ba771
+[21:44:49] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:44:49] [+] checking out project: pid=Cli vid=22f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:52] [+] compiling project: pid=Cli vid=22f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:54] [+] running tests: pid=Cli vid=22f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:56]    Tests succeeded
+Working on Cli-23f (23 of 40)
+[21:44:56] [+] checking out project: pid=Cli vid=23f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:57] [+] compiling project: pid=Cli vid=23f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:44:59] [+] running tests: pid=Cli vid=23f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:01] found 2 triggering tests
+[21:45:01] Commit hash for Cli-23 (buggy): 88cf9e4ab6e1b127de46fb2540f4d1fffac56442
+[21:45:01] Commit hash for Cli-23 (fixed): 2ddaae14dd23643a4b5f71f8274534b0b34556a4
+[21:45:01] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:45:01] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/2ddaae14dd23643a4b5f71f8274534b0b34556a4
+[21:45:01] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:45:01] [+] checking out project: pid=Cli vid=23f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:04] [+] compiling project: pid=Cli vid=23f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:07] [+] running tests: pid=Cli vid=23f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:09]    Tests succeeded
+Working on Cli-24f (24 of 40)
+[21:45:09] [+] checking out project: pid=Cli vid=24f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:10] [+] compiling project: pid=Cli vid=24f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:13] [+] running tests: pid=Cli vid=24f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:15] found 2 triggering tests
+[21:45:15] Commit hash for Cli-24 (buggy): ac6e754ecfc86822aa1ab74d657b0b3f0222b2e6
+[21:45:15] Commit hash for Cli-24 (fixed): 02dd7c20646bf67dcfb6f7da6beeb7cdffc6ac22
+[21:45:15] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:45:15] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/02dd7c20646bf67dcfb6f7da6beeb7cdffc6ac22
+[21:45:15] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:45:15] [+] checking out project: pid=Cli vid=24f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:18] [+] compiling project: pid=Cli vid=24f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:21] [+] running tests: pid=Cli vid=24f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:23]    Tests succeeded
+Working on Cli-25f (25 of 40)
+[21:45:23] [+] checking out project: pid=Cli vid=25f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:24] [+] compiling project: pid=Cli vid=25f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:27] [+] running tests: pid=Cli vid=25f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:29] found 2 triggering tests
+[21:45:29] Commit hash for Cli-25 (buggy): 02dd7c20646bf67dcfb6f7da6beeb7cdffc6ac22
+[21:45:29] Commit hash for Cli-25 (fixed): 6a585453d385449dc23d90479488f92f02cd6b83
+[21:45:29] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:45:29] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/6a585453d385449dc23d90479488f92f02cd6b83
+[21:45:29] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:45:29] [+] checking out project: pid=Cli vid=25f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:32] [+] compiling project: pid=Cli vid=25f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:34] [+] running tests: pid=Cli vid=25f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:36]    Tests succeeded
+Working on Cli-26f (26 of 40)
+[21:45:36] [+] checking out project: pid=Cli vid=26f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:37] [+] compiling project: pid=Cli vid=26f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:40] [+] running tests: pid=Cli vid=26f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:41] found 1 triggering tests
+[21:45:41] Commit hash for Cli-26 (buggy): 879c762baac4a9d7aade43d302e730e239a54c21
+[21:45:41] Commit hash for Cli-26 (fixed): aa2434d301c49d100f50af544333886a6767ce9d
+[21:45:41] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:45:41] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/aa2434d301c49d100f50af544333886a6767ce9d
+[21:45:41] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:45:41] [+] checking out project: pid=Cli vid=26f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:44] [+] compiling project: pid=Cli vid=26f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:47] [+] running tests: pid=Cli vid=26f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:48]    Tests succeeded
+Working on Cli-27f (27 of 40)
+[21:45:48] [+] checking out project: pid=Cli vid=27f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:50] [+] compiling project: pid=Cli vid=27f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:52] [+] running tests: pid=Cli vid=27f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:54] found 1 triggering tests
+[21:45:54] Commit hash for Cli-27 (buggy): 6a999186695d404ccb6c1528df68fe2eb42863c2
+[21:45:54] Commit hash for Cli-27 (fixed): 4c971f08861e8cefb8ca9ac20799bfdad4e973a4
+[21:45:54] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:45:54] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/4c971f08861e8cefb8ca9ac20799bfdad4e973a4
+[21:45:54] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:45:54] [+] checking out project: pid=Cli vid=27f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:45:57] [+] compiling project: pid=Cli vid=27f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:00] [+] running tests: pid=Cli vid=27f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:02]    Tests succeeded
+Working on Cli-28f (28 of 40)
+[21:46:02] [+] checking out project: pid=Cli vid=28f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:03] [+] compiling project: pid=Cli vid=28f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:06] [+] running tests: pid=Cli vid=28f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:09] found 1 triggering tests
+[21:46:09] Commit hash for Cli-28 (buggy): 10b14afb9ff42a3f216296f526f65d001b545e3f
+[21:46:09] Commit hash for Cli-28 (fixed): 3433f467554985a6bd9bf530a4810376be6fe250
+[21:46:09] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:46:09] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/3433f467554985a6bd9bf530a4810376be6fe250
+[21:46:09] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:46:09] [+] checking out project: pid=Cli vid=28f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:11] [+] compiling project: pid=Cli vid=28f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:13] [+] running tests: pid=Cli vid=28f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:15]    Tests succeeded
+Working on Cli-29f (29 of 40)
+[21:46:15] [+] checking out project: pid=Cli vid=29f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:16] [+] compiling project: pid=Cli vid=29f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:19] [+] running tests: pid=Cli vid=29f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:20] found 1 triggering tests
+[21:46:20] Commit hash for Cli-29 (buggy): a2cf820dd69e55050a8db004c305a6133c3feb2e
+[21:46:20] Commit hash for Cli-29 (fixed): 20002f7f4e971349a1c95dd3b05846c5b824b65c
+[21:46:20] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:46:20] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/20002f7f4e971349a1c95dd3b05846c5b824b65c
+[21:46:20] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:46:20] [+] checking out project: pid=Cli vid=29f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:23] [+] compiling project: pid=Cli vid=29f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:25] [+] running tests: pid=Cli vid=29f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:27]    Tests succeeded
+Working on Cli-3f (3 of 40)
+[21:46:27] [+] checking out project: pid=Cli vid=3f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:28] [+] compiling project: pid=Cli vid=3f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:31] [+] running tests: pid=Cli vid=3f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:32] found 1 triggering tests
+[21:46:32] Commit hash for Cli-3 (buggy): 85248e8ae52232ed75c2b4c52d4071bdf192db37
+[21:46:32] Commit hash for Cli-3 (fixed): d35f2fa7a06457469a617677eeb4c1dc21484006
+[21:46:32] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:46:32] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/d35f2fa7a06457469a617677eeb4c1dc21484006
+[21:46:32] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:46:32] [+] checking out project: pid=Cli vid=3f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:35] [+] compiling project: pid=Cli vid=3f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:38] [+] running tests: pid=Cli vid=3f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:39]    Tests succeeded
+Working on Cli-30f (30 of 40)
+[21:46:39] [+] checking out project: pid=Cli vid=30f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:41] [+] compiling project: pid=Cli vid=30f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:43] [+] running tests: pid=Cli vid=30f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:45] found 1 triggering tests
+[21:46:45] Commit hash for Cli-30 (buggy): 5560a086886c4d6dba2c30eb75e57e3167765c6e
+[21:46:45] Commit hash for Cli-30 (fixed): 324b7f901b91614927926a5bab1d9e0e2325f018
+[21:46:45] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:46:45] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/324b7f901b91614927926a5bab1d9e0e2325f018
+[21:46:45] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:46:45] [+] checking out project: pid=Cli vid=30f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:47] [+] compiling project: pid=Cli vid=30f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:50] [+] running tests: pid=Cli vid=30f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:52]    Tests succeeded
+Working on Cli-31f (31 of 40)
+[21:46:52] [+] checking out project: pid=Cli vid=31f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:54] [+] compiling project: pid=Cli vid=31f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:56] [+] running tests: pid=Cli vid=31f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:46:57] found 1 triggering tests
+[21:46:57] Commit hash for Cli-31 (buggy): 4381ba54c845402f18760fb04ff1f6db1922f6b2
+[21:46:57] Commit hash for Cli-31 (fixed): 4d2c8a22d1e1831858029b8ef225a07f4445a221
+[21:46:57] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:46:57] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/4d2c8a22d1e1831858029b8ef225a07f4445a221
+[21:46:57] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:46:57] [+] checking out project: pid=Cli vid=31f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:00] [+] compiling project: pid=Cli vid=31f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:03] [+] running tests: pid=Cli vid=31f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:04]    Tests succeeded
+Working on Cli-32f (32 of 40)
+[21:47:04] [+] checking out project: pid=Cli vid=32f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:06] [+] compiling project: pid=Cli vid=32f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:08] [+] running tests: pid=Cli vid=32f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:09] found 1 triggering tests
+[21:47:09] Commit hash for Cli-32 (buggy): 23df383408513eddaf3e6dc4244c89fd48427695
+[21:47:09] Commit hash for Cli-32 (fixed): 777cb81088d47472df21a452edd5ba568d4b3fdf
+[21:47:09] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:47:09] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/777cb81088d47472df21a452edd5ba568d4b3fdf
+[21:47:09] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:47:09] [+] checking out project: pid=Cli vid=32f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:12] [+] compiling project: pid=Cli vid=32f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:14] [+] running tests: pid=Cli vid=32f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:16]    Tests succeeded
+Working on Cli-33f (33 of 40)
+[21:47:16] [+] checking out project: pid=Cli vid=33f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:17] [+] compiling project: pid=Cli vid=33f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:20] [+] running tests: pid=Cli vid=33f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:21] found 1 triggering tests
+[21:47:21] Commit hash for Cli-33 (buggy): 99222749ca9b0d9338ed5df796db9c32b82424b8
+[21:47:21] Commit hash for Cli-33 (fixed): 483f811dfefdc6bee162481425f261d983f15e4a
+[21:47:21] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:47:21] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/483f811dfefdc6bee162481425f261d983f15e4a
+[21:47:21] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:47:21] [+] checking out project: pid=Cli vid=33f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:24] [+] compiling project: pid=Cli vid=33f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:26] [+] running tests: pid=Cli vid=33f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:28]    Tests succeeded
+Working on Cli-34f (34 of 40)
+[21:47:28] [+] checking out project: pid=Cli vid=34f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:29] [+] compiling project: pid=Cli vid=34f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:31] [+] running tests: pid=Cli vid=34f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:33] found 1 triggering tests
+[21:47:33] Commit hash for Cli-34 (buggy): 40c4892e932afba6ac2ace430ee59a465565bd50
+[21:47:33] Commit hash for Cli-34 (fixed): 62a3b36efc78e53c233c2fb49cc8199c5eabec1d
+[21:47:33] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:47:33] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/62a3b36efc78e53c233c2fb49cc8199c5eabec1d
+[21:47:33] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:47:33] [+] checking out project: pid=Cli vid=34f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:36] [+] compiling project: pid=Cli vid=34f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:38] [+] running tests: pid=Cli vid=34f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:39]    Tests succeeded
+Working on Cli-35f (35 of 40)
+[21:47:39] [+] checking out project: pid=Cli vid=35f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:41] [+] compiling project: pid=Cli vid=35f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:44] [+] running tests: pid=Cli vid=35f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:46] found 1 triggering tests
+[21:47:46] Commit hash for Cli-35 (buggy): a154084dbf5af77f6f3a64a7561fd77aadb78429
+[21:47:46] Commit hash for Cli-35 (fixed): 085a1538fa20d8e48faad49eaffd697f024bf1af
+[21:47:46] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:47:46] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/085a1538fa20d8e48faad49eaffd697f024bf1af
+[21:47:46] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:47:46] [+] checking out project: pid=Cli vid=35f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:48] [+] compiling project: pid=Cli vid=35f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:51] [+] running tests: pid=Cli vid=35f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:52]    Tests succeeded
+Working on Cli-36f (36 of 40)
+[21:47:52] [+] checking out project: pid=Cli vid=36f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:54] [+] compiling project: pid=Cli vid=36f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:57] [+] running tests: pid=Cli vid=36f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:47:59] found 1 triggering tests
+[21:47:59] Commit hash for Cli-36 (buggy): f6af62367494ff8d0d7844f7f435e5ee36c81dcf
+[21:47:59] Commit hash for Cli-36 (fixed): afc13c445a4c80432e52d735685b272fadfeeddf
+[21:47:59] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:47:59] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/afc13c445a4c80432e52d735685b272fadfeeddf
+[21:47:59] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:47:59] [+] checking out project: pid=Cli vid=36f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:01] [+] compiling project: pid=Cli vid=36f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:04] [+] running tests: pid=Cli vid=36f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:06]    Tests succeeded
+Working on Cli-37f (37 of 40)
+[21:48:06] [+] checking out project: pid=Cli vid=37f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:07] [+] compiling project: pid=Cli vid=37f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:10] [+] running tests: pid=Cli vid=37f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:12] found 1 triggering tests
+[21:48:12] Commit hash for Cli-37 (buggy): 9e51962309fac2806f5fe0e4e3df94e0e187607a
+[21:48:12] Commit hash for Cli-37 (fixed): 1bf9e6c551b6a2e7d37291673a1ff77c338ce131
+[21:48:12] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:48:12] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/1bf9e6c551b6a2e7d37291673a1ff77c338ce131
+[21:48:12] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:48:12] [+] checking out project: pid=Cli vid=37f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:15] [+] compiling project: pid=Cli vid=37f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:17] [+] running tests: pid=Cli vid=37f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:19]    Tests succeeded
+Working on Cli-38f (38 of 40)
+[21:48:19] [+] checking out project: pid=Cli vid=38f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:21] [+] compiling project: pid=Cli vid=38f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:23] [+] running tests: pid=Cli vid=38f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:25] found 1 triggering tests
+[21:48:25] Commit hash for Cli-38 (buggy): 5764b6270287a74d31cb83f70ab38bdd916e619e
+[21:48:25] Commit hash for Cli-38 (fixed): ac2a1c85616f0140418de9190389fe7b80296c39
+[21:48:25] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:48:25] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/ac2a1c85616f0140418de9190389fe7b80296c39
+[21:48:25] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:48:25] [+] checking out project: pid=Cli vid=38f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:28] [+] compiling project: pid=Cli vid=38f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:30] [+] running tests: pid=Cli vid=38f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:32]    Tests succeeded
+Working on Cli-39f (39 of 40)
+[21:48:32] [+] checking out project: pid=Cli vid=39f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:33] [+] compiling project: pid=Cli vid=39f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:36] [+] running tests: pid=Cli vid=39f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:38] found 1 triggering tests
+[21:48:38] Commit hash for Cli-39 (buggy): 70a392756c713f404fed0e3ddd48aa18ce20485f
+[21:48:38] Commit hash for Cli-39 (fixed): 0b453953fa5f55cf2e8fd034d4d55972deb7647a
+[21:48:38] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:48:38] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/0b453953fa5f55cf2e8fd034d4d55972deb7647a
+[21:48:38] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:48:38] [+] checking out project: pid=Cli vid=39f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:41] [+] compiling project: pid=Cli vid=39f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:44] [+] running tests: pid=Cli vid=39f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:46]    Tests succeeded
+Working on Cli-4f (4 of 40)
+[21:48:46] [+] checking out project: pid=Cli vid=4f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:47] [+] compiling project: pid=Cli vid=4f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:49] [+] running tests: pid=Cli vid=4f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:51] found 1 triggering tests
+[21:48:51] Commit hash for Cli-4 (buggy): 8ca630b76ebcfe24915a9edb3a6de756cab761c9
+[21:48:51] Commit hash for Cli-4 (fixed): f78959477b207bf710049aa35730ef7659f0a1b9
+[21:48:51] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:48:51] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/f78959477b207bf710049aa35730ef7659f0a1b9
+[21:48:51] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:48:51] [+] checking out project: pid=Cli vid=4f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:54] [+] compiling project: pid=Cli vid=4f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:56] [+] running tests: pid=Cli vid=4f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:58]    Tests succeeded
+Working on Cli-40f (40 of 40)
+[21:48:58] [+] checking out project: pid=Cli vid=40f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:48:59] [+] compiling project: pid=Cli vid=40f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:02] [+] running tests: pid=Cli vid=40f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:03] found 1 triggering tests
+[21:49:03] Commit hash for Cli-40 (buggy): e400f9256a2af526e9a06b9d5d2965965109a8db
+[21:49:03] Commit hash for Cli-40 (fixed): b0024d482050a08efc36c3cabee37c0af0e57a10
+[21:49:03] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:49:03] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/b0024d482050a08efc36c3cabee37c0af0e57a10
+[21:49:03] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:49:03] [+] checking out project: pid=Cli vid=40f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:06] [+] compiling project: pid=Cli vid=40f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:08] [+] running tests: pid=Cli vid=40f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:10]    Tests succeeded
+Working on Cli-5f (5 of 40)
+[21:49:10] [+] checking out project: pid=Cli vid=5f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:12] [+] compiling project: pid=Cli vid=5f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:14] [+] running tests: pid=Cli vid=5f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:16] found 1 triggering tests
+[21:49:16] Commit hash for Cli-5 (buggy): 2b0a94aee899d9e7d855c402ad40eb4e318f46e7
+[21:49:16] Commit hash for Cli-5 (fixed): 3880640ee6268a2ecb2912e1ae896153dc2229e5
+[21:49:16] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:49:16] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/3880640ee6268a2ecb2912e1ae896153dc2229e5
+[21:49:16] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:49:16] [+] checking out project: pid=Cli vid=5f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:18] [+] compiling project: pid=Cli vid=5f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:20] [+] running tests: pid=Cli vid=5f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:22]    Tests succeeded
+Working on Cli-7f (7 of 40)
+[21:49:22] [+] checking out project: pid=Cli vid=7f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:23] [+] compiling project: pid=Cli vid=7f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:27] [+] running tests: pid=Cli vid=7f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:30] found 7 triggering tests
+[21:49:30] Commit hash for Cli-7 (buggy): 73276486b1f39510bf27cb6c0684da805b121f5d
+[21:49:30] Commit hash for Cli-7 (fixed): 4ee0d6c4f1b553858aeabf3ee6fb37d764f263e2
+[21:49:30] Directory /scratch/benku/defects4j/framework/projects/Cli/failing_tests exists...continuing
+[21:49:30] updating failing tests: /tmp/test_d4j_27727_1587357694/run_tests/Cli/failing_tests >> /scratch/benku/defects4j/framework/projects/Cli/failing_tests/4ee0d6c4f1b553858aeabf3ee6fb37d764f263e2
+[21:49:30] rerunning defects4j test -w /tmp/test_d4j_27727_1587357694/run_tests/Cli with appended failing tests
+[21:49:30] [+] checking out project: pid=Cli vid=7f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:32] [+] compiling project: pid=Cli vid=7f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:36] [+] running tests: pid=Cli vid=7f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:39]    Tests succeeded
+Working on Cli-8f (8 of 40)
+[21:49:39] [+] checking out project: pid=Cli vid=8f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:40] [+] compiling project: pid=Cli vid=8f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:43] [+] running tests: pid=Cli vid=8f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:45] found 0 triggering tests
+Working on Cli-9f (9 of 40)
+[21:49:45] [+] checking out project: pid=Cli vid=9f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:46] [+] compiling project: pid=Cli vid=9f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:49] [+] running tests: pid=Cli vid=9f work_dir=/tmp/test_d4j_27727_1587357694/run_tests/Cli
+[21:49:50] found 0 triggering tests
