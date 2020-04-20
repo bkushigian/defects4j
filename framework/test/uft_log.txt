@@ -1,0 +1,258 @@
+Running tests on Gson
+[05:58:42] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Gson_64943.log
+[05:58:42] all_bugs: 18
+[05:58:42] test_dir: /tmp/test_d4j_64918_1587387522/run_tests
+[05:58:42] work_dir: /tmp/test_d4j_64918_1587387522/run_tests/Gson
+Working on Gson-1f (1 of 18)
+[05:58:42] [+] checking out project: pid=Gson vid=1f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:58:43] [+] compiling project: pid=Gson vid=1f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:58:47] [+] running tests: pid=Gson vid=1f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:58:52] found 1 triggering tests
+[05:58:52] Commit hash for Gson-1 (buggy): 4413c299ea09c57b94af8647eec901554c2f5c50
+[05:58:52] Commit hash for Gson-1 (fixed): c6a4f55d1a9b191dbbd958c366091e567191ccab
+[05:58:52] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests doesn't exist
+[05:58:52] Making directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests
+[05:58:52] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/c6a4f55d1a9b191dbbd958c366091e567191ccab
+[05:58:52] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[05:58:52] [+] checking out project: pid=Gson vid=1f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:58:54] [+] compiling project: pid=Gson vid=1f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:58:58] [+] running tests: pid=Gson vid=1f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:02]    Tests succeeded
+Working on Gson-10f (10 of 18)
+[05:59:02] [+] checking out project: pid=Gson vid=10f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:03] [+] compiling project: pid=Gson vid=10f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:08] [+] running tests: pid=Gson vid=10f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:12] found 1 triggering tests
+[05:59:12] Commit hash for Gson-10 (buggy): ecda3582a6527d5be2c200fe72b04fe2ae30624f
+[05:59:12] Commit hash for Gson-10 (fixed): bb451eac43313ae08b30ac0916718ca00c39656d
+[05:59:12] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[05:59:12] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/bb451eac43313ae08b30ac0916718ca00c39656d
+[05:59:12] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[05:59:12] [+] checking out project: pid=Gson vid=10f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:14] [+] compiling project: pid=Gson vid=10f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:18] [+] running tests: pid=Gson vid=10f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:22]    Tests succeeded
+Working on Gson-11f (11 of 18)
+[05:59:23] [+] checking out project: pid=Gson vid=11f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:23] [+] compiling project: pid=Gson vid=11f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:27] [+] running tests: pid=Gson vid=11f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:32] found 1 triggering tests
+[05:59:32] Commit hash for Gson-11 (buggy): 791236ac79e535146b07a7dd5c85ab168554f5ff
+[05:59:32] Commit hash for Gson-11 (fixed): 44cad04a639b3a53f4205f93acda37b3f7d10871
+[05:59:32] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[05:59:32] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/44cad04a639b3a53f4205f93acda37b3f7d10871
+[05:59:32] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[05:59:32] [+] checking out project: pid=Gson vid=11f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:34] [+] compiling project: pid=Gson vid=11f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:38] [+] running tests: pid=Gson vid=11f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:43]    Tests succeeded
+Working on Gson-12f (12 of 18)
+[05:59:43] [+] checking out project: pid=Gson vid=12f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:44] [+] compiling project: pid=Gson vid=12f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:47] [+] running tests: pid=Gson vid=12f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:52] found 1 triggering tests
+[05:59:52] Commit hash for Gson-12 (buggy): 7719e73a108c450666613c279bedaed724cd9cc9
+[05:59:52] Commit hash for Gson-12 (fixed): 9e6f2bab20257b6823a5b753739f047d79e9dcbd
+[05:59:52] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[05:59:52] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/9e6f2bab20257b6823a5b753739f047d79e9dcbd
+[05:59:52] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[05:59:52] [+] checking out project: pid=Gson vid=12f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:53] [+] compiling project: pid=Gson vid=12f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[05:59:57] [+] running tests: pid=Gson vid=12f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:01]    Tests succeeded
+Working on Gson-13f (13 of 18)
+[06:00:01] [+] checking out project: pid=Gson vid=13f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:02] [+] compiling project: pid=Gson vid=13f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:06] [+] running tests: pid=Gson vid=13f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:11] found 1 triggering tests
+[06:00:11] Commit hash for Gson-13 (buggy): 41e48f7aa3a686778e95328693b830856538e9e3
+[06:00:11] Commit hash for Gson-13 (fixed): 9a2421997e83ec803c88ea370a2d102052699d3b
+[06:00:11] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:00:11] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/9a2421997e83ec803c88ea370a2d102052699d3b
+[06:00:11] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:00:11] [+] checking out project: pid=Gson vid=13f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:12] [+] compiling project: pid=Gson vid=13f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:17] [+] running tests: pid=Gson vid=13f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:22]    Tests succeeded
+Working on Gson-14f (14 of 18)
+[06:00:22] [+] checking out project: pid=Gson vid=14f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:23] [+] compiling project: pid=Gson vid=14f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:27] [+] running tests: pid=Gson vid=14f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:32] found 1 triggering tests
+[06:00:32] Commit hash for Gson-14 (buggy): 5848096f3e1f36c038f522a3d7d6b9e3b553cf8e
+[06:00:32] Commit hash for Gson-14 (fixed): a300148003e3a067875b1444e8268b6e0f0e0e02
+[06:00:32] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:00:32] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/a300148003e3a067875b1444e8268b6e0f0e0e02
+[06:00:32] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:00:32] [+] checking out project: pid=Gson vid=14f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:33] [+] compiling project: pid=Gson vid=14f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:37] [+] running tests: pid=Gson vid=14f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:41]    Tests succeeded
+Working on Gson-15f (15 of 18)
+[06:00:41] [+] checking out project: pid=Gson vid=15f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:42] [+] compiling project: pid=Gson vid=15f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:45] [+] running tests: pid=Gson vid=15f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:50] found 1 triggering tests
+[06:00:50] Commit hash for Gson-15 (buggy): 0aaef0fd1bb1b9729543dc40168adfb829eb75a4
+[06:00:50] Commit hash for Gson-15 (fixed): ada597e69a78b8b99f79f79493cbf51e16045202
+[06:00:50] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:00:50] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/ada597e69a78b8b99f79f79493cbf51e16045202
+[06:00:50] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:00:50] [+] checking out project: pid=Gson vid=15f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:52] [+] compiling project: pid=Gson vid=15f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:00:56] [+] running tests: pid=Gson vid=15f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:00]    Tests succeeded
+Working on Gson-16f (16 of 18)
+[06:01:00] [+] checking out project: pid=Gson vid=16f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:01] [+] compiling project: pid=Gson vid=16f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:05] [+] running tests: pid=Gson vid=16f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:11] found 1 triggering tests
+[06:01:11] Commit hash for Gson-16 (buggy): ee691fba43663d1715752a7642f4b4ece1738567
+[06:01:11] Commit hash for Gson-16 (fixed): 03a72e752ef68269990f984c9fd613cfd59224bc
+[06:01:11] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:01:11] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/03a72e752ef68269990f984c9fd613cfd59224bc
+[06:01:11] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:01:11] [+] checking out project: pid=Gson vid=16f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:13] [+] compiling project: pid=Gson vid=16f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:17] [+] running tests: pid=Gson vid=16f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:21]    Tests succeeded
+Working on Gson-17f (17 of 18)
+[06:01:21] [+] checking out project: pid=Gson vid=17f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:22] [+] compiling project: pid=Gson vid=17f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:26] [+] running tests: pid=Gson vid=17f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:31] found 1 triggering tests
+[06:01:31] Commit hash for Gson-17 (buggy): f0aa1118e9ef66ed324f9a63cdfb551cb4e9eca5
+[06:01:31] Commit hash for Gson-17 (fixed): 7a9fd5962dce7f277efa15fcc996606be0733bac
+[06:01:31] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:01:31] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/7a9fd5962dce7f277efa15fcc996606be0733bac
+[06:01:31] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:01:31] [+] checking out project: pid=Gson vid=17f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:33] [+] compiling project: pid=Gson vid=17f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:37] [+] running tests: pid=Gson vid=17f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:42]    Tests succeeded
+Working on Gson-18f (18 of 18)
+[06:01:42] [+] checking out project: pid=Gson vid=18f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:42] [+] compiling project: pid=Gson vid=18f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:46] [+] running tests: pid=Gson vid=18f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:51] found 1 triggering tests
+[06:01:51] Commit hash for Gson-18 (buggy): 08bbb226f11a1f7f76835f953e700d905e1fab4d
+[06:01:51] Commit hash for Gson-18 (fixed): b1fb9ca9a1bea5440bc6a5b506ccf67236b08243
+[06:01:51] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:01:51] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/b1fb9ca9a1bea5440bc6a5b506ccf67236b08243
+[06:01:51] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:01:51] [+] checking out project: pid=Gson vid=18f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:52] [+] compiling project: pid=Gson vid=18f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:01:56] [+] running tests: pid=Gson vid=18f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:01]    Tests succeeded
+Working on Gson-2f (2 of 18)
+[06:02:01] [+] checking out project: pid=Gson vid=2f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:02] [+] compiling project: pid=Gson vid=2f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:06] [+] running tests: pid=Gson vid=2f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:10] found 1 triggering tests
+[06:02:10] Commit hash for Gson-2 (buggy): 10714ef0427536b679e9677f8417807e4cce017d
+[06:02:10] Commit hash for Gson-2 (fixed): fe101c10bc3597d8e715a31d94d2cc0cc54b660f
+[06:02:10] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:02:10] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/fe101c10bc3597d8e715a31d94d2cc0cc54b660f
+[06:02:10] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:02:10] [+] checking out project: pid=Gson vid=2f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:12] [+] compiling project: pid=Gson vid=2f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:16] [+] running tests: pid=Gson vid=2f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:20]    Tests succeeded
+Working on Gson-3f (3 of 18)
+[06:02:20] [+] checking out project: pid=Gson vid=3f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:21] [+] compiling project: pid=Gson vid=3f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:24] [+] running tests: pid=Gson vid=3f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:28] found 1 triggering tests
+[06:02:28] Commit hash for Gson-3 (buggy): 9e5f86d10b3b3ff4ba0dfe7ba0722c9e640fcc20
+[06:02:28] Commit hash for Gson-3 (fixed): 64107353a37e623ed1f8fecb4422c24212cf6fe1
+[06:02:28] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:02:28] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/64107353a37e623ed1f8fecb4422c24212cf6fe1
+[06:02:28] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:02:28] [+] checking out project: pid=Gson vid=3f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:30] [+] compiling project: pid=Gson vid=3f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:33] [+] running tests: pid=Gson vid=3f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:38]    Tests succeeded
+Working on Gson-4f (4 of 18)
+[06:02:38] [+] checking out project: pid=Gson vid=4f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:39] [+] compiling project: pid=Gson vid=4f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:42] [+] running tests: pid=Gson vid=4f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:46] found 1 triggering tests
+[06:02:46] Commit hash for Gson-4 (buggy): 2ab776b5f5075bd98e7eb730cb03772f2b734b45
+[06:02:46] Commit hash for Gson-4 (fixed): af68d70cd55826fa7149effd7397d64667ca264c
+[06:02:46] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:02:46] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/af68d70cd55826fa7149effd7397d64667ca264c
+[06:02:47] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:02:47] [+] checking out project: pid=Gson vid=4f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:48] [+] compiling project: pid=Gson vid=4f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:52] [+] running tests: pid=Gson vid=4f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:57]    Tests succeeded
+Working on Gson-5f (5 of 18)
+[06:02:57] [+] checking out project: pid=Gson vid=5f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:02:58] [+] compiling project: pid=Gson vid=5f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:01] [+] running tests: pid=Gson vid=5f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:06] found 1 triggering tests
+[06:03:06] Commit hash for Gson-5 (buggy): af68d70cd55826fa7149effd7397d64667ca264c
+[06:03:06] Commit hash for Gson-5 (fixed): 8383f5c7fa34ae68323fe2816ef8c1307b5d0f84
+[06:03:06] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:03:06] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/8383f5c7fa34ae68323fe2816ef8c1307b5d0f84
+[06:03:06] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:03:06] [+] checking out project: pid=Gson vid=5f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:08] [+] compiling project: pid=Gson vid=5f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:11] [+] running tests: pid=Gson vid=5f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:16]    Tests succeeded
+Working on Gson-6f (6 of 18)
+[06:03:16] [+] checking out project: pid=Gson vid=6f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:16] [+] compiling project: pid=Gson vid=6f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:20] [+] running tests: pid=Gson vid=6f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:24] found 1 triggering tests
+[06:03:24] Commit hash for Gson-6 (buggy): 67bd3a2cf6f9c9c6e7f615969b1918f68e03932d
+[06:03:24] Commit hash for Gson-6 (fixed): dea305503ad8827121e8212248c271f1f2f90048
+[06:03:24] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:03:24] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/dea305503ad8827121e8212248c271f1f2f90048
+[06:03:25] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:03:25] [+] checking out project: pid=Gson vid=6f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:26] [+] compiling project: pid=Gson vid=6f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:30] [+] running tests: pid=Gson vid=6f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:35]    Tests succeeded
+Working on Gson-7f (7 of 18)
+[06:03:35] [+] checking out project: pid=Gson vid=7f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:36] [+] compiling project: pid=Gson vid=7f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:40] [+] running tests: pid=Gson vid=7f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:44] found 1 triggering tests
+[06:03:44] Commit hash for Gson-7 (buggy): a02f575797d9295bff8fb92d266b0f9724e42098
+[06:03:44] Commit hash for Gson-7 (fixed): 2b08c88c09d14e0b1a68a982bab0bb18206df76b
+[06:03:44] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:03:44] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/2b08c88c09d14e0b1a68a982bab0bb18206df76b
+[06:03:44] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:03:44] [+] checking out project: pid=Gson vid=7f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:46] [+] compiling project: pid=Gson vid=7f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:49] [+] running tests: pid=Gson vid=7f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:56]    Tests succeeded
+Working on Gson-8f (8 of 18)
+[06:03:56] [+] checking out project: pid=Gson vid=8f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:03:56] [+] compiling project: pid=Gson vid=8f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:00] [+] running tests: pid=Gson vid=8f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:04] found 1 triggering tests
+[06:04:04] Commit hash for Gson-8 (buggy): 6f6af8050799bec5321d2c06cd3230daadbb6535
+[06:04:04] Commit hash for Gson-8 (fixed): 0f66f4fac441f7d7d7bc4afc907454f3fe4c0faa
+[06:04:04] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:04:04] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/0f66f4fac441f7d7d7bc4afc907454f3fe4c0faa
+[06:04:04] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:04:04] [+] checking out project: pid=Gson vid=8f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:06] [+] compiling project: pid=Gson vid=8f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:11] [+] running tests: pid=Gson vid=8f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:15]    Tests succeeded
+Working on Gson-9f (9 of 18)
+[06:04:15] [+] checking out project: pid=Gson vid=9f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:16] [+] compiling project: pid=Gson vid=9f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:20] [+] running tests: pid=Gson vid=9f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:25] found 1 triggering tests
+[06:04:25] Commit hash for Gson-9 (buggy): 0f66f4fac441f7d7d7bc4afc907454f3fe4c0faa
+[06:04:25] Commit hash for Gson-9 (fixed): 874e74a3072f7ff0d2533296698ad126321516d1
+[06:04:25] Directory /scratch/benku/defects4j/framework/projects/Gson/failing_tests exists...continuing
+[06:04:25] updating failing tests: /tmp/test_d4j_64918_1587387522/run_tests/Gson/failing_tests >> /scratch/benku/defects4j/framework/projects/Gson/failing_tests/874e74a3072f7ff0d2533296698ad126321516d1
+[06:04:25] rerunning defects4j test -w /tmp/test_d4j_64918_1587387522/run_tests/Gson with appended failing tests
+[06:04:25] [+] checking out project: pid=Gson vid=9f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:27] [+] compiling project: pid=Gson vid=9f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:30] [+] running tests: pid=Gson vid=9f work_dir=/tmp/test_d4j_64918_1587387522/run_tests/Gson
+[06:04:35]    Tests succeeded
