@@ -1,0 +1,1274 @@
+Running tests on Math
+[14:11:31] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Math_39972.log
+[14:11:31] all_bugs: 106
+[14:11:31] test_dir: /tmp/test_d4j_39950_1587330690/run_tests
+[14:11:31] work_dir: /tmp/test_d4j_39950_1587330690/run_tests/Math
+Working on Math-1f (1 of 106)
+[14:11:31] [+] checking out project: pid=Math vid=1f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:11:34] [+] compiling project: pid=Math vid=1f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:11:44] [+] running tests: pid=Math vid=1f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:13:02] found 5 triggering tests
+[14:13:02] Commit hash for Math-1 (buggy): 1780da711d88f669e29e0517f83d692fb80099db
+[14:13:02] Commit hash for Math-1 (fixed): 0da657a65c92b086a301a6ffe9e34ec272f8889c
+[14:13:02] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests doesn't exist
+[14:13:02] Making directory /scratch/benku/defects4j/framework/projects/Math/failing_tests
+[14:13:02] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/0da657a65c92b086a301a6ffe9e34ec272f8889c
+[14:13:03] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:13:03] [+] checking out project: pid=Math vid=1f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:13:07] [+] compiling project: pid=Math vid=1f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:13:16] [+] running tests: pid=Math vid=1f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:14:27]    Tests succeeded
+Working on Math-10f (10 of 106)
+[14:14:27] [+] checking out project: pid=Math vid=10f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:14:30] [+] compiling project: pid=Math vid=10f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:14:39] [+] running tests: pid=Math vid=10f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:16:41] found 5 triggering tests
+[14:16:41] Commit hash for Math-10 (buggy): d2a916e325a1c47f12137ea902aaac100ed1f5db
+[14:16:41] Commit hash for Math-10 (fixed): 7e2ffcc9034de41d7787f0b33b5670474f7a10de
+[14:16:41] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:16:41] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/7e2ffcc9034de41d7787f0b33b5670474f7a10de
+[14:16:41] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:16:41] [+] checking out project: pid=Math vid=10f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:16:45] [+] compiling project: pid=Math vid=10f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:16:52] [+] running tests: pid=Math vid=10f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:18:29]    Tests succeeded
+Working on Math-100f (100 of 106)
+[14:18:29] [+] checking out project: pid=Math vid=100f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:18:32] [+] compiling project: pid=Math vid=100f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:18:39] [+] running tests: pid=Math vid=100f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:18:50] found 0 triggering tests
+Working on Math-101f (101 of 106)
+[14:18:50] [+] checking out project: pid=Math vid=101f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:18:53] [+] compiling project: pid=Math vid=101f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:18:59] [+] running tests: pid=Math vid=101f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:09] found 0 triggering tests
+Working on Math-102f (102 of 106)
+[14:19:09] [+] checking out project: pid=Math vid=102f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:12] [+] compiling project: pid=Math vid=102f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:18] [+] running tests: pid=Math vid=102f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:28] found 0 triggering tests
+Working on Math-103f (103 of 106)
+[14:19:28] [+] checking out project: pid=Math vid=103f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:31] [+] compiling project: pid=Math vid=103f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:38] [+] running tests: pid=Math vid=103f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:47] found 0 triggering tests
+Working on Math-104f (104 of 106)
+[14:19:47] [+] checking out project: pid=Math vid=104f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:50] [+] compiling project: pid=Math vid=104f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:19:57] [+] running tests: pid=Math vid=104f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:06] found 0 triggering tests
+Working on Math-105f (105 of 106)
+[14:20:06] [+] checking out project: pid=Math vid=105f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:09] [+] compiling project: pid=Math vid=105f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:15] [+] running tests: pid=Math vid=105f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:22] found 0 triggering tests
+Working on Math-106f (106 of 106)
+[14:20:22] [+] checking out project: pid=Math vid=106f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:25] [+] compiling project: pid=Math vid=106f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:31] [+] running tests: pid=Math vid=106f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:38] found 0 triggering tests
+Working on Math-11f (11 of 106)
+[14:20:38] [+] checking out project: pid=Math vid=11f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:41] [+] compiling project: pid=Math vid=11f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:20:51] [+] running tests: pid=Math vid=11f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:22:26] found 5 triggering tests
+[14:22:26] Commit hash for Math-11 (buggy): 02f64e7355618ef222c2320bd6731cce8c244fc5
+[14:22:26] Commit hash for Math-11 (fixed): aa2bd1d0656b0001192aa2b2ef779cfd1f3b7e4d
+[14:22:26] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:22:26] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/aa2bd1d0656b0001192aa2b2ef779cfd1f3b7e4d
+[14:22:26] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:22:26] [+] checking out project: pid=Math vid=11f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:22:30] [+] compiling project: pid=Math vid=11f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:22:39] [+] running tests: pid=Math vid=11f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:24:17]    Tests succeeded
+Working on Math-12f (12 of 106)
+[14:24:17] [+] checking out project: pid=Math vid=12f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:24:20] [+] compiling project: pid=Math vid=12f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:24:30] [+] running tests: pid=Math vid=12f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:26:18] found 5 triggering tests
+[14:26:18] Commit hash for Math-12 (buggy): 67fc870987c8da66ae719764a6ce2e1a9d3bfc76
+[14:26:18] Commit hash for Math-12 (fixed): cc82d38aaf6ec24758a0a6df9535b8204e22ef12
+[14:26:18] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:26:18] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/cc82d38aaf6ec24758a0a6df9535b8204e22ef12
+[14:26:18] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:26:18] [+] checking out project: pid=Math vid=12f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:26:22] [+] compiling project: pid=Math vid=12f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:26:30] [+] running tests: pid=Math vid=12f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:28:05]    Tests succeeded
+Working on Math-13f (13 of 106)
+[14:28:05] [+] checking out project: pid=Math vid=13f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:28:08] [+] compiling project: pid=Math vid=13f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:28:16] [+] running tests: pid=Math vid=13f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:29:49] found 5 triggering tests
+[14:29:49] Commit hash for Math-13 (buggy): a6b2e992e17cee0d4cb5a2da8242a20b8e5a8fc3
+[14:29:49] Commit hash for Math-13 (fixed): 8079ea5b8d1366445da532906e43afa9291473cf
+[14:29:49] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:29:49] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/8079ea5b8d1366445da532906e43afa9291473cf
+[14:29:49] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:29:49] [+] checking out project: pid=Math vid=13f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:29:53] [+] compiling project: pid=Math vid=13f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:30:01] [+] running tests: pid=Math vid=13f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:31:40]    Tests succeeded
+Working on Math-14f (14 of 106)
+[14:31:40] [+] checking out project: pid=Math vid=14f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:31:43] [+] compiling project: pid=Math vid=14f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:31:52] [+] running tests: pid=Math vid=14f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:33:25] found 5 triggering tests
+[14:33:25] Commit hash for Math-14 (buggy): 0f37f87216b67d12b722d706f3e313b731ee31ab
+[14:33:25] Commit hash for Math-14 (fixed): a6b2e992e17cee0d4cb5a2da8242a20b8e5a8fc3
+[14:33:25] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:33:25] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/a6b2e992e17cee0d4cb5a2da8242a20b8e5a8fc3
+[14:33:26] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:33:26] [+] checking out project: pid=Math vid=14f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:33:30] [+] compiling project: pid=Math vid=14f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:33:38] [+] running tests: pid=Math vid=14f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:35:17]    Tests succeeded
+Working on Math-15f (15 of 106)
+[14:35:17] [+] checking out project: pid=Math vid=15f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:35:20] [+] compiling project: pid=Math vid=15f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:35:28] [+] running tests: pid=Math vid=15f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:36:36] found 3 triggering tests
+[14:36:36] Commit hash for Math-15 (buggy): efcf91bce70116ab1f628dee5c9ed1c2f18d2db9
+[14:36:36] Commit hash for Math-15 (fixed): b221a7342856a2a548f5d9817055defc0ec4dea6
+[14:36:36] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:36:36] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/b221a7342856a2a548f5d9817055defc0ec4dea6
+[14:36:36] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:36:36] [+] checking out project: pid=Math vid=15f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:36:40] [+] compiling project: pid=Math vid=15f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:36:49] [+] running tests: pid=Math vid=15f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:37:56]    Tests succeeded
+Working on Math-16f (16 of 106)
+[14:37:56] [+] checking out project: pid=Math vid=16f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:38:00] [+] compiling project: pid=Math vid=16f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:38:08] [+] running tests: pid=Math vid=16f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:39:10] found 3 triggering tests
+[14:39:10] Commit hash for Math-16 (buggy): 87324e56a31c110a1653955cdd715e9e88a54ed7
+[14:39:10] Commit hash for Math-16 (fixed): 875ed1f4d90d1457c0ab40dafc79be5a0c6f9bf6
+[14:39:10] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:39:10] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/875ed1f4d90d1457c0ab40dafc79be5a0c6f9bf6
+[14:39:10] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:39:10] [+] checking out project: pid=Math vid=16f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:39:14] [+] compiling project: pid=Math vid=16f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:39:23] [+] running tests: pid=Math vid=16f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:40:34]    Tests succeeded
+Working on Math-17f (17 of 106)
+[14:40:34] [+] checking out project: pid=Math vid=17f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:40:37] [+] compiling project: pid=Math vid=17f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:40:45] [+] running tests: pid=Math vid=17f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:41:48] found 3 triggering tests
+[14:41:48] Commit hash for Math-17 (buggy): 07611165b6176b6e3e6d5ac6ca052a102f10e3c4
+[14:41:48] Commit hash for Math-17 (fixed): 621806b796bc416f00341feca894ebae07be5ed0
+[14:41:48] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:41:48] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/621806b796bc416f00341feca894ebae07be5ed0
+[14:41:49] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:41:49] [+] checking out project: pid=Math vid=17f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:41:53] [+] compiling project: pid=Math vid=17f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:42:02] [+] running tests: pid=Math vid=17f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:43:07]    Tests succeeded
+Working on Math-18f (18 of 106)
+[14:43:07] [+] checking out project: pid=Math vid=18f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:43:10] [+] compiling project: pid=Math vid=18f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:43:19] [+] running tests: pid=Math vid=18f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:44:21] found 3 triggering tests
+[14:44:21] Commit hash for Math-18 (buggy): 6e62aefca7aefe26a2ebc43fcdcd6cd58953f7de
+[14:44:21] Commit hash for Math-18 (fixed): 7c7d7e8f103582e753c39a2baf14a483e991fefb
+[14:44:21] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:44:21] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/7c7d7e8f103582e753c39a2baf14a483e991fefb
+[14:44:21] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:44:21] [+] checking out project: pid=Math vid=18f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:44:25] [+] compiling project: pid=Math vid=18f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:44:33] [+] running tests: pid=Math vid=18f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:45:35]    Tests succeeded
+Working on Math-19f (19 of 106)
+[14:45:35] [+] checking out project: pid=Math vid=19f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:45:39] [+] compiling project: pid=Math vid=19f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:45:47] [+] running tests: pid=Math vid=19f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:46:52] found 3 triggering tests
+[14:46:52] Commit hash for Math-19 (buggy): efa9de05114492ca38cf4739a07339f5ad6faddc
+[14:46:52] Commit hash for Math-19 (fixed): c73fad0a0d42103b5e13a68317ea95b1090263ba
+[14:46:52] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:46:52] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/c73fad0a0d42103b5e13a68317ea95b1090263ba
+[14:46:52] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:46:52] [+] checking out project: pid=Math vid=19f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:46:56] [+] compiling project: pid=Math vid=19f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:47:04] [+] running tests: pid=Math vid=19f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:48:10]    Tests succeeded
+Working on Math-2f (2 of 106)
+[14:48:10] [+] checking out project: pid=Math vid=2f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:48:13] [+] compiling project: pid=Math vid=2f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:48:21] [+] running tests: pid=Math vid=2f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:49:34] found 5 triggering tests
+[14:49:34] Commit hash for Math-2 (buggy): ad5c90bbabdbce834068bc79d3eb00c823e97008
+[14:49:34] Commit hash for Math-2 (fixed): c0b655ace5665c0cd32e3f5e5b46edad4d223125
+[14:49:34] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:49:34] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/c0b655ace5665c0cd32e3f5e5b46edad4d223125
+[14:49:34] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:49:34] [+] checking out project: pid=Math vid=2f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:49:38] [+] compiling project: pid=Math vid=2f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:49:46] [+] running tests: pid=Math vid=2f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:51:05]    Tests succeeded
+Working on Math-20f (20 of 106)
+[14:51:05] [+] checking out project: pid=Math vid=20f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:51:09] [+] compiling project: pid=Math vid=20f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:51:17] [+] running tests: pid=Math vid=20f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:52:18] found 3 triggering tests
+[14:52:18] Commit hash for Math-20 (buggy): 5a50073d07ca309d78cfc4e071f4bbe051bdbd40
+[14:52:18] Commit hash for Math-20 (fixed): efa9de05114492ca38cf4739a07339f5ad6faddc
+[14:52:18] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:52:18] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/efa9de05114492ca38cf4739a07339f5ad6faddc
+[14:52:18] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:52:18] [+] checking out project: pid=Math vid=20f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:52:22] [+] compiling project: pid=Math vid=20f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:52:31] [+] running tests: pid=Math vid=20f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:53:36]    Tests succeeded
+Working on Math-21f (21 of 106)
+[14:53:36] [+] checking out project: pid=Math vid=21f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:53:39] [+] compiling project: pid=Math vid=21f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:53:47] [+] running tests: pid=Math vid=21f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:54:52] found 3 triggering tests
+[14:54:52] Commit hash for Math-21 (buggy): dbb408e860279d92b7502474328bb5385c2d9243
+[14:54:52] Commit hash for Math-21 (fixed): 468ed8550b7759858a4dc59d694859a8ae7d35f0
+[14:54:52] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:54:52] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/468ed8550b7759858a4dc59d694859a8ae7d35f0
+[14:54:52] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:54:52] [+] checking out project: pid=Math vid=21f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:54:56] [+] compiling project: pid=Math vid=21f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:55:03] [+] running tests: pid=Math vid=21f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:56:03]    Tests succeeded
+Working on Math-22f (22 of 106)
+[14:56:03] [+] checking out project: pid=Math vid=22f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:56:07] [+] compiling project: pid=Math vid=22f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:56:15] [+] running tests: pid=Math vid=22f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:57:19] found 3 triggering tests
+[14:57:19] Commit hash for Math-22 (buggy): 51461f1c9ce91953ed3e6dbd01b0e2c8bbd75da2
+[14:57:19] Commit hash for Math-22 (fixed): b0cba9a79ee99b09958dec8e40c75bed47b7f780
+[14:57:19] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:57:19] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/b0cba9a79ee99b09958dec8e40c75bed47b7f780
+[14:57:19] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:57:19] [+] checking out project: pid=Math vid=22f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:57:23] [+] compiling project: pid=Math vid=22f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:57:32] [+] running tests: pid=Math vid=22f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:58:37]    Tests succeeded
+Working on Math-23f (23 of 106)
+[14:58:37] [+] checking out project: pid=Math vid=23f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:58:40] [+] compiling project: pid=Math vid=23f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:58:48] [+] running tests: pid=Math vid=23f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:59:54] found 3 triggering tests
+[14:59:54] Commit hash for Math-23 (buggy): 2b4c1f87a73448323d21cd459f967013a41870ca
+[14:59:54] Commit hash for Math-23 (fixed): f1b04e990f4fc86544b6230fab1aa8ecfb74fbb1
+[14:59:54] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[14:59:54] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/f1b04e990f4fc86544b6230fab1aa8ecfb74fbb1
+[14:59:54] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[14:59:54] [+] checking out project: pid=Math vid=23f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[14:59:58] [+] compiling project: pid=Math vid=23f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:00:06] [+] running tests: pid=Math vid=23f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:01:09]    Tests succeeded
+Working on Math-24f (24 of 106)
+[15:01:09] [+] checking out project: pid=Math vid=24f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:01:13] [+] compiling project: pid=Math vid=24f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:01:20] [+] running tests: pid=Math vid=24f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:02:21] found 3 triggering tests
+[15:02:21] Commit hash for Math-24 (buggy): 4e21bb6f6c4bc7380dc58bd8d23c99ea8f4ef5bd
+[15:02:21] Commit hash for Math-24 (fixed): d5ff460ba69e4261f066d7856e2f90b886924513
+[15:02:21] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:02:21] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/d5ff460ba69e4261f066d7856e2f90b886924513
+[15:02:22] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:02:22] [+] checking out project: pid=Math vid=24f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:02:26] [+] compiling project: pid=Math vid=24f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:02:34] [+] running tests: pid=Math vid=24f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:03:37]    Tests succeeded
+Working on Math-25f (25 of 106)
+[15:03:37] [+] checking out project: pid=Math vid=25f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:03:41] [+] compiling project: pid=Math vid=25f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:03:50] [+] running tests: pid=Math vid=25f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:04:52] found 3 triggering tests
+[15:04:52] Commit hash for Math-25 (buggy): 33201599dd578318ce0b87b1cd15c29a7d046097
+[15:04:52] Commit hash for Math-25 (fixed): 996dd998e3081e4a842017b8ebcdae9b6059b530
+[15:04:52] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:04:52] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/996dd998e3081e4a842017b8ebcdae9b6059b530
+[15:04:52] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:04:52] [+] checking out project: pid=Math vid=25f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:04:56] [+] compiling project: pid=Math vid=25f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:05:04] [+] running tests: pid=Math vid=25f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:06:09]    Tests succeeded
+Working on Math-26f (26 of 106)
+[15:06:09] [+] checking out project: pid=Math vid=26f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:06:12] [+] compiling project: pid=Math vid=26f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:06:20] [+] running tests: pid=Math vid=26f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:07:22] found 3 triggering tests
+[15:07:22] Commit hash for Math-26 (buggy): 5f2077bb774d283e7984a2d5dc0c2759f2954963
+[15:07:22] Commit hash for Math-26 (fixed): 1566dd339f6efc2347b0962fac7fce22adbc31ff
+[15:07:22] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:07:22] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/1566dd339f6efc2347b0962fac7fce22adbc31ff
+[15:07:22] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:07:22] [+] checking out project: pid=Math vid=26f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:07:26] [+] compiling project: pid=Math vid=26f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:07:34] [+] running tests: pid=Math vid=26f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:08:35]    Tests succeeded
+Working on Math-27f (27 of 106)
+[15:08:36] [+] checking out project: pid=Math vid=27f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:08:39] [+] compiling project: pid=Math vid=27f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:08:48] [+] running tests: pid=Math vid=27f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:09:46] found 3 triggering tests
+[15:09:46] Commit hash for Math-27 (buggy): d3fc5af31eb696af03cfbe2e18584c7e1d307d54
+[15:09:46] Commit hash for Math-27 (fixed): 5f2077bb774d283e7984a2d5dc0c2759f2954963
+[15:09:46] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:09:46] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/5f2077bb774d283e7984a2d5dc0c2759f2954963
+[15:09:46] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:09:46] [+] checking out project: pid=Math vid=27f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:09:50] [+] compiling project: pid=Math vid=27f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:09:59] [+] running tests: pid=Math vid=27f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:11:00]    Tests succeeded
+Working on Math-28f (28 of 106)
+[15:11:00] [+] checking out project: pid=Math vid=28f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:11:03] [+] compiling project: pid=Math vid=28f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:11:12] [+] running tests: pid=Math vid=28f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:12:16] found 3 triggering tests
+[15:12:16] Commit hash for Math-28 (buggy): a55c951a3d573464e3905de7328fcdc487eebfb4
+[15:12:16] Commit hash for Math-28 (fixed): d3fc5af31eb696af03cfbe2e18584c7e1d307d54
+[15:12:16] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:12:16] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/d3fc5af31eb696af03cfbe2e18584c7e1d307d54
+[15:12:17] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:12:17] [+] checking out project: pid=Math vid=28f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:12:21] [+] compiling project: pid=Math vid=28f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:12:31] [+] running tests: pid=Math vid=28f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:13:33]    Tests succeeded
+Working on Math-29f (29 of 106)
+[15:13:34] [+] checking out project: pid=Math vid=29f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:13:37] [+] compiling project: pid=Math vid=29f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:13:45] [+] running tests: pid=Math vid=29f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:14:37] found 5 triggering tests
+[15:14:37] Commit hash for Math-29 (buggy): 350b2b1aa1ed5d7df05a77bf13f701ac1712dbc0
+[15:14:37] Commit hash for Math-29 (fixed): 7bbddc2203bed78fafe7739a97df1f53e767341a
+[15:14:37] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:14:37] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/7bbddc2203bed78fafe7739a97df1f53e767341a
+[15:14:37] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:14:37] [+] checking out project: pid=Math vid=29f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:14:42] [+] compiling project: pid=Math vid=29f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:14:52] [+] running tests: pid=Math vid=29f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:15:45]    Tests succeeded
+Working on Math-3f (3 of 106)
+[15:15:45] [+] checking out project: pid=Math vid=3f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:15:48] [+] compiling project: pid=Math vid=3f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:15:57] [+] running tests: pid=Math vid=3f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:17:11] found 5 triggering tests
+[15:17:11] Commit hash for Math-3 (buggy): de4209544270def43e39db0d214d1564939f8e40
+[15:17:11] Commit hash for Math-3 (fixed): 92c4697300e8ddf06152bc0838c738d50673c1d2
+[15:17:11] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:17:11] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/92c4697300e8ddf06152bc0838c738d50673c1d2
+[15:17:11] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:17:11] [+] checking out project: pid=Math vid=3f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:17:16] [+] compiling project: pid=Math vid=3f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:17:26] [+] running tests: pid=Math vid=3f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:18:40]    Tests succeeded
+Working on Math-30f (30 of 106)
+[15:18:40] [+] checking out project: pid=Math vid=30f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:18:43] [+] compiling project: pid=Math vid=30f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:18:51] [+] running tests: pid=Math vid=30f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:19:43] found 3 triggering tests
+[15:19:43] Commit hash for Math-30 (buggy): 631c5bcbb2d8d46eed1091031310ed24fcd866ed
+[15:19:43] Commit hash for Math-30 (fixed): a25e7f7abe7f6b3f4147febee4a917ce92241aab
+[15:19:43] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:19:43] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/a25e7f7abe7f6b3f4147febee4a917ce92241aab
+[15:19:43] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:19:43] [+] checking out project: pid=Math vid=30f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:19:47] [+] compiling project: pid=Math vid=30f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:19:55] [+] running tests: pid=Math vid=30f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:20:48]    Tests succeeded
+Working on Math-31f (31 of 106)
+[15:20:48] [+] checking out project: pid=Math vid=31f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:20:52] [+] compiling project: pid=Math vid=31f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:21:00] [+] running tests: pid=Math vid=31f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:21:53] found 3 triggering tests
+[15:21:53] Commit hash for Math-31 (buggy): 6a5ef0149e123d9de19910d59e45d0e66bfd665c
+[15:21:53] Commit hash for Math-31 (fixed): 2d846db3aec18dd081e680be05f6e0faad1cb186
+[15:21:53] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:21:53] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/2d846db3aec18dd081e680be05f6e0faad1cb186
+[15:21:53] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:21:53] [+] checking out project: pid=Math vid=31f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:21:57] [+] compiling project: pid=Math vid=31f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:22:05] [+] running tests: pid=Math vid=31f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:22:59]    Tests succeeded
+Working on Math-32f (32 of 106)
+[15:22:59] [+] checking out project: pid=Math vid=32f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:23:02] [+] compiling project: pid=Math vid=32f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:23:11] [+] running tests: pid=Math vid=32f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:24:04] found 3 triggering tests
+[15:24:04] Commit hash for Math-32 (buggy): 8d6478346e45d728656ccac760adc8126b3d225c
+[15:24:04] Commit hash for Math-32 (fixed): f81847d8079753ce45b049813730055188a22efb
+[15:24:04] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:24:04] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/f81847d8079753ce45b049813730055188a22efb
+[15:24:04] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:24:04] [+] checking out project: pid=Math vid=32f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:24:08] [+] compiling project: pid=Math vid=32f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:24:16] [+] running tests: pid=Math vid=32f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:25:09]    Tests succeeded
+Working on Math-33f (33 of 106)
+[15:25:09] [+] checking out project: pid=Math vid=33f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:25:12] [+] compiling project: pid=Math vid=33f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:25:19] [+] running tests: pid=Math vid=33f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:26:10] found 3 triggering tests
+[15:26:10] Commit hash for Math-33 (buggy): e5c7e4055ab2a40cb107a7ebd33766867325d5cc
+[15:26:10] Commit hash for Math-33 (fixed): 3ef79313597d7d49067c48d65a09042d8d94822d
+[15:26:10] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:26:10] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/3ef79313597d7d49067c48d65a09042d8d94822d
+[15:26:10] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:26:10] [+] checking out project: pid=Math vid=33f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:26:14] [+] compiling project: pid=Math vid=33f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:26:21] [+] running tests: pid=Math vid=33f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:27:12]    Tests succeeded
+Working on Math-34f (34 of 106)
+[15:27:12] [+] checking out project: pid=Math vid=34f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:27:15] [+] compiling project: pid=Math vid=34f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:27:24] [+] running tests: pid=Math vid=34f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:28:18] found 3 triggering tests
+[15:28:18] Commit hash for Math-34 (buggy): b91b3efb3854c0fd0f270bdba6cdfa8058c0515a
+[15:28:18] Commit hash for Math-34 (fixed): 520f36b43a13681db338a07ac6c251cbe1a7a6e5
+[15:28:18] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:28:18] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/520f36b43a13681db338a07ac6c251cbe1a7a6e5
+[15:28:18] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:28:18] [+] checking out project: pid=Math vid=34f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:28:22] [+] compiling project: pid=Math vid=34f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:28:30] [+] running tests: pid=Math vid=34f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:29:25]    Tests succeeded
+Working on Math-35f (35 of 106)
+[15:29:25] [+] checking out project: pid=Math vid=35f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:29:28] [+] compiling project: pid=Math vid=35f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:29:37] [+] running tests: pid=Math vid=35f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:30:26] found 3 triggering tests
+[15:30:26] Commit hash for Math-35 (buggy): 88f944e1aada536e9a70b041387bb328d61490cd
+[15:30:26] Commit hash for Math-35 (fixed): a5d8d115cb85149c62059a23e8f4d318cac0e903
+[15:30:26] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:30:26] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/a5d8d115cb85149c62059a23e8f4d318cac0e903
+[15:30:26] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:30:26] [+] checking out project: pid=Math vid=35f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:30:30] [+] compiling project: pid=Math vid=35f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:30:39] [+] running tests: pid=Math vid=35f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:31:32]    Tests succeeded
+Working on Math-36f (36 of 106)
+[15:31:32] [+] checking out project: pid=Math vid=36f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:31:36] [+] compiling project: pid=Math vid=36f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:31:44] [+] running tests: pid=Math vid=36f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:32:35] found 3 triggering tests
+[15:32:35] Commit hash for Math-36 (buggy): 966d2eeef17b0b9bc7c07822be8da337bffedf97
+[15:32:35] Commit hash for Math-36 (fixed): 1a15d5f4c13eca0435b0ed7e6a624064e7f7e07f
+[15:32:35] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:32:35] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/1a15d5f4c13eca0435b0ed7e6a624064e7f7e07f
+[15:32:35] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:32:35] [+] checking out project: pid=Math vid=36f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:32:40] [+] compiling project: pid=Math vid=36f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:32:48] [+] running tests: pid=Math vid=36f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:33:35]    Tests succeeded
+Working on Math-37f (37 of 106)
+[15:33:35] [+] checking out project: pid=Math vid=37f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:33:39] [+] compiling project: pid=Math vid=37f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:33:46] [+] running tests: pid=Math vid=37f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:34:32] found 3 triggering tests
+[15:34:32] Commit hash for Math-37 (buggy): de147e5cc14f8dac6da785289421a55b11d21aa6
+[15:34:32] Commit hash for Math-37 (fixed): 65ed08e15af15617e967d3ea9d635dc55a0ef866
+[15:34:32] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:34:32] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/65ed08e15af15617e967d3ea9d635dc55a0ef866
+[15:34:32] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:34:32] [+] checking out project: pid=Math vid=37f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:34:36] [+] compiling project: pid=Math vid=37f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:34:45] [+] running tests: pid=Math vid=37f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:35:37]    Tests succeeded
+Working on Math-38f (38 of 106)
+[15:35:37] [+] checking out project: pid=Math vid=38f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:35:40] [+] compiling project: pid=Math vid=38f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:35:48] [+] running tests: pid=Math vid=38f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:36:38] found 3 triggering tests
+[15:36:38] Commit hash for Math-38 (buggy): 74e00296574dc3ac0bc064fc3258faabaf732d6c
+[15:36:38] Commit hash for Math-38 (fixed): 91cc42ba0493938aa53585720b315b62c5784a96
+[15:36:38] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:36:38] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/91cc42ba0493938aa53585720b315b62c5784a96
+[15:36:38] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:36:38] [+] checking out project: pid=Math vid=38f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:36:42] [+] compiling project: pid=Math vid=38f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:36:50] [+] running tests: pid=Math vid=38f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:37:38]    Tests succeeded
+Working on Math-39f (39 of 106)
+[15:37:38] [+] checking out project: pid=Math vid=39f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:37:41] [+] compiling project: pid=Math vid=39f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:37:49] [+] running tests: pid=Math vid=39f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:38:23] found 3 triggering tests
+[15:38:23] Commit hash for Math-39 (buggy): c23859f0172edba1ff75577d0ad98e3fb41aa6d4
+[15:38:23] Commit hash for Math-39 (fixed): 74e00296574dc3ac0bc064fc3258faabaf732d6c
+[15:38:23] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:38:23] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/74e00296574dc3ac0bc064fc3258faabaf732d6c
+[15:38:23] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:38:23] [+] checking out project: pid=Math vid=39f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:38:27] [+] compiling project: pid=Math vid=39f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:38:36] [+] running tests: pid=Math vid=39f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:39:10]    Tests succeeded
+Working on Math-4f (4 of 106)
+[15:39:10] [+] checking out project: pid=Math vid=4f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:39:14] [+] compiling project: pid=Math vid=4f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:39:23] [+] running tests: pid=Math vid=4f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:40:39] found 5 triggering tests
+[15:40:39] Commit hash for Math-4 (buggy): d609e65f7bfb38c66e2a8670242e72108b3d0e98
+[15:40:39] Commit hash for Math-4 (fixed): 277e61721f34be16a20da663fd597edf6b51939b
+[15:40:39] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:40:39] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/277e61721f34be16a20da663fd597edf6b51939b
+[15:40:39] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:40:39] [+] checking out project: pid=Math vid=4f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:40:44] [+] compiling project: pid=Math vid=4f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:40:53] [+] running tests: pid=Math vid=4f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:42:09]    Tests succeeded
+Working on Math-40f (40 of 106)
+[15:42:09] [+] checking out project: pid=Math vid=40f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:42:12] [+] compiling project: pid=Math vid=40f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:42:19] [+] running tests: pid=Math vid=40f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:42:53] found 3 triggering tests
+[15:42:53] Commit hash for Math-40 (buggy): efa7825880d8c1c7411e51c5e21df6a004b78a3b
+[15:42:53] Commit hash for Math-40 (fixed): c8becc7c47963bcdc1578298846ad6fbf08f64ef
+[15:42:53] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:42:53] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/c8becc7c47963bcdc1578298846ad6fbf08f64ef
+[15:42:53] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:42:53] [+] checking out project: pid=Math vid=40f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:42:58] [+] compiling project: pid=Math vid=40f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:43:05] [+] running tests: pid=Math vid=40f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:43:35]    Tests succeeded
+Working on Math-41f (41 of 106)
+[15:43:35] [+] checking out project: pid=Math vid=41f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:43:38] [+] compiling project: pid=Math vid=41f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:43:46] [+] running tests: pid=Math vid=41f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:44:22] found 3 triggering tests
+[15:44:22] Commit hash for Math-41 (buggy): 91e6ac584320681913de4a71a4e8d9f837e099b4
+[15:44:22] Commit hash for Math-41 (fixed): 882556eabbeb2f62939aee29afdec2a01ce4bbe1
+[15:44:22] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:44:22] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/882556eabbeb2f62939aee29afdec2a01ce4bbe1
+[15:44:22] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:44:22] [+] checking out project: pid=Math vid=41f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:44:26] [+] compiling project: pid=Math vid=41f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:44:34] [+] running tests: pid=Math vid=41f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:45:09]    Tests succeeded
+Working on Math-42f (42 of 106)
+[15:45:09] [+] checking out project: pid=Math vid=42f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:45:12] [+] compiling project: pid=Math vid=42f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:45:21] [+] running tests: pid=Math vid=42f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:45:58] found 3 triggering tests
+[15:45:58] Commit hash for Math-42 (buggy): 800943ecf2e3ecf9258d8fdf8052e9273b816a97
+[15:45:58] Commit hash for Math-42 (fixed): e98a5000cd211539bf4ba65f62cc7f81395e1726
+[15:45:58] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:45:58] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/e98a5000cd211539bf4ba65f62cc7f81395e1726
+[15:45:58] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:45:58] [+] checking out project: pid=Math vid=42f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:46:02] [+] compiling project: pid=Math vid=42f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:46:10] [+] running tests: pid=Math vid=42f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:46:47]    Tests succeeded
+Working on Math-43f (43 of 106)
+[15:46:47] [+] checking out project: pid=Math vid=43f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:46:51] [+] compiling project: pid=Math vid=43f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:47:00] [+] running tests: pid=Math vid=43f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:47:37] found 3 triggering tests
+[15:47:37] Commit hash for Math-43 (buggy): c282a044d713d78cbf7ff86694c2c224fb47e14f
+[15:47:37] Commit hash for Math-43 (fixed): dcae84b2e8f025e93340307d8bc04d406202c323
+[15:47:37] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:47:37] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/dcae84b2e8f025e93340307d8bc04d406202c323
+[15:47:37] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:47:37] [+] checking out project: pid=Math vid=43f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:47:41] [+] compiling project: pid=Math vid=43f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:47:49] [+] running tests: pid=Math vid=43f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:48:19]    Tests succeeded
+Working on Math-44f (44 of 106)
+[15:48:19] [+] checking out project: pid=Math vid=44f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:48:22] [+] compiling project: pid=Math vid=44f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:48:30] [+] running tests: pid=Math vid=44f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:49:01] found 3 triggering tests
+[15:49:01] Commit hash for Math-44 (buggy): 4d994702cb50c8ad80f4f977292063a118cff724
+[15:49:01] Commit hash for Math-44 (fixed): 53c8cec5ceb4cd81e3f9b8858814accac83a324e
+[15:49:01] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:49:01] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/53c8cec5ceb4cd81e3f9b8858814accac83a324e
+[15:49:01] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:49:01] [+] checking out project: pid=Math vid=44f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:49:05] [+] compiling project: pid=Math vid=44f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:49:12] [+] running tests: pid=Math vid=44f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:49:48]    Tests succeeded
+Working on Math-45f (45 of 106)
+[15:49:48] [+] checking out project: pid=Math vid=45f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:49:51] [+] compiling project: pid=Math vid=45f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:49:58] [+] running tests: pid=Math vid=45f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:50:35] found 3 triggering tests
+[15:50:35] Commit hash for Math-45 (buggy): 4a702dbf7e2264c0b9757178f3afbde38e07fe41
+[15:50:35] Commit hash for Math-45 (fixed): bc4e9db01c2a03062965fa4bac65782376ab2287
+[15:50:35] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:50:36] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/bc4e9db01c2a03062965fa4bac65782376ab2287
+[15:50:36] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:50:36] [+] checking out project: pid=Math vid=45f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:50:40] [+] compiling project: pid=Math vid=45f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:50:48] [+] running tests: pid=Math vid=45f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:51:24]    Tests succeeded
+Working on Math-46f (46 of 106)
+[15:51:25] [+] checking out project: pid=Math vid=46f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:51:28] [+] compiling project: pid=Math vid=46f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:51:36] [+] running tests: pid=Math vid=46f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:53:35] found 3 triggering tests
+[15:53:35] Commit hash for Math-46 (buggy): 330f3fe17d132bd4e2a91ff812ccf489e77f390f
+[15:53:35] Commit hash for Math-46 (fixed): e6f27ebcb9ee0a344308382b99a3894bb61b225d
+[15:53:35] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:53:35] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/e6f27ebcb9ee0a344308382b99a3894bb61b225d
+[15:53:35] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:53:35] [+] checking out project: pid=Math vid=46f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:53:39] [+] compiling project: pid=Math vid=46f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:53:46] [+] running tests: pid=Math vid=46f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:55:45]    Tests succeeded
+Working on Math-47f (47 of 106)
+[15:55:45] [+] checking out project: pid=Math vid=47f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:55:48] [+] compiling project: pid=Math vid=47f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:55:56] [+] running tests: pid=Math vid=47f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:57:54] found 3 triggering tests
+[15:57:54] Commit hash for Math-47 (buggy): bbb5e1e198f995eddb393f820ed059aa774871c3
+[15:57:54] Commit hash for Math-47 (fixed): 330f3fe17d132bd4e2a91ff812ccf489e77f390f
+[15:57:54] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[15:57:54] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/330f3fe17d132bd4e2a91ff812ccf489e77f390f
+[15:57:55] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[15:57:55] [+] checking out project: pid=Math vid=47f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:57:59] [+] compiling project: pid=Math vid=47f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[15:58:06] [+] running tests: pid=Math vid=47f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:00:04]    Tests succeeded
+Working on Math-48f (48 of 106)
+[16:00:04] [+] checking out project: pid=Math vid=48f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:00:08] [+] compiling project: pid=Math vid=48f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:00:16] [+] running tests: pid=Math vid=48f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:02:20] found 3 triggering tests
+[16:02:20] Commit hash for Math-48 (buggy): 2af72281fcb919dac92b0c4e464f847adda23be1
+[16:02:20] Commit hash for Math-48 (fixed): 13d22f45624470ce5c07c085cf8b1ec0251eaee6
+[16:02:20] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:02:20] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/13d22f45624470ce5c07c085cf8b1ec0251eaee6
+[16:02:20] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:02:20] [+] checking out project: pid=Math vid=48f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:02:24] [+] compiling project: pid=Math vid=48f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:02:32] [+] running tests: pid=Math vid=48f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:04:25]    Tests succeeded
+Working on Math-49f (49 of 106)
+[16:04:26] [+] checking out project: pid=Math vid=49f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:04:29] [+] compiling project: pid=Math vid=49f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:04:35] [+] running tests: pid=Math vid=49f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:06:33] found 3 triggering tests
+[16:06:33] Commit hash for Math-49 (buggy): 0b78d9accafadffe00697c2c56706043cdba5e64
+[16:06:33] Commit hash for Math-49 (fixed): 09e35881f1ad74335707e70aa78fd347e37d1066
+[16:06:33] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:06:33] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/09e35881f1ad74335707e70aa78fd347e37d1066
+[16:06:33] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:06:33] [+] checking out project: pid=Math vid=49f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:06:38] [+] compiling project: pid=Math vid=49f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:06:46] [+] running tests: pid=Math vid=49f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:08:43]    Tests succeeded
+Working on Math-5f (5 of 106)
+[16:08:43] [+] checking out project: pid=Math vid=5f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:08:46] [+] compiling project: pid=Math vid=5f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:08:56] [+] running tests: pid=Math vid=5f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:10:37] found 5 triggering tests
+[16:10:37] Commit hash for Math-5 (buggy): f5bcba812fb8bc59ff5e4bc055811039b610aa2b
+[16:10:37] Commit hash for Math-5 (fixed): e54a1c92302f3167b06bc04859b87ac0681bcdf3
+[16:10:37] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:10:37] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/e54a1c92302f3167b06bc04859b87ac0681bcdf3
+[16:10:38] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:10:38] [+] checking out project: pid=Math vid=5f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:10:42] [+] compiling project: pid=Math vid=5f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:10:49] [+] running tests: pid=Math vid=5f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:12:33]    Tests succeeded
+Working on Math-50f (50 of 106)
+[16:12:34] [+] checking out project: pid=Math vid=50f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:12:37] [+] compiling project: pid=Math vid=50f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:12:44] [+] running tests: pid=Math vid=50f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:14:45] found 3 triggering tests
+[16:14:45] Commit hash for Math-50 (buggy): ef028845113aca7e1159b1725edd7c39ed686faf
+[16:14:45] Commit hash for Math-50 (fixed): 39cf5e69259d7560d50553caf028f9229b721013
+[16:14:45] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:14:45] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/39cf5e69259d7560d50553caf028f9229b721013
+[16:14:45] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:14:45] [+] checking out project: pid=Math vid=50f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:14:50] [+] compiling project: pid=Math vid=50f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:14:57] [+] running tests: pid=Math vid=50f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:16:55]    Tests succeeded
+Working on Math-51f (51 of 106)
+[16:16:55] [+] checking out project: pid=Math vid=51f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:16:58] [+] compiling project: pid=Math vid=51f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:17:07] [+] running tests: pid=Math vid=51f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:19:01] found 3 triggering tests
+[16:19:01] Commit hash for Math-51 (buggy): 34fef656d03a5ba75047a55a894f6f72cbe59f2e
+[16:19:01] Commit hash for Math-51 (fixed): 2f066a5b2d2fe8a00a251a3220b0d52446fe392d
+[16:19:01] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:19:01] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/2f066a5b2d2fe8a00a251a3220b0d52446fe392d
+[16:19:01] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:19:01] [+] checking out project: pid=Math vid=51f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:19:05] [+] compiling project: pid=Math vid=51f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:19:13] [+] running tests: pid=Math vid=51f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:21:12]    Tests succeeded
+Working on Math-52f (52 of 106)
+[16:21:12] [+] checking out project: pid=Math vid=52f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:21:16] [+] compiling project: pid=Math vid=52f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:21:24] [+] running tests: pid=Math vid=52f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:23:09] found 1 triggering tests
+[16:23:09] Commit hash for Math-52 (buggy): def9fbf8701afa6937fe582c7572c7be011c319f
+[16:23:09] Commit hash for Math-52 (fixed): 3c319db494928e9d51ea6091b301302c65f4eceb
+[16:23:09] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:23:09] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/3c319db494928e9d51ea6091b301302c65f4eceb
+[16:23:09] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:23:09] [+] checking out project: pid=Math vid=52f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:23:13] [+] compiling project: pid=Math vid=52f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:23:19] [+] running tests: pid=Math vid=52f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:25:07]    Tests succeeded
+Working on Math-53f (53 of 106)
+[16:25:07] [+] checking out project: pid=Math vid=53f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:25:10] [+] compiling project: pid=Math vid=53f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:25:18] [+] running tests: pid=Math vid=53f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:27:04] found 1 triggering tests
+[16:27:04] Commit hash for Math-53 (buggy): 3eb3573c62df5b89cb02a4ea67f08d85d2ceefba
+[16:27:04] Commit hash for Math-53 (fixed): 7707b0bb80be05bbf6533a36bb0c646cbfd1026d
+[16:27:04] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:27:04] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/7707b0bb80be05bbf6533a36bb0c646cbfd1026d
+[16:27:04] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:27:04] [+] checking out project: pid=Math vid=53f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:27:08] [+] compiling project: pid=Math vid=53f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:27:15] [+] running tests: pid=Math vid=53f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:29:02]    Tests succeeded
+Working on Math-54f (54 of 106)
+[16:29:02] [+] checking out project: pid=Math vid=54f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:29:05] [+] compiling project: pid=Math vid=54f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:29:12] [+] running tests: pid=Math vid=54f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:30:49] found 1 triggering tests
+[16:30:49] Commit hash for Math-54 (buggy): 804309e5c5726ad22b0c74dfccdb1ed318f0a108
+[16:30:49] Commit hash for Math-54 (fixed): c00ac8120a4215125e49775cd9351e689586b467
+[16:30:49] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:30:49] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/c00ac8120a4215125e49775cd9351e689586b467
+[16:30:49] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:30:49] [+] checking out project: pid=Math vid=54f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:30:53] [+] compiling project: pid=Math vid=54f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:31:02] [+] running tests: pid=Math vid=54f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:32:43]    Tests succeeded
+Working on Math-55f (55 of 106)
+[16:32:43] [+] checking out project: pid=Math vid=55f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:32:46] [+] compiling project: pid=Math vid=55f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:32:54] [+] running tests: pid=Math vid=55f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:34:31] found 1 triggering tests
+[16:34:31] Commit hash for Math-55 (buggy): 3114d4ed4654f54fc1ee8e3c3da5b6cd1cd2cc87
+[16:34:31] Commit hash for Math-55 (fixed): 0c38504ffa3ef520ce78e260538d7b8742c895e8
+[16:34:31] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:34:31] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/0c38504ffa3ef520ce78e260538d7b8742c895e8
+[16:34:31] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:34:31] [+] checking out project: pid=Math vid=55f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:34:35] [+] compiling project: pid=Math vid=55f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:34:42] [+] running tests: pid=Math vid=55f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:36:20]    Tests succeeded
+Working on Math-56f (56 of 106)
+[16:36:20] [+] checking out project: pid=Math vid=56f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:36:23] [+] compiling project: pid=Math vid=56f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:36:31] [+] running tests: pid=Math vid=56f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:38:09] found 1 triggering tests
+[16:38:09] Commit hash for Math-56 (buggy): d773adb1228299c05ae9abbacf2f3616e9a170e0
+[16:38:09] Commit hash for Math-56 (fixed): e06fe05e2dd68936e770ba67caa7b9924568170d
+[16:38:09] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:38:09] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/e06fe05e2dd68936e770ba67caa7b9924568170d
+[16:38:09] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:38:09] [+] checking out project: pid=Math vid=56f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:38:13] [+] compiling project: pid=Math vid=56f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:38:21] [+] running tests: pid=Math vid=56f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:39:58]    Tests succeeded
+Working on Math-57f (57 of 106)
+[16:39:59] [+] checking out project: pid=Math vid=57f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:40:02] [+] compiling project: pid=Math vid=57f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:40:09] [+] running tests: pid=Math vid=57f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:41:45] found 1 triggering tests
+[16:41:45] Commit hash for Math-57 (buggy): d3892cb85f3eb8ccadada228b791170e3e0a9124
+[16:41:45] Commit hash for Math-57 (fixed): 00fea9d8078d487e31cec8292dbd9bd69bc9c216
+[16:41:45] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:41:45] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/00fea9d8078d487e31cec8292dbd9bd69bc9c216
+[16:41:45] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:41:45] [+] checking out project: pid=Math vid=57f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:41:49] [+] compiling project: pid=Math vid=57f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:41:56] [+] running tests: pid=Math vid=57f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:43:33]    Tests succeeded
+Working on Math-58f (58 of 106)
+[16:43:33] [+] checking out project: pid=Math vid=58f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:43:37] [+] compiling project: pid=Math vid=58f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:43:44] [+] running tests: pid=Math vid=58f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:45:26] found 1 triggering tests
+[16:45:26] Commit hash for Math-58 (buggy): b1392325d1255f7e3a1b04a12859a8bb75e4d14c
+[16:45:26] Commit hash for Math-58 (fixed): 45add3a0e7e2e94bfc29e85c9ef0856e2e473a33
+[16:45:26] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:45:26] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/45add3a0e7e2e94bfc29e85c9ef0856e2e473a33
+[16:45:26] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:45:26] [+] checking out project: pid=Math vid=58f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:45:30] [+] compiling project: pid=Math vid=58f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:45:38] [+] running tests: pid=Math vid=58f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:47:17]    Tests succeeded
+Working on Math-59f (59 of 106)
+[16:47:18] [+] checking out project: pid=Math vid=59f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:47:21] [+] compiling project: pid=Math vid=59f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:47:28] [+] running tests: pid=Math vid=59f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:49:00] found 0 triggering tests
+Working on Math-6f (6 of 106)
+[16:49:00] [+] checking out project: pid=Math vid=6f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:49:03] [+] compiling project: pid=Math vid=6f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:49:11] [+] running tests: pid=Math vid=6f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:50:55] found 9 triggering tests
+[16:50:55] Commit hash for Math-6 (buggy): 6c9d06a658d87c01fb02d1efce15bf6b74eb7aab
+[16:50:55] Commit hash for Math-6 (fixed): 419a052c6842192e78f747d9f5af619c2ca56e78
+[16:50:55] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[16:50:55] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/419a052c6842192e78f747d9f5af619c2ca56e78
+[16:50:55] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[16:50:55] [+] checking out project: pid=Math vid=6f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:50:59] [+] compiling project: pid=Math vid=6f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:51:07] [+] running tests: pid=Math vid=6f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:52:54]    Tests succeeded
+Working on Math-60f (60 of 106)
+[16:52:55] [+] checking out project: pid=Math vid=60f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:52:58] [+] compiling project: pid=Math vid=60f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:53:06] [+] running tests: pid=Math vid=60f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:54:39] found 0 triggering tests
+Working on Math-61f (61 of 106)
+[16:54:39] [+] checking out project: pid=Math vid=61f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:54:43] [+] compiling project: pid=Math vid=61f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:54:50] [+] running tests: pid=Math vid=61f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:56:20] found 0 triggering tests
+Working on Math-62f (62 of 106)
+[16:56:20] [+] checking out project: pid=Math vid=62f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:56:23] [+] compiling project: pid=Math vid=62f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:56:30] [+] running tests: pid=Math vid=62f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:57:58] found 0 triggering tests
+Working on Math-63f (63 of 106)
+[16:57:58] [+] checking out project: pid=Math vid=63f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:58:01] [+] compiling project: pid=Math vid=63f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:58:08] [+] running tests: pid=Math vid=63f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:59:34] found 0 triggering tests
+Working on Math-64f (64 of 106)
+[16:59:34] [+] checking out project: pid=Math vid=64f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:59:37] [+] compiling project: pid=Math vid=64f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:59:44] [+] running tests: pid=Math vid=64f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[16:59:56] found 0 triggering tests
+Working on Math-65f (65 of 106)
+[16:59:57] [+] checking out project: pid=Math vid=65f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:00] [+] compiling project: pid=Math vid=65f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:06] [+] running tests: pid=Math vid=65f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:18] found 0 triggering tests
+Working on Math-66f (66 of 106)
+[17:00:18] [+] checking out project: pid=Math vid=66f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:21] [+] compiling project: pid=Math vid=66f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:28] [+] running tests: pid=Math vid=66f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:40] found 0 triggering tests
+Working on Math-67f (67 of 106)
+[17:00:40] [+] checking out project: pid=Math vid=67f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:44] [+] compiling project: pid=Math vid=67f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:00:52] [+] running tests: pid=Math vid=67f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:05] found 0 triggering tests
+Working on Math-68f (68 of 106)
+[17:01:05] [+] checking out project: pid=Math vid=68f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:08] [+] compiling project: pid=Math vid=68f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:15] [+] running tests: pid=Math vid=68f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:25] found 1 triggering tests
+[17:01:25] Commit hash for Math-68 (buggy): 103f12391b89112f030b921a7c4969f00ff23b44
+[17:01:25] Commit hash for Math-68 (fixed): 615ca9a000c253575e6f62bed87db6110b750834
+[17:01:25] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:01:26] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/615ca9a000c253575e6f62bed87db6110b750834
+[17:01:26] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:01:26] [+] checking out project: pid=Math vid=68f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:30] [+] compiling project: pid=Math vid=68f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:37] [+] running tests: pid=Math vid=68f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:48]    Tests succeeded
+Working on Math-69f (69 of 106)
+[17:01:48] [+] checking out project: pid=Math vid=69f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:51] [+] compiling project: pid=Math vid=69f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:01:59] [+] running tests: pid=Math vid=69f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:02:11] found 1 triggering tests
+[17:02:11] Commit hash for Math-69 (buggy): 7272826424a28e22d96b86a8e320a37b9e006e71
+[17:02:11] Commit hash for Math-69 (fixed): a2711c189d9754c22e3aba2de1c6c125e52626aa
+[17:02:11] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:02:11] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/a2711c189d9754c22e3aba2de1c6c125e52626aa
+[17:02:11] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:02:11] [+] checking out project: pid=Math vid=69f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:02:15] [+] compiling project: pid=Math vid=69f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:02:24] [+] running tests: pid=Math vid=69f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:02:35]    Tests succeeded
+Working on Math-7f (7 of 106)
+[17:03:54] [+] checking out project: pid=Math vid=7f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:04:09] [+] compiling project: pid=Math vid=7f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:04:21] [+] running tests: pid=Math vid=7f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:06:10] found 5 triggering tests
+[17:06:10] Commit hash for Math-7 (buggy): 96cd02e82c219349086092cdc2c5a450efc8be13
+[17:06:10] Commit hash for Math-7 (fixed): 1cd68eed57febf806c385bf04a596b922f4c1964
+[17:06:10] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:06:10] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/1cd68eed57febf806c385bf04a596b922f4c1964
+[17:06:12] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:06:12] [+] checking out project: pid=Math vid=7f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:06:16] [+] compiling project: pid=Math vid=7f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:06:37] [+] running tests: pid=Math vid=7f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:08:45]    Tests succeeded
+Working on Math-70f (70 of 106)
+[17:09:19] [+] checking out project: pid=Math vid=70f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:09:33] [+] compiling project: pid=Math vid=70f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:09:41] [+] running tests: pid=Math vid=70f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:09:59] found 1 triggering tests
+[17:09:59] Commit hash for Math-70 (buggy): f184aeb7810bed8c89b2c8cca4f8164aef535e56
+[17:09:59] Commit hash for Math-70 (fixed): f41fcd85ca62a2109a6e550be0353d292d351213
+[17:09:59] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:09:59] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/f41fcd85ca62a2109a6e550be0353d292d351213
+[17:10:11] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:10:11] [+] checking out project: pid=Math vid=70f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:10:49] [+] compiling project: pid=Math vid=70f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:10:59] [+] running tests: pid=Math vid=70f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:11:11]    Tests succeeded
+Working on Math-71f (71 of 106)
+[17:11:55] [+] checking out project: pid=Math vid=71f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:12:22] [+] compiling project: pid=Math vid=71f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:12:30] [+] running tests: pid=Math vid=71f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:12:42] found 1 triggering tests
+[17:12:42] Commit hash for Math-71 (buggy): fa959ca8c89133c3a2f024a020ec80948ee31926
+[17:12:42] Commit hash for Math-71 (fixed): 6537e18ad189603e19615226e6aa1a9cdd154b8f
+[17:12:42] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:12:42] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/6537e18ad189603e19615226e6aa1a9cdd154b8f
+[17:12:42] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:12:42] [+] checking out project: pid=Math vid=71f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:12:47] [+] compiling project: pid=Math vid=71f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:13:31] [+] running tests: pid=Math vid=71f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:13:42]    Tests succeeded
+Working on Math-72f (72 of 106)
+[17:13:42] [+] checking out project: pid=Math vid=72f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:13:47] [+] compiling project: pid=Math vid=72f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:13:57] [+] running tests: pid=Math vid=72f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:14:09] found 0 triggering tests
+Working on Math-73f (73 of 106)
+[17:14:09] [+] checking out project: pid=Math vid=73f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:15:22] [+] compiling project: pid=Math vid=73f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:15:55] [+] running tests: pid=Math vid=73f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:16:05] found 0 triggering tests
+Working on Math-74f (74 of 106)
+[17:16:15] [+] checking out project: pid=Math vid=74f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:16:24] [+] compiling project: pid=Math vid=74f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:16:33] [+] running tests: pid=Math vid=74f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:16:44] found 0 triggering tests
+Working on Math-75f (75 of 106)
+[17:16:45] [+] checking out project: pid=Math vid=75f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:16:49] [+] compiling project: pid=Math vid=75f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:17:00] [+] running tests: pid=Math vid=75f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:17:12] found 0 triggering tests
+Working on Math-76f (76 of 106)
+[17:17:12] [+] checking out project: pid=Math vid=76f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:18:31] [+] compiling project: pid=Math vid=76f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:18:39] [+] running tests: pid=Math vid=76f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:18:49] found 0 triggering tests
+Working on Math-77f (77 of 106)
+[17:18:49] [+] checking out project: pid=Math vid=77f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:18:52] [+] compiling project: pid=Math vid=77f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:19:00] [+] running tests: pid=Math vid=77f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:19:11] found 0 triggering tests
+Working on Math-78f (78 of 106)
+[17:19:11] [+] checking out project: pid=Math vid=78f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:19:35] [+] compiling project: pid=Math vid=78f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:20:04] [+] running tests: pid=Math vid=78f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:20:14] found 1 triggering tests
+[17:20:14] Commit hash for Math-78 (buggy): cc7e3e7fe46844f068c622cf439ef4b654d971ec
+[17:20:14] Commit hash for Math-78 (fixed): b3ed2415fc58b34667d99f077bae6c8e38b7aced
+[17:20:14] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:20:14] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/b3ed2415fc58b34667d99f077bae6c8e38b7aced
+[17:21:06] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:21:06] [+] checking out project: pid=Math vid=78f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:21:43] [+] compiling project: pid=Math vid=78f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:21:52] [+] running tests: pid=Math vid=78f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:22:02]    Tests succeeded
+Working on Math-79f (79 of 106)
+[17:22:03] [+] checking out project: pid=Math vid=79f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:22:06] [+] compiling project: pid=Math vid=79f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:22:47] [+] running tests: pid=Math vid=79f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:22:57] found 1 triggering tests
+[17:22:57] Commit hash for Math-79 (buggy): ca1ca9250b99dd49434468aa5530eb00b2f0680d
+[17:22:57] Commit hash for Math-79 (fixed): 138baec1c778c2ea1dc1a6efe6d5e76a3b072b1d
+[17:22:57] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:22:57] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/138baec1c778c2ea1dc1a6efe6d5e76a3b072b1d
+[17:23:07] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:23:07] [+] checking out project: pid=Math vid=79f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:23:12] [+] compiling project: pid=Math vid=79f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:23:20] [+] running tests: pid=Math vid=79f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:23:33]    Tests succeeded
+Working on Math-8f (8 of 106)
+[17:23:36] [+] checking out project: pid=Math vid=8f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:23:39] [+] compiling project: pid=Math vid=8f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:24:38] [+] running tests: pid=Math vid=8f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:26:43] found 5 triggering tests
+[17:26:43] Commit hash for Math-8 (buggy): 55046479fe33e47a002ab4f4949bd944ba70d37d
+[17:26:43] Commit hash for Math-8 (fixed): 196e63174afdb3df1529c1b97bb8437b16831cc3
+[17:26:43] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:26:43] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/196e63174afdb3df1529c1b97bb8437b16831cc3
+[17:26:44] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:26:44] [+] checking out project: pid=Math vid=8f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:26:51] [+] compiling project: pid=Math vid=8f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:27:03] [+] running tests: pid=Math vid=8f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:28:50]    Tests succeeded
+Working on Math-80f (80 of 106)
+[17:29:10] [+] checking out project: pid=Math vid=80f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:29:17] [+] compiling project: pid=Math vid=80f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:29:26] [+] running tests: pid=Math vid=80f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:29:37] found 1 triggering tests
+[17:29:37] Commit hash for Math-80 (buggy): 7d903ca533833e5db8d2fe150f1e31b54ddda700
+[17:29:37] Commit hash for Math-80 (fixed): 3ced4f2a4e2546f0d7c309bd8f6305edee0dee8f
+[17:29:37] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:29:37] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/3ced4f2a4e2546f0d7c309bd8f6305edee0dee8f
+[17:29:37] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:29:37] [+] checking out project: pid=Math vid=80f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:29:50] [+] compiling project: pid=Math vid=80f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:31:45] [+] running tests: pid=Math vid=80f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:31:54]    Tests succeeded
+Working on Math-81f (81 of 106)
+[17:31:54] [+] checking out project: pid=Math vid=81f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:31:58] [+] compiling project: pid=Math vid=81f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:32:06] [+] running tests: pid=Math vid=81f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:32:16] found 1 triggering tests
+[17:32:16] Commit hash for Math-81 (buggy): 6e3ea6857dce8b7a586c3af555e21ba35a59ea54
+[17:32:16] Commit hash for Math-81 (fixed): 7d903ca533833e5db8d2fe150f1e31b54ddda700
+[17:32:16] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:32:16] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/7d903ca533833e5db8d2fe150f1e31b54ddda700
+[17:32:16] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:32:16] [+] checking out project: pid=Math vid=81f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:32:22] [+] compiling project: pid=Math vid=81f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:33:11] [+] running tests: pid=Math vid=81f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:33:24]    Tests succeeded
+Working on Math-82f (82 of 106)
+[17:33:31] [+] checking out project: pid=Math vid=82f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:33:36] [+] compiling project: pid=Math vid=82f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:33:46] [+] running tests: pid=Math vid=82f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:33:57] found 1 triggering tests
+[17:33:57] Commit hash for Math-82 (buggy): f36be8e8b7371fb8814456b6c095866aa802de78
+[17:33:57] Commit hash for Math-82 (fixed): 4ece1884cc408e15c8f1db9010fec5cac43937b9
+[17:33:57] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:33:57] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/4ece1884cc408e15c8f1db9010fec5cac43937b9
+[17:33:57] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:33:57] [+] checking out project: pid=Math vid=82f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:34:03] [+] compiling project: pid=Math vid=82f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:34:54] [+] running tests: pid=Math vid=82f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:35:05]    Tests succeeded
+Working on Math-83f (83 of 106)
+[17:35:10] [+] checking out project: pid=Math vid=83f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:35:14] [+] compiling project: pid=Math vid=83f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:35:23] [+] running tests: pid=Math vid=83f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:35:34] found 1 triggering tests
+[17:35:34] Commit hash for Math-83 (buggy): 0878ad4bc8e4ac345a2c27449a0686b0877013d4
+[17:35:34] Commit hash for Math-83 (fixed): f36be8e8b7371fb8814456b6c095866aa802de78
+[17:35:34] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:35:34] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/f36be8e8b7371fb8814456b6c095866aa802de78
+[17:35:34] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:35:34] [+] checking out project: pid=Math vid=83f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:36:27] [+] compiling project: pid=Math vid=83f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:36:35] [+] running tests: pid=Math vid=83f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:36:46]    Tests succeeded
+Working on Math-84f (84 of 106)
+[17:36:46] [+] checking out project: pid=Math vid=84f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:36:49] [+] compiling project: pid=Math vid=84f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:36:55] [+] running tests: pid=Math vid=84f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:05] found 1 triggering tests
+[17:37:05] Commit hash for Math-84 (buggy): 6eeb2b31a0e4b9690666f26d148d0eafe1f662e7
+[17:37:05] Commit hash for Math-84 (fixed): 317793eeff84dc9b260301adbe4aa8f5c79f703a
+[17:37:05] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:37:05] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/317793eeff84dc9b260301adbe4aa8f5c79f703a
+[17:37:05] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:37:05] [+] checking out project: pid=Math vid=84f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:10] [+] compiling project: pid=Math vid=84f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:17] [+] running tests: pid=Math vid=84f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:27]    Tests succeeded
+Working on Math-85f (85 of 106)
+[17:37:27] [+] checking out project: pid=Math vid=85f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:31] [+] compiling project: pid=Math vid=85f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:38] [+] running tests: pid=Math vid=85f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:48] found 1 triggering tests
+[17:37:48] Commit hash for Math-85 (buggy): 8de8a3b6fa5f4d7ea817f915d957ef309441762d
+[17:37:48] Commit hash for Math-85 (fixed): 9be86f674f91fa3fe0a8694e7b98472dabe6886d
+[17:37:48] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:37:48] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/9be86f674f91fa3fe0a8694e7b98472dabe6886d
+[17:37:48] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:37:48] [+] checking out project: pid=Math vid=85f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:53] [+] compiling project: pid=Math vid=85f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:37:59] [+] running tests: pid=Math vid=85f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:09]    Tests succeeded
+Working on Math-86f (86 of 106)
+[17:38:09] [+] checking out project: pid=Math vid=86f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:12] [+] compiling project: pid=Math vid=86f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:20] [+] running tests: pid=Math vid=86f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:29] found 1 triggering tests
+[17:38:29] Commit hash for Math-86 (buggy): 75f5c92aeb47e264c196a8c38a495adac89f493c
+[17:38:29] Commit hash for Math-86 (fixed): bd8f05c4dda4b5b00e525e08fd6c95d256423c97
+[17:38:29] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:38:29] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/bd8f05c4dda4b5b00e525e08fd6c95d256423c97
+[17:38:29] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:38:30] [+] checking out project: pid=Math vid=86f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:34] [+] compiling project: pid=Math vid=86f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:42] [+] running tests: pid=Math vid=86f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:52]    Tests succeeded
+Working on Math-87f (87 of 106)
+[17:38:52] [+] checking out project: pid=Math vid=87f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:38:55] [+] compiling project: pid=Math vid=87f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:01] [+] running tests: pid=Math vid=87f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:09] found 1 triggering tests
+[17:39:09] Commit hash for Math-87 (buggy): d0c52c49b7efa5367b154443bba9910cb19e6419
+[17:39:09] Commit hash for Math-87 (fixed): 75f5c92aeb47e264c196a8c38a495adac89f493c
+[17:39:09] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:39:09] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/75f5c92aeb47e264c196a8c38a495adac89f493c
+[17:39:09] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:39:09] [+] checking out project: pid=Math vid=87f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:14] [+] compiling project: pid=Math vid=87f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:20] [+] running tests: pid=Math vid=87f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:30]    Tests succeeded
+Working on Math-88f (88 of 106)
+[17:39:30] [+] checking out project: pid=Math vid=88f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:33] [+] compiling project: pid=Math vid=88f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:39] [+] running tests: pid=Math vid=88f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:49] found 1 triggering tests
+[17:39:49] Commit hash for Math-88 (buggy): 1b48dbabe18ca22396bd737df73e241cfdf8c0c5
+[17:39:49] Commit hash for Math-88 (fixed): 24a6a2692e942969f5c39bd88d3d12ac0f0bf0d9
+[17:39:49] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:39:49] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/24a6a2692e942969f5c39bd88d3d12ac0f0bf0d9
+[17:39:49] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:39:49] [+] checking out project: pid=Math vid=88f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:39:53] [+] compiling project: pid=Math vid=88f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:00] [+] running tests: pid=Math vid=88f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:09]    Tests succeeded
+Working on Math-89f (89 of 106)
+[17:40:10] [+] checking out project: pid=Math vid=89f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:13] [+] compiling project: pid=Math vid=89f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:19] [+] running tests: pid=Math vid=89f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:28] found 1 triggering tests
+[17:40:28] Commit hash for Math-89 (buggy): 0c84b28c3542f3340f7ec0dffc34c60dff66604e
+[17:40:28] Commit hash for Math-89 (fixed): 62b3877f953dd47c4d301be35c77446e2cf55311
+[17:40:28] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:40:28] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/62b3877f953dd47c4d301be35c77446e2cf55311
+[17:40:28] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:40:28] [+] checking out project: pid=Math vid=89f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:32] [+] compiling project: pid=Math vid=89f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:39] [+] running tests: pid=Math vid=89f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:47]    Tests succeeded
+Working on Math-9f (9 of 106)
+[17:40:47] [+] checking out project: pid=Math vid=9f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:50] [+] compiling project: pid=Math vid=9f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:40:59] [+] running tests: pid=Math vid=9f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:42:45] found 5 triggering tests
+[17:42:45] Commit hash for Math-9 (buggy): c929aee12a2b777152371fc061e4b79f088fa039
+[17:42:45] Commit hash for Math-9 (fixed): de98c0f0a566060ac143c39036f06a03f141dc52
+[17:42:45] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:42:45] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/de98c0f0a566060ac143c39036f06a03f141dc52
+[17:42:46] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:42:46] [+] checking out project: pid=Math vid=9f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:42:51] [+] compiling project: pid=Math vid=9f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:43:00] [+] running tests: pid=Math vid=9f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:04]    Tests succeeded
+Working on Math-90f (90 of 106)
+[17:45:05] [+] checking out project: pid=Math vid=90f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:08] [+] compiling project: pid=Math vid=90f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:15] [+] running tests: pid=Math vid=90f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:24] found 1 triggering tests
+[17:45:24] Commit hash for Math-90 (buggy): 43336b08c6c27d55c1c6e8c1b6330cb44a29044e
+[17:45:24] Commit hash for Math-90 (fixed): 0c84b28c3542f3340f7ec0dffc34c60dff66604e
+[17:45:24] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:45:24] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/0c84b28c3542f3340f7ec0dffc34c60dff66604e
+[17:45:24] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:45:24] [+] checking out project: pid=Math vid=90f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:28] [+] compiling project: pid=Math vid=90f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:34] [+] running tests: pid=Math vid=90f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:43]    Tests succeeded
+Working on Math-91f (91 of 106)
+[17:45:43] [+] checking out project: pid=Math vid=91f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:46] [+] compiling project: pid=Math vid=91f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:45:52] [+] running tests: pid=Math vid=91f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:00] found 1 triggering tests
+[17:46:00] Commit hash for Math-91 (buggy): 9fb5d27fd15d856b136fbadd3d7bb7dfbd0ddf50
+[17:46:00] Commit hash for Math-91 (fixed): e1df5f5486f10ac521dfc3dc20d1bfe508e67aa8
+[17:46:00] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:46:00] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/e1df5f5486f10ac521dfc3dc20d1bfe508e67aa8
+[17:46:00] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:46:00] [+] checking out project: pid=Math vid=91f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:04] [+] compiling project: pid=Math vid=91f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:11] [+] running tests: pid=Math vid=91f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:19]    Tests succeeded
+Working on Math-92f (92 of 106)
+[17:46:19] [+] checking out project: pid=Math vid=92f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:22] [+] compiling project: pid=Math vid=92f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:28] [+] running tests: pid=Math vid=92f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:38] found 1 triggering tests
+[17:46:38] Commit hash for Math-92 (buggy): 63c7bc9d7cbee21a7f6acc5a9b85d1b8b0e3a205
+[17:46:38] Commit hash for Math-92 (fixed): 85a8ab2dcfc26e83be1514acdb11d3feaac3e73d
+[17:46:38] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:46:38] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/85a8ab2dcfc26e83be1514acdb11d3feaac3e73d
+[17:46:38] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:46:38] [+] checking out project: pid=Math vid=92f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:42] [+] compiling project: pid=Math vid=92f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:48] [+] running tests: pid=Math vid=92f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:46:59]    Tests succeeded
+Working on Math-93f (93 of 106)
+[17:46:59] [+] checking out project: pid=Math vid=93f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:03] [+] compiling project: pid=Math vid=93f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:08] [+] running tests: pid=Math vid=93f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:19] found 1 triggering tests
+[17:47:19] Commit hash for Math-93 (buggy): 3112f69e1d789e00fb21a1dde901b313547fed60
+[17:47:19] Commit hash for Math-93 (fixed): 7cd3d822b65b7acdd1f6e1c82b291cd994f4fe05
+[17:47:19] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:47:19] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/7cd3d822b65b7acdd1f6e1c82b291cd994f4fe05
+[17:47:19] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:47:19] [+] checking out project: pid=Math vid=93f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:23] [+] compiling project: pid=Math vid=93f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:30] [+] running tests: pid=Math vid=93f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:41]    Tests succeeded
+Working on Math-94f (94 of 106)
+[17:47:41] [+] checking out project: pid=Math vid=94f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:44] [+] compiling project: pid=Math vid=94f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:47:50] [+] running tests: pid=Math vid=94f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:00] found 1 triggering tests
+[17:48:00] Commit hash for Math-94 (buggy): ee88057ba86b543c4f678f8e28b1620c22b19f0f
+[17:48:00] Commit hash for Math-94 (fixed): a96e597894562c2cf01fc678f6c435d65ccc31c5
+[17:48:00] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:48:00] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/a96e597894562c2cf01fc678f6c435d65ccc31c5
+[17:48:01] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:48:01] [+] checking out project: pid=Math vid=94f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:05] [+] compiling project: pid=Math vid=94f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:10] [+] running tests: pid=Math vid=94f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:21]    Tests succeeded
+Working on Math-95f (95 of 106)
+[17:48:21] [+] checking out project: pid=Math vid=95f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:24] [+] compiling project: pid=Math vid=95f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:30] [+] running tests: pid=Math vid=95f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:40] found 1 triggering tests
+[17:48:40] Commit hash for Math-95 (buggy): e640d1613751a99ae4c468c9567f21ea13b496fc
+[17:48:40] Commit hash for Math-95 (fixed): fbf87122e0f7229892b6dbbf2e211cc46acea008
+[17:48:40] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:48:40] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/fbf87122e0f7229892b6dbbf2e211cc46acea008
+[17:48:40] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:48:40] [+] checking out project: pid=Math vid=95f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:44] [+] compiling project: pid=Math vid=95f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:48:50] [+] running tests: pid=Math vid=95f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:02]    Tests succeeded
+Working on Math-96f (96 of 106)
+[17:49:02] [+] checking out project: pid=Math vid=96f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:05] [+] compiling project: pid=Math vid=96f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:12] [+] running tests: pid=Math vid=96f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:22] found 1 triggering tests
+[17:49:22] Commit hash for Math-96 (buggy): 704342d6280becc3be194a23dfda2e56c2a64aed
+[17:49:22] Commit hash for Math-96 (fixed): e6449cccdeaba96ffba4c27db322c5c3d5c18662
+[17:49:22] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:49:22] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/e6449cccdeaba96ffba4c27db322c5c3d5c18662
+[17:49:22] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:49:22] [+] checking out project: pid=Math vid=96f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:26] [+] compiling project: pid=Math vid=96f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:31] [+] running tests: pid=Math vid=96f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:41]    Tests succeeded
+Working on Math-97f (97 of 106)
+[17:49:41] [+] checking out project: pid=Math vid=97f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:44] [+] compiling project: pid=Math vid=97f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:49] [+] running tests: pid=Math vid=97f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:49:58] found 0 triggering tests
+Working on Math-98f (98 of 106)
+[17:49:58] [+] checking out project: pid=Math vid=98f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:01] [+] compiling project: pid=Math vid=98f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:08] [+] running tests: pid=Math vid=98f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:17] found 0 triggering tests
+Working on Math-99f (99 of 106)
+[17:50:17] [+] checking out project: pid=Math vid=99f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:20] [+] compiling project: pid=Math vid=99f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:26] [+] running tests: pid=Math vid=99f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:34] found 1 triggering tests
+[17:50:34] Commit hash for Math-99 (buggy): 924b6d76a2d44baf858c3aee46ab1439c9641959
+[17:50:34] Commit hash for Math-99 (fixed): 58b5609fe8f99aabc990d885bf6c4d85631b7c79
+[17:50:34] Directory /scratch/benku/defects4j/framework/projects/Math/failing_tests exists...continuing
+[17:50:34] updating failing tests: /tmp/test_d4j_39950_1587330690/run_tests/Math/failing_tests >> /scratch/benku/defects4j/framework/projects/Math/failing_tests/58b5609fe8f99aabc990d885bf6c4d85631b7c79
+[17:50:34] rerunning defects4j test -w /tmp/test_d4j_39950_1587330690/run_tests/Math with appended failing tests
+[17:50:34] [+] checking out project: pid=Math vid=99f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:38] [+] compiling project: pid=Math vid=99f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:44] [+] running tests: pid=Math vid=99f work_dir=/tmp/test_d4j_39950_1587330690/run_tests/Math
+[17:50:52]    Tests succeeded
