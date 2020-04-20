@@ -1,0 +1,114 @@
+Running tests on Codec
+[04:53:59] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Codec_51895.log
+[04:53:59] all_bugs: 18
+[04:53:59] test_dir: /tmp/test_d4j_51870_1587383639/run_tests
+[04:53:59] work_dir: /tmp/test_d4j_51870_1587383639/run_tests/Codec
+Working on Codec-1f (1 of 18)
+[04:54:00] [+] checking out project: pid=Codec vid=1f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:00] [+] compiling project: pid=Codec vid=1f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:03] [+] running tests: pid=Codec vid=1f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:05] found 0 triggering tests
+Working on Codec-10f (10 of 18)
+[04:54:05] [+] checking out project: pid=Codec vid=10f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:06] [+] compiling project: pid=Codec vid=10f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:08] [+] running tests: pid=Codec vid=10f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:11] found 0 triggering tests
+Working on Codec-11f (11 of 18)
+[04:54:11] [+] checking out project: pid=Codec vid=11f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:12] [+] compiling project: pid=Codec vid=11f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:14] [+] running tests: pid=Codec vid=11f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:26] found 0 triggering tests
+Working on Codec-12f (12 of 18)
+[04:54:26] [+] checking out project: pid=Codec vid=12f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:27] [+] compiling project: pid=Codec vid=12f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:29] [+] running tests: pid=Codec vid=12f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:36] found 0 triggering tests
+Working on Codec-13f (13 of 18)
+[04:54:36] [+] checking out project: pid=Codec vid=13f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:37] [+] compiling project: pid=Codec vid=13f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:40] [+] running tests: pid=Codec vid=13f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:47] found 0 triggering tests
+Working on Codec-14f (14 of 18)
+[04:54:47] [+] checking out project: pid=Codec vid=14f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:47] [+] compiling project: pid=Codec vid=14f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:50] [+] running tests: pid=Codec vid=14f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:56] found 0 triggering tests
+Working on Codec-15f (15 of 18)
+[04:54:56] [+] checking out project: pid=Codec vid=15f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:54:57] [+] compiling project: pid=Codec vid=15f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:00] [+] running tests: pid=Codec vid=15f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:07] found 0 triggering tests
+Working on Codec-16f (16 of 18)
+[04:55:07] [+] checking out project: pid=Codec vid=16f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:08] [+] compiling project: pid=Codec vid=16f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:11] [+] running tests: pid=Codec vid=16f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:17] found 0 triggering tests
+Working on Codec-17f (17 of 18)
+[04:55:17] [+] checking out project: pid=Codec vid=17f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:18] [+] compiling project: pid=Codec vid=17f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:21] [+] running tests: pid=Codec vid=17f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:29] found 1 triggering tests
+[04:55:29] Commit hash for Codec-17 (buggy): 1a4d9cc2572d220664f1b7c377cd318cd253052e
+[04:55:29] Commit hash for Codec-17 (fixed): d2f27093d7d95a07da901902f894d88b4ecc3e95
+[04:55:29] Directory /scratch/benku/defects4j/framework/projects/Codec/failing_tests doesn't exist
+[04:55:29] Making directory /scratch/benku/defects4j/framework/projects/Codec/failing_tests
+[04:55:29] updating failing tests: /tmp/test_d4j_51870_1587383639/run_tests/Codec/failing_tests >> /scratch/benku/defects4j/framework/projects/Codec/failing_tests/d2f27093d7d95a07da901902f894d88b4ecc3e95
+[04:55:29] rerunning defects4j test -w /tmp/test_d4j_51870_1587383639/run_tests/Codec with appended failing tests
+[04:55:29] [+] checking out project: pid=Codec vid=17f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:30] [+] compiling project: pid=Codec vid=17f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:34] [+] running tests: pid=Codec vid=17f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:42]    Tests succeeded
+Working on Codec-18f (18 of 18)
+[04:55:42] [+] checking out project: pid=Codec vid=18f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:42] [+] compiling project: pid=Codec vid=18f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:46] [+] running tests: pid=Codec vid=18f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:53] found 1 triggering tests
+[04:55:53] Commit hash for Codec-18 (buggy): ca30fae3acb59a5caef3c3c21eecae7c928827e0
+[04:55:53] Commit hash for Codec-18 (fixed): 5ef5bd199a4e3df74479b4b363fa29b0b3092547
+[04:55:53] Directory /scratch/benku/defects4j/framework/projects/Codec/failing_tests exists...continuing
+[04:55:53] updating failing tests: /tmp/test_d4j_51870_1587383639/run_tests/Codec/failing_tests >> /scratch/benku/defects4j/framework/projects/Codec/failing_tests/5ef5bd199a4e3df74479b4b363fa29b0b3092547
+[04:55:53] rerunning defects4j test -w /tmp/test_d4j_51870_1587383639/run_tests/Codec with appended failing tests
+[04:55:53] [+] checking out project: pid=Codec vid=18f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:55] [+] compiling project: pid=Codec vid=18f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:55:58] [+] running tests: pid=Codec vid=18f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:05]    Tests succeeded
+Working on Codec-2f (2 of 18)
+[04:56:05] [+] checking out project: pid=Codec vid=2f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:06] [+] compiling project: pid=Codec vid=2f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:09] [+] running tests: pid=Codec vid=2f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:11] found 0 triggering tests
+Working on Codec-3f (3 of 18)
+[04:56:11] [+] checking out project: pid=Codec vid=3f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:11] [+] compiling project: pid=Codec vid=3f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:14] [+] running tests: pid=Codec vid=3f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:16] found 0 triggering tests
+Working on Codec-4f (4 of 18)
+[04:56:16] [+] checking out project: pid=Codec vid=4f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:17] [+] compiling project: pid=Codec vid=4f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:19] [+] running tests: pid=Codec vid=4f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:22] found 0 triggering tests
+Working on Codec-5f (5 of 18)
+[04:56:22] [+] checking out project: pid=Codec vid=5f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:22] [+] compiling project: pid=Codec vid=5f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:25] [+] running tests: pid=Codec vid=5f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:28] found 0 triggering tests
+Working on Codec-6f (6 of 18)
+[04:56:28] [+] checking out project: pid=Codec vid=6f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:28] [+] compiling project: pid=Codec vid=6f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:31] [+] running tests: pid=Codec vid=6f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:34] found 0 triggering tests
+Working on Codec-7f (7 of 18)
+[04:56:34] [+] checking out project: pid=Codec vid=7f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:35] [+] compiling project: pid=Codec vid=7f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:38] [+] running tests: pid=Codec vid=7f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:41] found 0 triggering tests
+Working on Codec-8f (8 of 18)
+[04:56:41] [+] checking out project: pid=Codec vid=8f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:41] [+] compiling project: pid=Codec vid=8f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:44] [+] running tests: pid=Codec vid=8f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:46] found 0 triggering tests
+Working on Codec-9f (9 of 18)
+[04:56:46] [+] checking out project: pid=Codec vid=9f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:47] [+] compiling project: pid=Codec vid=9f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:50] [+] running tests: pid=Codec vid=9f work_dir=/tmp/test_d4j_51870_1587383639/run_tests/Codec
+[04:56:53] found 0 triggering tests
