@@ -1,0 +1,271 @@
+Running tests on Chart
+[07:14:31] logging to /scratch/benku/defects4j/framework/test/update_failing_tests_Chart_46714.log
+[07:14:31] all_bugs: 26
+[07:14:31] test_dir: /tmp/test_d4j_46697_1587392071/run_tests
+[07:14:31] work_dir: /tmp/test_d4j_46697_1587392071/run_tests/Chart
+Working on Chart-1f (1 of 26)
+[07:14:31] [+] checking out project: pid=Chart vid=1f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:14:35] [+] compiling project: pid=Chart vid=1f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:14:42] [+] running tests: pid=Chart vid=1f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:14:59] found 4 triggering tests
+[07:14:59] Commit hash for Chart-1 (buggy): 2264
+[07:14:59] Commit hash for Chart-1 (fixed): 2266
+[07:14:59] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:14:59] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/2266
+[07:14:59] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:14:59] [+] checking out project: pid=Chart vid=1f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:04] [+] compiling project: pid=Chart vid=1f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:10] [+] running tests: pid=Chart vid=1f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:26]    Tests succeeded
+Working on Chart-10f (10 of 26)
+[07:15:26] [+] checking out project: pid=Chart vid=10f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:29] [+] compiling project: pid=Chart vid=10f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:35] [+] running tests: pid=Chart vid=10f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:49] found 9 triggering tests
+[07:15:49] Commit hash for Chart-10 (buggy): 1064
+[07:15:49] Commit hash for Chart-10 (fixed): 1065
+[07:15:49] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:15:49] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/1065
+[07:15:49] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:15:49] [+] checking out project: pid=Chart vid=10f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:53] [+] compiling project: pid=Chart vid=10f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:15:59] [+] running tests: pid=Chart vid=10f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:12]    Tests succeeded
+Working on Chart-11f (11 of 26)
+[07:16:13] [+] checking out project: pid=Chart vid=11f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:16] [+] compiling project: pid=Chart vid=11f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:23] [+] running tests: pid=Chart vid=11f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:36] found 9 triggering tests
+[07:16:36] Commit hash for Chart-11 (buggy): 1024
+[07:16:36] Commit hash for Chart-11 (fixed): 1025
+[07:16:36] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:16:36] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/1025
+[07:16:36] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:16:36] [+] checking out project: pid=Chart vid=11f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:41] [+] compiling project: pid=Chart vid=11f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:46] [+] running tests: pid=Chart vid=11f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:16:59]    Tests succeeded
+Working on Chart-12f (12 of 26)
+[07:17:00] [+] checking out project: pid=Chart vid=12f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:03] [+] compiling project: pid=Chart vid=12f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:09] [+] running tests: pid=Chart vid=12f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:24] found 10 triggering tests
+[07:17:24] Commit hash for Chart-12 (buggy): 846
+[07:17:24] Commit hash for Chart-12 (fixed): 852
+[07:17:24] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:17:24] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/852
+[07:17:24] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:17:24] [+] checking out project: pid=Chart vid=12f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:28] [+] compiling project: pid=Chart vid=12f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:34] [+] running tests: pid=Chart vid=12f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:47]    Tests succeeded
+Working on Chart-13f (13 of 26)
+[07:17:47] [+] checking out project: pid=Chart vid=13f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:50] [+] compiling project: pid=Chart vid=13f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:17:56] [+] running tests: pid=Chart vid=13f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:09] found 11 triggering tests
+[07:18:09] Commit hash for Chart-13 (buggy): 817
+[07:18:09] Commit hash for Chart-13 (fixed): 822
+[07:18:09] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:18:09] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/822
+[07:18:09] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:18:09] [+] checking out project: pid=Chart vid=13f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:13] [+] compiling project: pid=Chart vid=13f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:18] [+] running tests: pid=Chart vid=13f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:31]    Tests succeeded
+Working on Chart-14f (14 of 26)
+[07:18:32] [+] checking out project: pid=Chart vid=14f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:35] [+] compiling project: pid=Chart vid=14f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:40] [+] running tests: pid=Chart vid=14f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:53] found 11 triggering tests
+[07:18:53] Commit hash for Chart-14 (buggy): 809
+[07:18:53] Commit hash for Chart-14 (fixed): 811
+[07:18:53] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:18:53] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/811
+[07:18:53] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:18:53] [+] checking out project: pid=Chart vid=14f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:18:57] [+] compiling project: pid=Chart vid=14f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:02] [+] running tests: pid=Chart vid=14f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:16]    Tests succeeded
+Working on Chart-15f (15 of 26)
+[07:19:16] [+] checking out project: pid=Chart vid=15f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:19] [+] compiling project: pid=Chart vid=15f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:25] [+] running tests: pid=Chart vid=15f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:39] found 9 triggering tests
+[07:19:39] Commit hash for Chart-15 (buggy): 747
+[07:19:39] Commit hash for Chart-15 (fixed): 749
+[07:19:39] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:19:39] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/749
+[07:19:39] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:19:39] [+] checking out project: pid=Chart vid=15f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:44] [+] compiling project: pid=Chart vid=15f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:19:50] [+] running tests: pid=Chart vid=15f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:03]    Tests succeeded
+Working on Chart-16f (16 of 26)
+[07:20:04] [+] checking out project: pid=Chart vid=16f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:07] [+] compiling project: pid=Chart vid=16f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:14] [+] running tests: pid=Chart vid=16f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:27] found 9 triggering tests
+[07:20:27] Commit hash for Chart-16 (buggy): 741
+[07:20:27] Commit hash for Chart-16 (fixed): 743
+[07:20:27] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:20:27] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/743
+[07:20:27] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:20:27] [+] checking out project: pid=Chart vid=16f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:31] [+] compiling project: pid=Chart vid=16f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:37] [+] running tests: pid=Chart vid=16f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:51]    Tests succeeded
+Working on Chart-17f (17 of 26)
+[07:20:51] [+] checking out project: pid=Chart vid=17f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:20:54] [+] compiling project: pid=Chart vid=17f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:00] [+] running tests: pid=Chart vid=17f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:14] found 6 triggering tests
+[07:21:14] Commit hash for Chart-17 (buggy): 621
+[07:21:14] Commit hash for Chart-17 (fixed): 622
+[07:21:14] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:21:14] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/622
+[07:21:14] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:21:14] [+] checking out project: pid=Chart vid=17f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:19] [+] compiling project: pid=Chart vid=17f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:24] [+] running tests: pid=Chart vid=17f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:37]    Tests succeeded
+Working on Chart-18f (18 of 26)
+[07:21:38] [+] checking out project: pid=Chart vid=18f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:41] [+] compiling project: pid=Chart vid=18f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:21:47] [+] running tests: pid=Chart vid=18f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:00] found 6 triggering tests
+[07:22:00] Commit hash for Chart-18 (buggy): 620
+[07:22:00] Commit hash for Chart-18 (fixed): 621
+[07:22:00] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:22:00] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/621
+[07:22:00] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:22:00] [+] checking out project: pid=Chart vid=18f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:05] [+] compiling project: pid=Chart vid=18f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:12] [+] running tests: pid=Chart vid=18f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:25]    Tests succeeded
+Working on Chart-19f (19 of 26)
+[07:22:25] [+] checking out project: pid=Chart vid=19f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:28] [+] compiling project: pid=Chart vid=19f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:35] [+] running tests: pid=Chart vid=19f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:51] found 7 triggering tests
+[07:22:51] Commit hash for Chart-19 (buggy): 430
+[07:22:51] Commit hash for Chart-19 (fixed): 434
+[07:22:51] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:22:51] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/434
+[07:22:51] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:22:51] [+] checking out project: pid=Chart vid=19f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:22:55] [+] compiling project: pid=Chart vid=19f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:01] [+] running tests: pid=Chart vid=19f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:15]    Tests succeeded
+Working on Chart-2f (2 of 26)
+[07:23:15] [+] checking out project: pid=Chart vid=2f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:18] [+] compiling project: pid=Chart vid=2f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:24] [+] running tests: pid=Chart vid=2f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:40] found 4 triggering tests
+[07:23:40] Commit hash for Chart-2 (buggy): 2240
+[07:23:40] Commit hash for Chart-2 (fixed): 2242
+[07:23:40] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:23:40] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/2242
+[07:23:40] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:23:40] [+] checking out project: pid=Chart vid=2f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:45] [+] compiling project: pid=Chart vid=2f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:23:52] [+] running tests: pid=Chart vid=2f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:07]    Tests succeeded
+Working on Chart-20f (20 of 26)
+[07:24:08] [+] checking out project: pid=Chart vid=20f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:11] [+] compiling project: pid=Chart vid=20f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:17] [+] running tests: pid=Chart vid=20f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:31] found 22 triggering tests
+[07:24:31] Commit hash for Chart-20 (buggy): 281
+[07:24:31] Commit hash for Chart-20 (fixed): 283
+[07:24:31] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:24:31] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/283
+[07:24:31] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:24:31] [+] checking out project: pid=Chart vid=20f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:35] [+] compiling project: pid=Chart vid=20f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:41] [+] running tests: pid=Chart vid=20f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:55]    Tests succeeded
+Working on Chart-21f (21 of 26)
+[07:24:55] [+] checking out project: pid=Chart vid=21f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:24:58] [+] compiling project: pid=Chart vid=21f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:04] [+] running tests: pid=Chart vid=21f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:17] found 22 triggering tests
+[07:25:17] Commit hash for Chart-21 (buggy): 227
+[07:25:17] Commit hash for Chart-21 (fixed): 231
+[07:25:17] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:25:17] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/231
+[07:25:18] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:25:18] [+] checking out project: pid=Chart vid=21f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:22] [+] compiling project: pid=Chart vid=21f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:27] [+] running tests: pid=Chart vid=21f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:41]    Tests succeeded
+Working on Chart-22f (22 of 26)
+[07:25:41] [+] checking out project: pid=Chart vid=22f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:44] [+] compiling project: pid=Chart vid=22f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:25:50] [+] running tests: pid=Chart vid=22f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:03] found 22 triggering tests
+[07:26:03] Commit hash for Chart-22 (buggy): 225
+[07:26:03] Commit hash for Chart-22 (fixed): 227
+[07:26:03] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:26:03] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/227
+[07:26:03] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:26:03] [+] checking out project: pid=Chart vid=22f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:07] [+] compiling project: pid=Chart vid=22f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:13] [+] running tests: pid=Chart vid=22f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:25]    Tests succeeded
+Working on Chart-23f (23 of 26)
+[07:26:25] [+] checking out project: pid=Chart vid=23f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:28] [+] compiling project: pid=Chart vid=23f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:34] [+] running tests: pid=Chart vid=23f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:47] found 22 triggering tests
+[07:26:47] Commit hash for Chart-23 (buggy): 209
+[07:26:47] Commit hash for Chart-23 (fixed): 210
+[07:26:47] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:26:47] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/210
+[07:26:47] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:26:47] [+] checking out project: pid=Chart vid=23f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:51] [+] compiling project: pid=Chart vid=23f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:26:57] [+] running tests: pid=Chart vid=23f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:09]    Tests succeeded
+Working on Chart-24f (24 of 26)
+[07:27:09] [+] checking out project: pid=Chart vid=24f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:13] [+] compiling project: pid=Chart vid=24f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:18] [+] running tests: pid=Chart vid=24f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:32] found 22 triggering tests
+[07:27:32] Commit hash for Chart-24 (buggy): 188
+[07:27:32] Commit hash for Chart-24 (fixed): 190
+[07:27:32] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:27:32] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/190
+[07:27:32] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:27:32] [+] checking out project: pid=Chart vid=24f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:36] [+] compiling project: pid=Chart vid=24f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:42] [+] running tests: pid=Chart vid=24f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:55]    Tests succeeded
+Working on Chart-25f (25 of 26)
+[07:27:55] [+] checking out project: pid=Chart vid=25f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:27:59] [+] compiling project: pid=Chart vid=25f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:05] [+] running tests: pid=Chart vid=25f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:18] found 21 triggering tests
+[07:28:18] Commit hash for Chart-25 (buggy): 162
+[07:28:18] Commit hash for Chart-25 (fixed): 164
+[07:28:18] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:28:18] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/164
+[07:28:18] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:28:18] [+] checking out project: pid=Chart vid=25f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:23] [+] compiling project: pid=Chart vid=25f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:28] [+] running tests: pid=Chart vid=25f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:42]    Tests succeeded
+Working on Chart-26f (26 of 26)
+[07:28:42] [+] checking out project: pid=Chart vid=26f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:45] [+] compiling project: pid=Chart vid=26f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:28:51] [+] running tests: pid=Chart vid=26f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:29:04] found 37 triggering tests
+[07:29:04] Commit hash for Chart-26 (buggy): 102
+[07:29:04] Commit hash for Chart-26 (fixed): 103
+[07:29:04] Directory /scratch/benku/defects4j/framework/projects/Chart/failing_tests exists...continuing
+[07:29:04] updating failing tests: /tmp/test_d4j_46697_1587392071/run_tests/Chart/failing_tests >> /scratch/benku/defects4j/framework/projects/Chart/failing_tests/103
+[07:29:04] rerunning defects4j test -w /tmp/test_d4j_46697_1587392071/run_tests/Chart with appended failing tests
+[07:29:04] [+] checking out project: pid=Chart vid=26f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:29:08] [+] compiling project: pid=Chart vid=26f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:29:15] [+] running tests: pid=Chart vid=26f work_dir=/tmp/test_d4j_46697_1587392071/run_tests/Chart
+[07:29:28] [Error] [!!!] Tests still failing after updating project failing tests
