@@ -10,6 +10,8 @@ STATUS_DIFF = 'diff'
 STATUS_NEW_FILE = 'new_file'
 STATUS_DELETED_FILE = 'deleted_file'
 
+MAX_BODY_PRINT_LENGTH=10
+
 def split_into_files(diff):
     """Given a diff, split it into files"""
     print("Splitting diff into files and hunks:")
@@ -140,7 +142,12 @@ def main():
                     print('+-' * 40)
                     print()
                     print('>>> Hunk {}:'.format(i), hunk['header'])
-                    print('\n'.join(hunk['body'][:min(20, len(hunk['body']))]))
+                    body = hunk['body']
+                    if len(body) > MAX_BODY_PRINT_LENGTH:
+                        print('\n'.join(body[:MAX_BODY_PRINT_LENGTH]))
+                        print("{:^80}".format("--- TRUNCATED TO {} of {} LINES --- ".format(MAX_BODY_PRINT_LENGTH, len(body))))
+                    else:
+                        print('\n'.join(body))
                     print()
 
 
