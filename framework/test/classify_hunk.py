@@ -125,6 +125,7 @@ def main():
                 print("Diff from files:", file['a'], file['b'])
                 print("    Status", status)
                 print("    Num Hunks:", len(file['hunks']))
+                continue
 
             for i, hunk in enumerate(file['hunks']):
                 classification = classify_hunk(hunk)
