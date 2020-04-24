@@ -102,7 +102,7 @@ def classify_hunk(hunk):
                     l1 = int(left[start:-end])
                     l2 = int(right[start:-end])
                     return LINE_NUMS_ONLY
-                except RuntimeError as e:
+                except ValueError as e:
                     print(e)
                     return OTHER
         else:
